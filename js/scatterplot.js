@@ -3,7 +3,7 @@
 // Initialize a scatterplot. Modeled after Mike Bostock's
 // Reusable Chart framework https://bost.ocks.org/mike/chart/
 function scatterplot() {
-    
+
     // Based on Mike Bostock's margin convention
     // https://bl.ocks.org/mbostock/3019563
     let margin = {
@@ -28,6 +28,8 @@ function scatterplot() {
     // Create the chart by adding an svg to the div with the id 
     // specified by the selector using the given data
     function chart(selector, data) {
+      console.log(data);
+      console.log("IN Scatter Plot");
 
       let svg = d3.select(selector)
         .append("svg")
@@ -37,7 +39,7 @@ function scatterplot() {
   
       svg = svg.append("g")
           .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-  
+        
       //Define scales
       xScale
         .domain([
@@ -45,7 +47,8 @@ function scatterplot() {
           d3.max(data, d => xValue(d))
         ])
         .rangeRound([0, width]);
-  
+    
+ 
       yScale
         .domain([
           d3.min(data, d => yValue(d)),
@@ -74,7 +77,7 @@ function scatterplot() {
       let points = svg.append("g")
         .selectAll(".scatterPoint")
           .data(data);
-  
+
       points.exit().remove();
   
       points = points.enter()
@@ -163,6 +166,7 @@ function scatterplot() {
     };
   
     chart.x = function (_) {
+        console.log(arguments)
       if (!arguments.length) return xValue;
       xValue = _;
       return chart;

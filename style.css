@@ -101,8 +101,9 @@ h1, h2, h3 {
 /* Default style for marks and channels used for the scatter plot */
 .point {
 	fill: white;
-	stroke: #69b3a2;
+	stroke: #400b96;
 	stroke-width: 3;
+	opacity: 0.35;
   }
   
   

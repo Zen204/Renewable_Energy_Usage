@@ -1,0 +1,1478 @@
+[
+    {
+      "Renewable2021": "18.71",
+      "Electricity2021": "91.4",
+      "GeoAreaCode": "1",
+      "GeoAreaName": "World"
+    },
+    {
+      "Renewable2021": "19.98",
+      "Electricity2021": "97.7",
+      "GeoAreaCode": "4",
+      "GeoAreaName": "Afghanistan"
+    },
+    {
+      "Renewable2021": "36.51",
+      "Electricity2021": "99.3",
+      "GeoAreaCode": "5",
+      "GeoAreaName": "South America"
+    },
+    {
+      "Renewable2021": "41.91",
+      "Electricity2021": "100",
+      "GeoAreaCode": "8",
+      "GeoAreaName": "Albania"
+    },
+    {
+      "Renewable2021": "16.06",
+      "Electricity2021": "81.3",
+      "GeoAreaCode": "9",
+      "GeoAreaName": "Oceania"
+    },
+    {
+      "Renewable2021": "74.77",
+      "Electricity2021": "55.6",
+      "GeoAreaCode": "11",
+      "GeoAreaName": "Western Africa"
+    },
+    {
+      "Renewable2021": "0.12",
+      "Electricity2021": "99.8",
+      "GeoAreaCode": "12",
+      "GeoAreaName": "Algeria"
+    },
+    {
+      "Renewable2021": "21.15",
+      "Electricity2021": "98.7",
+      "GeoAreaCode": "13",
+      "GeoAreaName": "Central America"
+    },
+    {
+      "Renewable2021": "82.92",
+      "Electricity2021": "46.9",
+      "GeoAreaCode": "14",
+      "GeoAreaName": "Eastern Africa"
+    },
+    {
+      "Renewable2021": "10.48",
+      "Electricity2021": "92.3",
+      "GeoAreaCode": "15",
+      "GeoAreaName": "Northern Africa"
+    },
+    {
+      "Renewable2021": "76.7",
+      "Electricity2021": "33.4",
+      "GeoAreaCode": "17",
+      "GeoAreaName": "Middle Africa"
+    },
+    {
+      "Renewable2021": "11.61",
+      "Electricity2021": "86",
+      "GeoAreaCode": "18",
+      "GeoAreaName": "Southern Africa"
+    },
+    {
+      "Renewable2021": "18.39",
+      "Electricity2021": "100",
+      "GeoAreaCode": "20",
+      "GeoAreaName": "Andorra"
+    },
+    {
+      "Renewable2021": "12.39",
+      "Electricity2021": "100",
+      "GeoAreaCode": "21",
+      "GeoAreaName": "Northern America"
+    },
+    {
+      "Renewable2021": "52.88",
+      "Electricity2021": "48.2",
+      "GeoAreaCode": "24",
+      "GeoAreaName": "Angola"
+    },
+    {
+      "Renewable2021": "0.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "28",
+      "GeoAreaName": "Antigua and Barbuda"
+    },
+    {
+      "Renewable2021": "20.99",
+      "Electricity2021": "85.5",
+      "GeoAreaCode": "29",
+      "GeoAreaName": "Caribbean"
+    },
+    {
+      "Renewable2021": "13.95",
+      "Electricity2021": "99.2",
+      "GeoAreaCode": "30",
+      "GeoAreaName": "Eastern Asia"
+    },
+    {
+      "Renewable2021": "1.32",
+      "Electricity2021": "100",
+      "GeoAreaCode": "31",
+      "GeoAreaName": "Azerbaijan"
+    },
+    {
+      "Renewable2021": "9.24",
+      "Electricity2021": "100",
+      "GeoAreaCode": "32",
+      "GeoAreaName": "Argentina"
+    },
+    {
+      "Renewable2021": "29.09",
+      "Electricity2021": "98.8",
+      "GeoAreaCode": "34",
+      "GeoAreaName": "Southern Asia"
+    },
+    {
+      "Renewable2021": "22.35",
+      "Electricity2021": "96.6",
+      "GeoAreaCode": "35",
+      "GeoAreaName": "South-Eastern Asia"
+    },
+    {
+      "Renewable2021": "12.32",
+      "Electricity2021": "100",
+      "GeoAreaCode": "36",
+      "GeoAreaName": "Australia"
+    },
+    {
+      "Renewable2021": "20.63",
+      "Electricity2021": "100",
+      "GeoAreaCode": "39",
+      "GeoAreaName": "Southern Europe"
+    },
+    {
+      "Renewable2021": "36",
+      "Electricity2021": "100",
+      "GeoAreaCode": "40",
+      "GeoAreaName": "Austria"
+    },
+    {
+      "Renewable2021": "1.11",
+      "Electricity2021": "100",
+      "GeoAreaCode": "44",
+      "GeoAreaName": "Bahamas"
+    },
+    {
+      "Renewable2021": "0.02",
+      "Electricity2021": "100",
+      "GeoAreaCode": "48",
+      "GeoAreaName": "Bahrain"
+    },
+    {
+      "Renewable2021": "25.04",
+      "Electricity2021": "99",
+      "GeoAreaCode": "50",
+      "GeoAreaName": "Bangladesh"
+    },
+    {
+      "Renewable2021": "9.13",
+      "Electricity2021": "100",
+      "GeoAreaCode": "51",
+      "GeoAreaName": "Armenia"
+    },
+    {
+      "Renewable2021": "5.46",
+      "Electricity2021": "100",
+      "GeoAreaCode": "52",
+      "GeoAreaName": "Barbados"
+    },
+    {
+      "Renewable2021": "14.56",
+      "Electricity2021": "100",
+      "GeoAreaCode": "53",
+      "GeoAreaName": "Australia and New Zealand"
+    },
+    {
+      "Renewable2021": "11.68",
+      "Electricity2021": "100",
+      "GeoAreaCode": "56",
+      "GeoAreaName": "Belgium"
+    },
+    {
+      "Renewable2021": "0.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "60",
+      "GeoAreaName": "Bermuda"
+    },
+    {
+      "Renewable2021": "26.61",
+      "Electricity2021": "98.9",
+      "GeoAreaCode": "62",
+      "GeoAreaName": "Central and Southern Asia"
+    },
+    {
+      "Renewable2021": "81.81",
+      "Electricity2021": "100",
+      "GeoAreaCode": "64",
+      "GeoAreaName": "Bhutan"
+    },
+    {
+      "Renewable2021": "12.76",
+      "Electricity2021": "98.6",
+      "GeoAreaCode": "68",
+      "GeoAreaName": "Bolivia (Plurinational State of)"
+    },
+    {
+      "Renewable2021": "36.61",
+      "Electricity2021": "100",
+      "GeoAreaCode": "70",
+      "GeoAreaName": "Bosnia and Herzegovina"
+    },
+    {
+      "Renewable2021": "27.36",
+      "Electricity2021": "73.7",
+      "GeoAreaCode": "72",
+      "GeoAreaName": "Botswana"
+    },
+    {
+      "Renewable2021": "46.48",
+      "Electricity2021": "99.5",
+      "GeoAreaCode": "76",
+      "GeoAreaName": "Brazil"
+    },
+    {
+      "Renewable2021": "26.56",
+      "Electricity2021": "97.7",
+      "GeoAreaCode": "84",
+      "GeoAreaName": "Belize"
+    },
+    {
+      "Renewable2021": "49.13",
+      "Electricity2021": "76.3",
+      "GeoAreaCode": "90",
+      "GeoAreaName": "Solomon Islands"
+    },
+    {
+      "Renewable2021": "1.31",
+      "Electricity2021": "100",
+      "GeoAreaCode": "92",
+      "GeoAreaName": "British Virgin Islands"
+    },
+    {
+      "Renewable2021": "0.03",
+      "Electricity2021": "100",
+      "GeoAreaCode": "96",
+      "GeoAreaName": "Brunei Darussalam"
+    },
+    {
+      "Renewable2021": "20.38",
+      "Electricity2021": "99.8",
+      "GeoAreaCode": "100",
+      "GeoAreaName": "Bulgaria"
+    },
+    {
+      "Renewable2021": "62.86",
+      "Electricity2021": "72.5",
+      "GeoAreaCode": "104",
+      "GeoAreaName": "Myanmar"
+    },
+    {
+      "Renewable2021": "83.14",
+      "Electricity2021": "10.2",
+      "GeoAreaCode": "108",
+      "GeoAreaName": "Burundi"
+    },
+    {
+      "Renewable2021": "8.22",
+      "Electricity2021": "100",
+      "GeoAreaCode": "112",
+      "GeoAreaName": "Belarus"
+    },
+    {
+      "Renewable2021": "52.38",
+      "Electricity2021": "82.5",
+      "GeoAreaCode": "116",
+      "GeoAreaName": "Cambodia"
+    },
+    {
+      "Renewable2021": "79.24",
+      "Electricity2021": "65.4",
+      "GeoAreaCode": "120",
+      "GeoAreaName": "Cameroon"
+    },
+    {
+      "Renewable2021": "23.84",
+      "Electricity2021": "100",
+      "GeoAreaCode": "124",
+      "GeoAreaName": "Canada"
+    },
+    {
+      "Renewable2021": "22.64",
+      "Electricity2021": "95.5",
+      "GeoAreaCode": "132",
+      "GeoAreaName": "Cabo Verde"
+    },
+    {
+      "Renewable2021": "0.01",
+      "Electricity2021": "100",
+      "GeoAreaCode": "136",
+      "GeoAreaName": "Cayman Islands"
+    },
+    {
+      "Renewable2021": "90.92",
+      "Electricity2021": "15.7",
+      "GeoAreaCode": "140",
+      "GeoAreaName": "Central African Republic"
+    },
+    {
+      "Renewable2021": "3.23",
+      "Electricity2021": "99.9",
+      "GeoAreaCode": "143",
+      "GeoAreaName": "Central Asia"
+    },
+    {
+      "Renewable2021": "48.8",
+      "Electricity2021": "100",
+      "GeoAreaCode": "144",
+      "GeoAreaName": "Sri Lanka"
+    },
+    {
+      "Renewable2021": "4.4",
+      "Electricity2021": "96.3",
+      "GeoAreaCode": "145",
+      "GeoAreaName": "Western Asia"
+    },
+    {
+      "Renewable2021": "69.9",
+      "Electricity2021": "11.3",
+      "GeoAreaCode": "148",
+      "GeoAreaName": "Chad"
+    },
+    {
+      "Renewable2021": "15.32",
+      "Electricity2021": "100",
+      "GeoAreaCode": "150",
+      "GeoAreaName": "Europe"
+    },
+    {
+      "Renewable2021": "7.39",
+      "Electricity2021": "100",
+      "GeoAreaCode": "151",
+      "GeoAreaName": "Eastern Europe"
+    },
+    {
+      "Renewable2021": "24.17",
+      "Electricity2021": "100",
+      "GeoAreaCode": "152",
+      "GeoAreaName": "Chile"
+    },
+    {
+      "Renewable2021": "30.93",
+      "Electricity2021": "100",
+      "GeoAreaCode": "154",
+      "GeoAreaName": "Northern Europe"
+    },
+    {
+      "Renewable2021": "17.5",
+      "Electricity2021": "100",
+      "GeoAreaCode": "155",
+      "GeoAreaName": "Western Europe"
+    },
+    {
+      "Renewable2021": "15.21",
+      "Electricity2021": "100",
+      "GeoAreaCode": "156",
+      "GeoAreaName": "China"
+    },
+    {
+      "Renewable2021": "29.7",
+      "Electricity2021": "100",
+      "GeoAreaCode": "170",
+      "GeoAreaName": "Colombia"
+    },
+    {
+      "Renewable2021": "41.19",
+      "Electricity2021": "87.9",
+      "GeoAreaCode": "174",
+      "GeoAreaName": "Comoros"
+    },
+    {
+      "Renewable2021": "71.38",
+      "Electricity2021": "49.7",
+      "GeoAreaCode": "178",
+      "GeoAreaName": "Congo"
+    },
+    {
+      "Renewable2021": "96.33",
+      "Electricity2021": "20.8",
+      "GeoAreaCode": "180",
+      "GeoAreaName": "Democratic Republic of the Congo"
+    },
+    {
+      "Renewable2021": "8.76",
+      "Electricity2021": "100",
+      "GeoAreaCode": "184",
+      "GeoAreaName": "Cook Islands"
+    },
+    {
+      "Renewable2021": "34.16",
+      "Electricity2021": "100",
+      "GeoAreaCode": "188",
+      "GeoAreaName": "Costa Rica"
+    },
+    {
+      "Renewable2021": "34.07",
+      "Electricity2021": "100",
+      "GeoAreaCode": "191",
+      "GeoAreaName": "Croatia"
+    },
+    {
+      "Renewable2021": "20.91",
+      "Electricity2021": "100",
+      "GeoAreaCode": "192",
+      "GeoAreaName": "Cuba"
+    },
+    {
+      "Renewable2021": "15.63",
+      "Electricity2021": "100",
+      "GeoAreaCode": "196",
+      "GeoAreaName": "Cyprus"
+    },
+    {
+      "Renewable2021": "70.09",
+      "Electricity2021": "56.3",
+      "GeoAreaCode": "199",
+      "GeoAreaName": "Least Developed Countries (LDCs)"
+    },
+    {
+      "Renewable2021": "69.05",
+      "Electricity2021": "50.1",
+      "GeoAreaCode": "202",
+      "GeoAreaName": "Sub-Saharan Africa"
+    },
+    {
+      "Renewable2021": "17.16",
+      "Electricity2021": "100",
+      "GeoAreaCode": "203",
+      "GeoAreaName": "Czechia"
+    },
+    {
+      "Renewable2021": "54.52",
+      "Electricity2021": "42",
+      "GeoAreaCode": "204",
+      "GeoAreaName": "Benin"
+    },
+    {
+      "Renewable2021": "39.52",
+      "Electricity2021": "100",
+      "GeoAreaCode": "208",
+      "GeoAreaName": "Denmark"
+    },
+    {
+      "Renewable2021": "8.83",
+      "Electricity2021": "100",
+      "GeoAreaCode": "212",
+      "GeoAreaName": "Dominica"
+    },
+    {
+      "Renewable2021": "14.82",
+      "Electricity2021": "98.1",
+      "GeoAreaCode": "214",
+      "GeoAreaName": "Dominican Republic"
+    },
+    {
+      "Renewable2021": "18.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "218",
+      "GeoAreaName": "Ecuador"
+    },
+    {
+      "Renewable2021": "21.91",
+      "Electricity2021": "97.9",
+      "GeoAreaCode": "222",
+      "GeoAreaName": "El Salvador"
+    },
+    {
+      "Renewable2021": "5.25",
+      "Electricity2021": "66.8",
+      "GeoAreaCode": "226",
+      "GeoAreaName": "Equatorial Guinea"
+    },
+    {
+      "Renewable2021": "90.63",
+      "Electricity2021": "54.2",
+      "GeoAreaCode": "231",
+      "GeoAreaName": "Ethiopia"
+    },
+    {
+      "Renewable2021": "80.66",
+      "Electricity2021": "52.5",
+      "GeoAreaCode": "232",
+      "GeoAreaName": "Eritrea"
+    },
+    {
+      "Renewable2021": "37.98",
+      "Electricity2021": "100",
+      "GeoAreaCode": "233",
+      "GeoAreaName": "Estonia"
+    },
+    {
+      "Renewable2021": "5.08",
+      "Electricity2021": "100",
+      "GeoAreaCode": "234",
+      "GeoAreaName": "Faroe Islands"
+    },
+    {
+      "Renewable2021": "29.7",
+      "Electricity2021": "92.1",
+      "GeoAreaCode": "242",
+      "GeoAreaName": "Fiji"
+    },
+    {
+      "Renewable2021": "50.22",
+      "Electricity2021": "100",
+      "GeoAreaCode": "246",
+      "GeoAreaName": "Finland"
+    },
+    {
+      "Renewable2021": "16.25",
+      "Electricity2021": "100",
+      "GeoAreaCode": "250",
+      "GeoAreaName": "France"
+    },
+    {
+      "Renewable2021": "7.44",
+      "Electricity2021": "100",
+      "GeoAreaCode": "258",
+      "GeoAreaName": "French Polynesia"
+    },
+    {
+      "Renewable2021": "26.56",
+      "Electricity2021": "65.4",
+      "GeoAreaCode": "262",
+      "GeoAreaName": "Djibouti"
+    },
+    {
+      "Renewable2021": "91.27",
+      "Electricity2021": "91.8",
+      "GeoAreaCode": "266",
+      "GeoAreaName": "Gabon"
+    },
+    {
+      "Renewable2021": "25.18",
+      "Electricity2021": "100",
+      "GeoAreaCode": "268",
+      "GeoAreaName": "Georgia"
+    },
+    {
+      "Renewable2021": "48.58",
+      "Electricity2021": "63.7",
+      "GeoAreaCode": "270",
+      "GeoAreaName": "Gambia"
+    },
+    {
+      "Renewable2021": "15.4",
+      "Electricity2021": "100",
+      "GeoAreaCode": "275",
+      "GeoAreaName": "State of Palestine"
+    },
+    {
+      "Renewable2021": "17.61",
+      "Electricity2021": "100",
+      "GeoAreaCode": "276",
+      "GeoAreaName": "Germany"
+    },
+    {
+      "Renewable2021": "39.05",
+      "Electricity2021": "86.3",
+      "GeoAreaCode": "288",
+      "GeoAreaName": "Ghana"
+    },
+    {
+      "Renewable2021": "0",
+      "Electricity2021": "100",
+      "GeoAreaCode": "292",
+      "GeoAreaName": "Gibraltar"
+    },
+    {
+      "Renewable2021": "42.23",
+      "Electricity2021": "92.8",
+      "GeoAreaCode": "296",
+      "GeoAreaName": "Kiribati"
+    },
+    {
+      "Renewable2021": "21.47",
+      "Electricity2021": "100",
+      "GeoAreaCode": "300",
+      "GeoAreaName": "Greece"
+    },
+    {
+      "Renewable2021": "11.64",
+      "Electricity2021": "100",
+      "GeoAreaCode": "304",
+      "GeoAreaName": "Greenland"
+    },
+    {
+      "Renewable2021": "10.22",
+      "Electricity2021": "93.7",
+      "GeoAreaCode": "308",
+      "GeoAreaName": "Grenada"
+    },
+    {
+      "Renewable2021": "4.5",
+      "Electricity2021": "100",
+      "GeoAreaCode": "316",
+      "GeoAreaName": "Guam"
+    },
+    {
+      "Renewable2021": "62.13",
+      "Electricity2021": "97.9",
+      "GeoAreaCode": "320",
+      "GeoAreaName": "Guatemala"
+    },
+    {
+      "Renewable2021": "66.85",
+      "Electricity2021": "46.8",
+      "GeoAreaCode": "324",
+      "GeoAreaName": "Guinea"
+    },
+    {
+      "Renewable2021": "13.2",
+      "Electricity2021": "92.9",
+      "GeoAreaCode": "328",
+      "GeoAreaName": "Guyana"
+    },
+    {
+      "Renewable2021": "76.72",
+      "Electricity2021": "47.2",
+      "GeoAreaCode": "332",
+      "GeoAreaName": "Haiti"
+    },
+    {
+      "Renewable2021": "45.91",
+      "Electricity2021": "94.1",
+      "GeoAreaCode": "340",
+      "GeoAreaName": "Honduras"
+    },
+    {
+      "Renewable2021": "0.42",
+      "Electricity2021": "100",
+      "GeoAreaCode": "344",
+      "GeoAreaName": "China, Hong Kong Special Administrative Region"
+    },
+    {
+      "Renewable2021": "15.3",
+      "Electricity2021": "100",
+      "GeoAreaCode": "348",
+      "GeoAreaName": "Hungary"
+    },
+    {
+      "Renewable2021": "82.43",
+      "Electricity2021": "100",
+      "GeoAreaCode": "352",
+      "GeoAreaName": "Iceland"
+    },
+    {
+      "Renewable2021": "34.92",
+      "Electricity2021": "99.6",
+      "GeoAreaCode": "356",
+      "GeoAreaName": "India"
+    },
+    {
+      "Renewable2021": "20.19",
+      "Electricity2021": "99.2",
+      "GeoAreaCode": "360",
+      "GeoAreaName": "Indonesia"
+    },
+    {
+      "Renewable2021": "0.91",
+      "Electricity2021": "100",
+      "GeoAreaCode": "364",
+      "GeoAreaName": "Iran (Islamic Republic of)"
+    },
+    {
+      "Renewable2021": "1.1",
+      "Electricity2021": "100",
+      "GeoAreaCode": "368",
+      "GeoAreaName": "Iraq"
+    },
+    {
+      "Renewable2021": "12.69",
+      "Electricity2021": "100",
+      "GeoAreaCode": "372",
+      "GeoAreaName": "Ireland"
+    },
+    {
+      "Renewable2021": "6.2",
+      "Electricity2021": "100",
+      "GeoAreaCode": "376",
+      "GeoAreaName": "Israel"
+    },
+    {
+      "Renewable2021": "17.54",
+      "Electricity2021": "100",
+      "GeoAreaCode": "380",
+      "GeoAreaName": "Italy"
+    },
+    {
+      "Renewable2021": "58.17",
+      "Electricity2021": "71.1",
+      "GeoAreaCode": "384",
+      "GeoAreaName": "Côte d'Ivoire"
+    },
+    {
+      "Renewable2021": "10.49",
+      "Electricity2021": "100",
+      "GeoAreaCode": "388",
+      "GeoAreaName": "Jamaica"
+    },
+    {
+      "Renewable2021": "8.84",
+      "Electricity2021": "100",
+      "GeoAreaCode": "392",
+      "GeoAreaName": "Japan"
+    },
+    {
+      "Renewable2021": "1.99",
+      "Electricity2021": "100",
+      "GeoAreaCode": "398",
+      "GeoAreaName": "Kazakhstan"
+    },
+    {
+      "Renewable2021": "11.5",
+      "Electricity2021": "99.9",
+      "GeoAreaCode": "400",
+      "GeoAreaName": "Jordan"
+    },
+    {
+      "Renewable2021": "67.67",
+      "Electricity2021": "76.5",
+      "GeoAreaCode": "404",
+      "GeoAreaName": "Kenya"
+    },
+    {
+      "Renewable2021": "14.72",
+      "Electricity2021": "52.6",
+      "GeoAreaCode": "408",
+      "GeoAreaName": "Democratic People's Republic of Korea"
+    },
+    {
+      "Renewable2021": "3.65",
+      "Electricity2021": "100",
+      "GeoAreaCode": "410",
+      "GeoAreaName": "Republic of Korea"
+    },
+    {
+      "Renewable2021": "0.07",
+      "Electricity2021": "100",
+      "GeoAreaCode": "414",
+      "GeoAreaName": "Kuwait"
+    },
+    {
+      "Renewable2021": "27.63",
+      "Electricity2021": "99.7",
+      "GeoAreaCode": "417",
+      "GeoAreaName": "Kyrgyzstan"
+    },
+    {
+      "Renewable2021": "51.53",
+      "Electricity2021": "100",
+      "GeoAreaCode": "418",
+      "GeoAreaName": "Lao People's Democratic Republic"
+    },
+    {
+      "Renewable2021": "32.28",
+      "Electricity2021": "98.3",
+      "GeoAreaCode": "419",
+      "GeoAreaName": "Latin America and the Caribbean"
+    },
+    {
+      "Renewable2021": "6.82",
+      "Electricity2021": "100",
+      "GeoAreaCode": "422",
+      "GeoAreaName": "Lebanon"
+    },
+    {
+      "Renewable2021": "33.63",
+      "Electricity2021": "50.4",
+      "GeoAreaCode": "426",
+      "GeoAreaName": "Lesotho"
+    },
+    {
+      "Renewable2021": "43.99",
+      "Electricity2021": "100",
+      "GeoAreaCode": "428",
+      "GeoAreaName": "Latvia"
+    },
+    {
+      "Renewable2021": "93.19",
+      "Electricity2021": "29.8",
+      "GeoAreaCode": "430",
+      "GeoAreaName": "Liberia"
+    },
+    {
+      "Renewable2021": "44.03",
+      "Electricity2021": "60.3",
+      "GeoAreaCode": "432",
+      "GeoAreaName": "Landlocked developing countries (LLDCs)"
+    },
+    {
+      "Renewable2021": "3.12",
+      "Electricity2021": "70.2",
+      "GeoAreaCode": "434",
+      "GeoAreaName": "Libya"
+    },
+    {
+      "Renewable2021": "53.61",
+      "Electricity2021": "100",
+      "GeoAreaCode": "438",
+      "GeoAreaName": "Liechtenstein"
+    },
+    {
+      "Renewable2021": "33.22",
+      "Electricity2021": "100",
+      "GeoAreaCode": "440",
+      "GeoAreaName": "Lithuania"
+    },
+    {
+      "Renewable2021": "20.51",
+      "Electricity2021": "100",
+      "GeoAreaCode": "442",
+      "GeoAreaName": "Luxembourg"
+    },
+    {
+      "Renewable2021": "13.61",
+      "Electricity2021": "100",
+      "GeoAreaCode": "446",
+      "GeoAreaName": "China, Macao Special Administrative Region"
+    },
+    {
+      "Renewable2021": "83.61",
+      "Electricity2021": "35.1",
+      "GeoAreaCode": "450",
+      "GeoAreaName": "Madagascar"
+    },
+    {
+      "Renewable2021": "71.08",
+      "Electricity2021": "14.2",
+      "GeoAreaCode": "454",
+      "GeoAreaName": "Malawi"
+    },
+    {
+      "Renewable2021": "7.48",
+      "Electricity2021": "100",
+      "GeoAreaCode": "458",
+      "GeoAreaName": "Malaysia"
+    },
+    {
+      "Renewable2021": "1.38",
+      "Electricity2021": "100",
+      "GeoAreaCode": "462",
+      "GeoAreaName": "Maldives"
+    },
+    {
+      "Renewable2021": "71.16",
+      "Electricity2021": "53.4",
+      "GeoAreaCode": "466",
+      "GeoAreaName": "Mali"
+    },
+    {
+      "Renewable2021": "8.62",
+      "Electricity2021": "100",
+      "GeoAreaCode": "470",
+      "GeoAreaName": "Malta"
+    },
+    {
+      "Renewable2021": "22.08",
+      "Electricity2021": "47.7",
+      "GeoAreaCode": "478",
+      "GeoAreaName": "Mauritania"
+    },
+    {
+      "Renewable2021": "8.61",
+      "Electricity2021": "99.6",
+      "GeoAreaCode": "480",
+      "GeoAreaName": "Mauritius"
+    },
+    {
+      "Renewable2021": "12.97",
+      "Electricity2021": "100",
+      "GeoAreaCode": "484",
+      "GeoAreaName": "Mexico"
+    },
+    {
+      "Renewable2021": "3.03",
+      "Electricity2021": "100",
+      "GeoAreaCode": "496",
+      "GeoAreaName": "Mongolia"
+    },
+    {
+      "Renewable2021": "21.43",
+      "Electricity2021": "100",
+      "GeoAreaCode": "498",
+      "GeoAreaName": "Republic of Moldova"
+    },
+    {
+      "Renewable2021": "39.64",
+      "Electricity2021": "99.8",
+      "GeoAreaCode": "499",
+      "GeoAreaName": "Montenegro"
+    },
+    {
+      "Renewable2021": "10.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "504",
+      "GeoAreaName": "Morocco"
+    },
+    {
+      "Renewable2021": "76.86",
+      "Electricity2021": "31.5",
+      "GeoAreaCode": "508",
+      "GeoAreaName": "Mozambique"
+    },
+    {
+      "Renewable2021": "0.1",
+      "Electricity2021": "100",
+      "GeoAreaCode": "512",
+      "GeoAreaName": "Oman"
+    },
+    {
+      "Renewable2021": "13.92",
+      "Electricity2021": "100",
+      "GeoAreaCode": "513",
+      "GeoAreaName": "Europe and Northern America"
+    },
+    {
+      "Renewable2021": "29.99",
+      "Electricity2021": "55.2",
+      "GeoAreaCode": "516",
+      "GeoAreaName": "Namibia"
+    },
+    {
+      "Renewable2021": "1.65",
+      "Electricity2021": "100",
+      "GeoAreaCode": "520",
+      "GeoAreaName": "Nauru"
+    },
+    {
+      "Renewable2021": "73.72",
+      "Electricity2021": "89.9",
+      "GeoAreaCode": "524",
+      "GeoAreaName": "Nepal"
+    },
+    {
+      "Renewable2021": "12.22",
+      "Electricity2021": "100",
+      "GeoAreaCode": "528",
+      "GeoAreaName": "Netherlands (Kingdom of the)"
+    },
+    {
+      "Renewable2021": "2.75",
+      "Electricity2021": "100",
+      "GeoAreaCode": "531",
+      "GeoAreaName": "Curaçao"
+    },
+    {
+      "Renewable2021": "8.76",
+      "Electricity2021": "100",
+      "GeoAreaCode": "533",
+      "GeoAreaName": "Aruba"
+    },
+    {
+      "Renewable2021": "0.05",
+      "Electricity2021": "100",
+      "GeoAreaCode": "534",
+      "GeoAreaName": "Sint Maarten (Dutch part)"
+    },
+    {
+      "Renewable2021": "8.33",
+      "Electricity2021": "100",
+      "GeoAreaCode": "540",
+      "GeoAreaName": "New Caledonia"
+    },
+    {
+      "Renewable2021": "38.66",
+      "Electricity2021": "38.3",
+      "GeoAreaCode": "543",
+      "GeoAreaName": "Oceania (exc. Australia and New Zealand)"
+    },
+    {
+      "Renewable2021": "24.64",
+      "Electricity2021": "70",
+      "GeoAreaCode": "548",
+      "GeoAreaName": "Vanuatu"
+    },
+    {
+      "Renewable2021": "28.85",
+      "Electricity2021": "100",
+      "GeoAreaCode": "554",
+      "GeoAreaName": "New Zealand"
+    },
+    {
+      "Renewable2021": "50.36",
+      "Electricity2021": "86.3",
+      "GeoAreaCode": "558",
+      "GeoAreaName": "Nicaragua"
+    },
+    {
+      "Renewable2021": "79.58",
+      "Electricity2021": "18.6",
+      "GeoAreaCode": "562",
+      "GeoAreaName": "Niger"
+    },
+    {
+      "Renewable2021": "80.31",
+      "Electricity2021": "59.5",
+      "GeoAreaCode": "566",
+      "GeoAreaName": "Nigeria"
+    },
+    {
+      "Renewable2021": "3.01",
+      "Electricity2021": "99.5",
+      "GeoAreaCode": "570",
+      "GeoAreaName": "Niue"
+    },
+    {
+      "Renewable2021": "61.36",
+      "Electricity2021": "100",
+      "GeoAreaCode": "578",
+      "GeoAreaName": "Norway"
+    },
+    {
+      "Renewable2021": "0.48",
+      "Electricity2021": "100",
+      "GeoAreaCode": "580",
+      "GeoAreaName": "Northern Mariana Islands"
+    },
+    {
+      "Renewable2021": "2.08",
+      "Electricity2021": "83.6",
+      "GeoAreaCode": "583",
+      "GeoAreaName": "Micronesia (Federated States of)"
+    },
+    {
+      "Renewable2021": "12.06",
+      "Electricity2021": "99.8",
+      "GeoAreaCode": "584",
+      "GeoAreaName": "Marshall Islands"
+    },
+    {
+      "Renewable2021": "0.87",
+      "Electricity2021": "100",
+      "GeoAreaCode": "585",
+      "GeoAreaName": "Palau"
+    },
+    {
+      "Renewable2021": "41.56",
+      "Electricity2021": "94.9",
+      "GeoAreaCode": "586",
+      "GeoAreaName": "Pakistan"
+    },
+    {
+      "Renewable2021": "27.96",
+      "Electricity2021": "95.3",
+      "GeoAreaCode": "591",
+      "GeoAreaName": "Panama"
+    },
+    {
+      "Renewable2021": "54.5",
+      "Electricity2021": "20.9",
+      "GeoAreaCode": "598",
+      "GeoAreaName": "Papua New Guinea"
+    },
+    {
+      "Renewable2021": "58.82",
+      "Electricity2021": "100",
+      "GeoAreaCode": "600",
+      "GeoAreaName": "Paraguay"
+    },
+    {
+      "Renewable2021": "30.56",
+      "Electricity2021": "95.6",
+      "GeoAreaCode": "604",
+      "GeoAreaName": "Peru"
+    },
+    {
+      "Renewable2021": "28.03",
+      "Electricity2021": "97.5",
+      "GeoAreaCode": "608",
+      "GeoAreaName": "Philippines"
+    },
+    {
+      "Renewable2021": "15.2",
+      "Electricity2021": "100",
+      "GeoAreaCode": "616",
+      "GeoAreaName": "Poland"
+    },
+    {
+      "Renewable2021": "32.33",
+      "Electricity2021": "100",
+      "GeoAreaCode": "620",
+      "GeoAreaName": "Portugal"
+    },
+    {
+      "Renewable2021": "87.37",
+      "Electricity2021": "35.8",
+      "GeoAreaCode": "624",
+      "GeoAreaName": "Guinea-Bissau"
+    },
+    {
+      "Renewable2021": "12.14",
+      "Electricity2021": "100",
+      "GeoAreaCode": "626",
+      "GeoAreaName": "Timor-Leste"
+    },
+    {
+      "Renewable2021": "2.57",
+      "Electricity2021": "100",
+      "GeoAreaCode": "630",
+      "GeoAreaName": "Puerto Rico"
+    },
+    {
+      "Renewable2021": "0.03",
+      "Electricity2021": "100",
+      "GeoAreaCode": "634",
+      "GeoAreaName": "Qatar"
+    },
+    {
+      "Renewable2021": "23.58",
+      "Electricity2021": "100",
+      "GeoAreaCode": "642",
+      "GeoAreaName": "Romania"
+    },
+    {
+      "Renewable2021": "3.54",
+      "Electricity2021": "100",
+      "GeoAreaCode": "643",
+      "GeoAreaName": "Russian Federation"
+    },
+    {
+      "Renewable2021": "79.37",
+      "Electricity2021": "48.7",
+      "GeoAreaCode": "646",
+      "GeoAreaName": "Rwanda"
+    },
+    {
+      "Renewable2021": "1.64",
+      "Electricity2021": "100",
+      "GeoAreaCode": "659",
+      "GeoAreaName": "Saint Kitts and Nevis"
+    },
+    {
+      "Renewable2021": "0.77",
+      "Electricity2021": "100",
+      "GeoAreaCode": "660",
+      "GeoAreaName": "Anguilla"
+    },
+    {
+      "Renewable2021": "9.67",
+      "Electricity2021": "100",
+      "GeoAreaCode": "662",
+      "GeoAreaName": "Saint Lucia"
+    },
+    {
+      "Renewable2021": "4.98",
+      "Electricity2021": "100",
+      "GeoAreaCode": "670",
+      "GeoAreaName": "Saint Vincent and the Grenadines"
+    },
+    {
+      "Renewable2021": "40.75",
+      "Electricity2021": "78.5",
+      "GeoAreaCode": "678",
+      "GeoAreaName": "Sao Tome and Principe"
+    },
+    {
+      "Renewable2021": "0.08",
+      "Electricity2021": "100",
+      "GeoAreaCode": "682",
+      "GeoAreaName": "Saudi Arabia"
+    },
+    {
+      "Renewable2021": "35.42",
+      "Electricity2021": "68",
+      "GeoAreaCode": "686",
+      "GeoAreaName": "Senegal"
+    },
+    {
+      "Renewable2021": "27.2",
+      "Electricity2021": "100",
+      "GeoAreaCode": "688",
+      "GeoAreaName": "Serbia"
+    },
+    {
+      "Renewable2021": "1.72",
+      "Electricity2021": "100",
+      "GeoAreaCode": "690",
+      "GeoAreaName": "Seychelles"
+    },
+    {
+      "Renewable2021": "71.14",
+      "Electricity2021": "27.5",
+      "GeoAreaCode": "694",
+      "GeoAreaName": "Sierra Leone"
+    },
+    {
+      "Renewable2021": "1.1",
+      "Electricity2021": "100",
+      "GeoAreaCode": "702",
+      "GeoAreaName": "Singapore"
+    },
+    {
+      "Renewable2021": "17.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "703",
+      "GeoAreaName": "Slovakia"
+    },
+    {
+      "Renewable2021": "24.23",
+      "Electricity2021": "100",
+      "GeoAreaCode": "704",
+      "GeoAreaName": "Viet Nam"
+    },
+    {
+      "Renewable2021": "23.39",
+      "Electricity2021": "100",
+      "GeoAreaCode": "705",
+      "GeoAreaName": "Slovenia"
+    },
+    {
+      "Renewable2021": "95.37",
+      "Electricity2021": "49.3",
+      "GeoAreaCode": "706",
+      "GeoAreaName": "Somalia"
+    },
+    {
+      "Renewable2021": "9.7",
+      "Electricity2021": "89.3",
+      "GeoAreaCode": "710",
+      "GeoAreaName": "South Africa"
+    },
+    {
+      "Renewable2021": "82.38",
+      "Electricity2021": "49",
+      "GeoAreaCode": "716",
+      "GeoAreaName": "Zimbabwe"
+    },
+    {
+      "Renewable2021": "18.49",
+      "Electricity2021": "77.3",
+      "GeoAreaCode": "722",
+      "GeoAreaName": "Small island developing States (SIDS)"
+    },
+    {
+      "Renewable2021": "18.96",
+      "Electricity2021": "100",
+      "GeoAreaCode": "724",
+      "GeoAreaName": "Spain"
+    },
+    {
+      "Renewable2021": "32.39",
+      "Electricity2021": "7.7",
+      "GeoAreaCode": "728",
+      "GeoAreaName": "South Sudan"
+    },
+    {
+      "Renewable2021": "60.98",
+      "Electricity2021": "61.8",
+      "GeoAreaCode": "729",
+      "GeoAreaName": "Sudan"
+    },
+    {
+      "Renewable2021": "14.49",
+      "Electricity2021": "98.8",
+      "GeoAreaCode": "740",
+      "GeoAreaName": "Suriname"
+    },
+    {
+      "Renewable2021": "5.96",
+      "Electricity2021": "94.4",
+      "GeoAreaCode": "747",
+      "GeoAreaName": "Northern Africa and Western Asia"
+    },
+    {
+      "Renewable2021": "65.4",
+      "Electricity2021": "82.9",
+      "GeoAreaCode": "748",
+      "GeoAreaName": "Eswatini"
+    },
+    {
+      "Renewable2021": "57.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "752",
+      "GeoAreaName": "Sweden"
+    },
+    {
+      "Renewable2021": "15.12",
+      "Electricity2021": "98.5",
+      "GeoAreaCode": "753",
+      "GeoAreaName": "Eastern and South-Eastern Asia"
+    },
+    {
+      "Renewable2021": "27.69",
+      "Electricity2021": "100",
+      "GeoAreaCode": "756",
+      "GeoAreaName": "Switzerland"
+    },
+    {
+      "Renewable2021": "1.14",
+      "Electricity2021": "88.8",
+      "GeoAreaCode": "760",
+      "GeoAreaName": "Syrian Arab Republic"
+    },
+    {
+      "Renewable2021": "34.89",
+      "Electricity2021": "99.6",
+      "GeoAreaCode": "762",
+      "GeoAreaName": "Tajikistan"
+    },
+    {
+      "Renewable2021": "18.97",
+      "Electricity2021": "100",
+      "GeoAreaCode": "764",
+      "GeoAreaName": "Thailand"
+    },
+    {
+      "Renewable2021": "75.13",
+      "Electricity2021": "55.7",
+      "GeoAreaCode": "768",
+      "GeoAreaName": "Togo"
+    },
+    {
+      "Renewable2021": "1.77",
+      "Electricity2021": "100",
+      "GeoAreaCode": "776",
+      "GeoAreaName": "Tonga"
+    },
+    {
+      "Renewable2021": "0.46",
+      "Electricity2021": "100",
+      "GeoAreaCode": "780",
+      "GeoAreaName": "Trinidad and Tobago"
+    },
+    {
+      "Renewable2021": "1.01",
+      "Electricity2021": "100",
+      "GeoAreaCode": "784",
+      "GeoAreaName": "United Arab Emirates"
+    },
+    {
+      "Renewable2021": "11.58",
+      "Electricity2021": "99.9",
+      "GeoAreaCode": "788",
+      "GeoAreaName": "Tunisia"
+    },
+    {
+      "Renewable2021": "12.02",
+      "Electricity2021": "100",
+      "GeoAreaCode": "792",
+      "GeoAreaName": "Türkiye"
+    },
+    {
+      "Renewable2021": "0.06",
+      "Electricity2021": "100",
+      "GeoAreaCode": "795",
+      "GeoAreaName": "Turkmenistan"
+    },
+    {
+      "Renewable2021": "0.76",
+      "Electricity2021": "100",
+      "GeoAreaCode": "796",
+      "GeoAreaName": "Turks and Caicos Islands"
+    },
+    {
+      "Renewable2021": "5.04",
+      "Electricity2021": "99.7",
+      "GeoAreaCode": "798",
+      "GeoAreaName": "Tuvalu"
+    },
+    {
+      "Renewable2021": "90.95",
+      "Electricity2021": "45.2",
+      "GeoAreaCode": "800",
+      "GeoAreaName": "Uganda"
+    },
+    {
+      "Renewable2021": "8.87",
+      "Electricity2021": "100",
+      "GeoAreaCode": "804",
+      "GeoAreaName": "Ukraine"
+    },
+    {
+      "Renewable2021": "19.48",
+      "Electricity2021": "100",
+      "GeoAreaCode": "807",
+      "GeoAreaName": "North Macedonia"
+    },
+    {
+      "Renewable2021": "6.11",
+      "Electricity2021": "100",
+      "GeoAreaCode": "818",
+      "GeoAreaName": "Egypt"
+    },
+    {
+      "Renewable2021": "12.15",
+      "Electricity2021": "100",
+      "GeoAreaCode": "826",
+      "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland"
+    },
+    {
+      "Renewable2021": "3.16",
+      "Electricity2021": "100",
+      "GeoAreaCode": "833",
+      "GeoAreaName": "Isle of Man"
+    },
+    {
+      "Renewable2021": "78.31",
+      "Electricity2021": "42.7",
+      "GeoAreaCode": "834",
+      "GeoAreaName": "United Republic of Tanzania"
+    },
+    {
+      "Renewable2021": "10.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "840",
+      "GeoAreaName": "United States of America"
+    },
+    {
+      "Renewable2021": "5.9",
+      "Electricity2021": "100",
+      "GeoAreaCode": "850",
+      "GeoAreaName": "United States Virgin Islands"
+    },
+    {
+      "Renewable2021": "71.16",
+      "Electricity2021": "19",
+      "GeoAreaCode": "854",
+      "GeoAreaName": "Burkina Faso"
+    },
+    {
+      "Renewable2021": "57.8",
+      "Electricity2021": "100",
+      "GeoAreaCode": "858",
+      "GeoAreaName": "Uruguay"
+    },
+    {
+      "Renewable2021": "1",
+      "Electricity2021": "99.9",
+      "GeoAreaCode": "860",
+      "GeoAreaName": "Uzbekistan"
+    },
+    {
+      "Renewable2021": "33.69",
+      "Electricity2021": "100",
+      "GeoAreaCode": "862",
+      "GeoAreaName": "Venezuela (Bolivarian Republic of)"
+    },
+    {
+      "Renewable2021": "35.95",
+      "Electricity2021": "98.3",
+      "GeoAreaCode": "882",
+      "GeoAreaName": "Samoa"
+    },
+    {
+      "Renewable2021": "3.67",
+      "Electricity2021": "74.9",
+      "GeoAreaCode": "887",
+      "GeoAreaName": "Yemen"
+    },
+    {
+      "Renewable2021": "83.04",
+      "Electricity2021": "46.7",
+      "GeoAreaCode": "894",
+      "GeoAreaName": "Zambia"
+    }
+]
