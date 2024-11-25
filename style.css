@@ -15,11 +15,37 @@ h1, h2, h3 {
 	margin: 40px auto;
 }
 
+/* The scatterplot will take the right half of the screen */
+.scatterplot-holder {
+	flex: 1;  
+}
+
+
+/* Default style for marks and channels used for the scatter plot */
+.point {
+	fill: white;
+	stroke: #69b3a2;
+	stroke-width: 3;
+  }
+  
+  
+  .axisLabel {
+	fill: #475d7c;
+  }
+  
+  /* Style for selected marks (circles) */
+  circle.selected {
+	fill: pink;
+	stroke: red;
+	opacity: 5;
+  }
+
 /* But your visualization should be full-width and full-height */
 .vis-holder {
   width: 100%;
   height: 100%;
 }
+
 
 /* Fork on GitHub ribbon via https://codepo8.github.io/css-fork-on-github-ribbon/# */  
 #forkongithub a{
