@@ -12,82 +12,132 @@ function scatterplot() {
         right: 30, 
         bottom: 20
       },
-      width = 500 - margin.left - margin.right,
-      height = 500 - margin.top - margin.bottom,
-      xValue = d => d[0],
-      yValue = d => d[1],
-      xLabelText = "",
-      yLabelText = "",
-      yLabelOffsetPx = 0,
-      xScale = d3.scaleLinear(),
-      yScale = d3.scaleLinear(),
-      ourBrush = null,
-      selectableElements = d3.select(null),
-      dispatcher;
+    width = 500 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom,
+    xValue = d => d[0],
+    yValue = d => d[1],
+    xLabelText = "",
+    yLabelText = "",
+    yLabelOffsetPx = 0,
+    xScale = d3.scaleLinear(),
+    yScale = d3.scaleLinear(),
+    ourBrush = null,
+    selectableElements = d3.select(null),
+    dispatcher;
   
     // Create the chart by adding an svg to the div with the id 
     // specified by the selector using the given data
     function chart(selector, data) {
-      let svg = d3.select(selector)
-        .append("svg")
-          .attr("preserveAspectRatio", "xMidYMid meet")
-          .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
-          .classed("svg-content", true);
-  
-      svg = svg.append("g")
-          .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-        
-      //Define scales
-      xScale
-        .domain([
-          d3.min(data, d => xValue(d)),
-          d3.max(data, d => xValue(d))
-        ])
-        .rangeRound([0, width]);
+        let svg = d3.select(selector)
+            .append("svg")
+            .attr("preserveAspectRatio", "xMidYMid meet")
+            .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+            .classed("svg-content", true);
     
- 
-      yScale
-        .domain([
-          d3.min(data, d => yValue(d)),
-          d3.max(data, d => yValue(d))
-        ])
-        .rangeRound([height, 0]);
-  
-      let xAxis = svg.append("g")
-          .attr("transform", "translate(0," + (height) + ")")
-          .call(d3.axisBottom(xScale));
-          
-      // X axis label
-      xAxis.append("text")        
-          .attr("class", "axisLabel")
-          .attr("transform", "translate(" + (width - 50) + ",-10)")
-          .text(xLabelText);
+        svg = svg.append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
         
-      let yAxis = svg.append("g")
-          .call(d3.axisLeft(yScale))
-        .append("text")
-          .attr("class", "axisLabel")
-          .attr("transform", "translate(" + yLabelOffsetPx + ", -12)")
-          .text(yLabelText);
+        //Define scales
+        xScale
+            .domain([
+            d3.min(data, d => xValue(d)),
+            d3.max(data, d => xValue(d))
+            ])
+            .rangeRound([0, width]);
+        
+    
+        yScale
+            .domain([
+            d3.min(data, d => yValue(d)),
+            d3.max(data, d => yValue(d))
+            ])
+            .rangeRound([height, 0]);
+    
+        let xAxis = svg.append("g")
+            .attr("transform", "translate(0," + (height) + ")")
+            .call(d3.axisBottom(xScale));
+          
+        // X axis label
+        xAxis.append("text")        
+            .attr("class", "axisLabel")
+            .attr("transform", "translate(" + (width - 50) + ",-10)")
+            .text(xLabelText);
+        
+        let yAxis = svg.append("g")
+            .call(d3.axisLeft(yScale))
+            .append("text")
+            .attr("class", "axisLabel")
+            .attr("transform", "translate(" + yLabelOffsetPx + ", -12)")
+            .text(yLabelText);
   
-      // Add the points
-      let points = svg.append("g")
-        .selectAll(".scatterPoint")
-          .data(data);
+        // Add the points
+        let points = svg.append("g")
+            .selectAll(".scatterPoint")
+            .data(data)
 
-      points.exit().remove();
-  
-      points = points.enter()
-        .append("circle")
-          .attr("class", "point scatterPoint")
-        .merge(points)
-          .attr("cx", X)
-          .attr("cy", Y)
-          .attr("r", 1);
+        points.exit().remove();
+    
+        // svg.selectAll("point.scatterPoint")
+        // .on('mouseover',function(d){
+        //     console.log("Mouse")
+        //     tip.show(d);
+        // })
 
-      selectableElements = points;
+        
+
+
+        // Set tooltips
+        var tip = d3.tip()
+        .attr('class', 'd3-tip')
+        .offset([-10, 0])
+        .html(function(d) {
+            console.log(d)
+            return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "</span>";
+        })
+
+        svg.call(tip);
+
+        points = points.enter()
+            .append("circle")
+            .attr("class", "point scatterPoint")
+            .merge(points)
+            .attr("cx", X)
+            .attr("cy", Y)
+            .attr("r", 3)
+            .attr("pointer-events", "all")
+            
+
+        
+
+        selectableElements = points;
       
-      svg.call(brush);
+        
+
+
+        svg.selectAll(".scatterPoint")
+        // Select your D3 objects
+
+        // console.log(circleSelection)
+        test = svg.selectAll(".scatterPoint").attr("pointer-events", "all")
+        test = svg.selectAll("point").attr("pointer-events", "all")
+        // test = svg.selectAll(".scatterPoint").attr("pointer-events", "all")
+        console.log(test)
+        // Add hover effects
+        svg.selectAll(".scatterPoint")
+        .attr("pointer-events", "all")
+        .on("mouseover", function(data, index, elements) {
+            // Change attributes on hover (e.g., increase radius)
+            //console.log(elements[index])
+            //console.log(data)
+            tip.show(data);
+        })
+        .on("mouseout", function(event, d) {
+            // Restore attributes on mouseout
+            tip.hide(data)
+            // console.log("One")
+        });
+
+        // svg.call(brush);
   
       // Highlight points when brushed
       function brush(g) {
@@ -112,8 +162,7 @@ function scatterplot() {
           ] = d3.event.selection;
   
           // If within the bounds of the brush, select it
-          points.classed("selected", d =>
-            x0 <= X(d) && X(d) <= x1 && y0 <= Y(d) && Y(d) <= y1
+          points.classed("selected", d => x0 <= X(d) && X(d) <= x1 && y0 <= Y(d) && Y(d) <= y1
           );
   
           // Get the name of our dispatcher's event
