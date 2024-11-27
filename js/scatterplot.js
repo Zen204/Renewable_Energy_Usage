@@ -32,7 +32,8 @@ function scatterplot() {
             .append("svg")
             .attr("preserveAspectRatio", "xMidYMid meet")
             .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
-            .classed("svg-content", true);
+            .classed("svg-content", true)
+            .classed("text-unselectable", true);
     
         svg = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -112,31 +113,48 @@ function scatterplot() {
         selectableElements = points;
       
         
+        let mouseIsDown = false
 
-
-        svg.selectAll(".scatterPoint")
-        // Select your D3 objects
-
-        // console.log(circleSelection)
-        test = svg.selectAll(".scatterPoint").attr("pointer-events", "all")
-        test = svg.selectAll("point").attr("pointer-events", "all")
-        // test = svg.selectAll(".scatterPoint").attr("pointer-events", "all")
-        console.log(test)
-        // Add hover effects
-        svg.selectAll(".scatterPoint")
-        .attr("pointer-events", "all")
-        .on("mouseover", function(data, index, elements) {
-            // Change attributes on hover (e.g., increase radius)
-            //console.log(elements[index])
-            //console.log(data)
-            tip.show(data);
+        svg.selectAll('.scatterPoint')
+        .on("mouseover", function(d, i, elements) {
+          if (mouseIsDown == true) {
+            d3.select(this).classed("selected", true)
+            updateHighlight()   
+          }
+          tip.show(d);
         })
-        .on("mouseout", function(event, d) {
-            // Restore attributes on mouseout
-            tip.hide(data)
-            // console.log("One")
+        .on("mouseout", function(d, i, elements) {
+          if (mouseIsDown == true) {
+            d3.select(this).classed("selected", true)
+            updateHighlight()
+          }
+          tip.hide(d)
+        })
+        .on("click", function(dataFromClick, i, elements) {
+            d3.select(this).classed("selected", true)
+            updateHighlight()
+        });
+        
+
+        document.addEventListener("mousedown", () => {
+          mouseIsDown = true
+          svg.selectAll(".scatterPoint").classed("selected", false)
+          updateHighlight()
         });
 
+        document.addEventListener("mouseup", () => {
+          mouseIsDown = false
+        });
+
+        
+        function updateHighlight() {
+            let list = svg.selectAll(".selected").data()
+
+            let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
+
+            // Let other charts know about our selection
+            dispatcher.call(dispatchString, this, list);
+        }
         // svg.call(brush);
   
       // Highlight points when brushed

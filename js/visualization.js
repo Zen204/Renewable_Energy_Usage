@@ -22,17 +22,30 @@
 
     var mapChart = map()
 
+   
+
+    let lcYearPoverty = linechart()
+      .x(d => d.Electricity2021)
+      .xLabel("Electricity Percentages")
+      .y(d => d.Renewable2021)
+      .yLabel("Renewable Energy Percentages")
+      .yLabelOffset(40)
+      .selectionDispatcher(d3.dispatch(dispatchString))
+      ("#linechart", data);
 
 
-    
+    lcYearPoverty.selectionDispatcher().on(dispatchString, function(selectedData) {
+      scatter.updateSelection(selectedData);
+      // ADD CODE TO HAVE TABLE UPDATE ITS SELECTION AS WELL
+    });
 
     // When the scatterplot selection is updated via brushing, 
     // tell the line chart to update it's selection (linking)
     scatter.selectionDispatcher().on(dispatchString, function(selectedData) {
-      //lcYearPoverty.updateSelection(selectedData);
-      //tableData.updateSelection(selectedData);
+      lcYearPoverty.updateSelection(selectedData);
       // ADD CODE TO HAVE TABLE UPDATE ITS SELECTION AS WELL
     });
+
 
   });
 
