@@ -756,6 +756,13 @@
       "CountryID": "LSO"
     },
     {
+      "Renewable2021": "19.48",
+      "Electricity2021": "100",
+      "GeoAreaCode": "807",
+      "GeoAreaName": "North Macedonia",
+      "CountryID": "MKD"
+    },
+    {
       "Renewable2021": "93.19",
       "Electricity2021": "29.8",
       "GeoAreaCode": "430",
