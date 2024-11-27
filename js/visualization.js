@@ -20,8 +20,6 @@
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#scatterplot", data);
 
-    let lcYearPoverty = linechart()
-
     var mapChart = map()
 
 

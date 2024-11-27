@@ -1,5 +1,4 @@
 function map() {
-  console.log("Helloooooo")
   var format = d3.format(",");
   
   
@@ -44,7 +43,6 @@ function map() {
         .await(ready);
 
     function ready(error, data, population) {
-        console.log("Ready")
         var populationById = {};
 
         population.forEach(function(d) { populationById[d.id] = +d.population; });
