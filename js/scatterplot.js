@@ -28,9 +28,6 @@ function scatterplot() {
     // Create the chart by adding an svg to the div with the id 
     // specified by the selector using the given data
     function chart(selector, data) {
-      console.log(data);
-      console.log("IN Scatter Plot");
-
       let svg = d3.select(selector)
         .append("svg")
           .attr("preserveAspectRatio", "xMidYMid meet")
@@ -86,8 +83,8 @@ function scatterplot() {
         .merge(points)
           .attr("cx", X)
           .attr("cy", Y)
-          .attr("r", 5);
-      console.log(points)
+          .attr("r", 1);
+
       selectableElements = points;
       
       svg.call(brush);
@@ -166,7 +163,6 @@ function scatterplot() {
     };
   
     chart.x = function (_) {
-        console.log(arguments)
       if (!arguments.length) return xValue;
       xValue = _;
       return chart;

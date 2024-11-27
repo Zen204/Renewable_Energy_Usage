@@ -92,10 +92,16 @@ h1, h2, h3 {
 	margin: 40px auto;
 }
 
-/* The scatterplot will take the right half of the screen */
+/* The scatterplot will take the left half of the screen */
 .scatterplot-holder {
 	flex: 1;  
 }
+
+/* The map will take the left half of the screen */
+.map-holder {
+	flex: 1;  
+}
+
 
 
 /* Default style for marks and channels used for the scatter plot */
