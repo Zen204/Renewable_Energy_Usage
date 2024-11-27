@@ -20,7 +20,7 @@
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#scatterplot", data);
 
-    var mapChart = map()
+    var mapChart = map("data/world_population.tsv")
 
    
 

@@ -1,4 +1,4 @@
-function map() {
+function map(dataset) {
   var format = d3.format(",");
   
   
@@ -39,22 +39,22 @@ function map() {
 
     queue()
         .defer(d3.json, "data/world_countries.json")
-        .defer(d3.tsv, "data/world_population.tsv")
+        .defer(d3.tsv, dataset)
         .await(ready);
 
-    function ready(error, data, population) {
-        var populationById = {};
+    function ready(error, countries, data) {
+        var countryById = {};
 
-        population.forEach(function(d) { populationById[d.id] = +d.population; });
-        data.features.forEach(function(d) { d.population = populationById[d.id] });
+        data.forEach(function(d) { countryById[d.id] = +d.population; });
+        countries.features.forEach(function(d) { d.population = countryById[d.id] });
 
         svg.append("g")
             .attr("class", "countries")
         .selectAll("path")
-            .data(data.features)
+            .data(countries.features)
         .enter().append("path")
             .attr("d", path)
-            .style("fill", function(d) { return color(populationById[d.id]); })
+            .style("fill", function(d) { return color(countryById[d.id]); })
             .style('stroke', 'white')
             .style('stroke-width', 1.5)
             .style("opacity",0.8)
@@ -79,7 +79,7 @@ function map() {
             });
 
         svg.append("path")
-            .datum(topojson.mesh(data.features, function(a, b) { return a.id !== b.id; }))
+            .datum(topojson.mesh(countries.features, function(a, b) { return a.id !== b.id; }))
             // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
             .attr("class", "names")
             .attr("d", path);
