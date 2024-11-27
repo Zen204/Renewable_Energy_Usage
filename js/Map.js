@@ -8,7 +8,7 @@ function map(dataset) {
               height = 500 - margin.top - margin.bottom;
   
   var color = d3.scaleThreshold()
-      .domain([10000,100000,500000,1000000,5000000,10000000,50000000,100000000,500000000,1500000000])
+      .domain([10,20,30,40,50,60,70,80,90,100])
       .range(["rgb(247,251,255)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
   
   var path = d3.geoPath();
@@ -32,7 +32,7 @@ function map(dataset) {
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                    return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>Population: </strong><span class='details'>" + format(d.population) +"</span>";
+                    return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) +"</span>";
                 })
 
     svg.call(tip);
@@ -45,8 +45,8 @@ function map(dataset) {
     function ready(error, countries, data) {
         var countryById = {};
 
-        data.forEach(function(d) { countryById[d.id] = +d.population; });
-        countries.features.forEach(function(d) { d.population = countryById[d.id] });
+        data.forEach(function(d) { countryById[d.id] = +d.Renewable2021; });
+        countries.features.forEach(function(d) { d.Renewable2021 = countryById[d.id] });
 
         svg.append("g")
             .attr("class", "countries")

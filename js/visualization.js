@@ -20,9 +20,8 @@
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#scatterplot", data);
 
-    var mapChart = map("data/world_population.tsv")
+    var mapChart = map("data/world_rnew.tsv")
 
-   
 
     let lcYearPoverty = linechart()
       .x(d => d.Electricity2021)
