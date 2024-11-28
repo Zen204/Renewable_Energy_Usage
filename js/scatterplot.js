@@ -92,7 +92,6 @@ function scatterplot() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            console.log(d)
             return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "</span>";
         })
 
