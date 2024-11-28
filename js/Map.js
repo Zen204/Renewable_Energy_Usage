@@ -9,7 +9,7 @@ function map(dataset) {
   
   var color = d3.scaleThreshold()
       .domain([10,20,30,40,50,60,70,80,90,100])
-      .range(["rgb(247,251,255)", "rgb(222,235,247)", "rgb(198,219,239)", "rgb(158,202,225)", "rgb(107,174,214)", "rgb(66,146,198)","rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
+      .range(["rgb(255,255,217)", "rgb(237,248,177)", "rgb(199,233,180)", "rgb(127,205,187)", "rgb(65,182,196)", "rgb(29,145,192)","rgb(34,94,168)","rgb(12,44,132)","rgb(3,27,93)","rgb(2,13,43)"]);
   
   var path = d3.geoPath();
   
@@ -32,7 +32,10 @@ function map(dataset) {
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                    return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) +"</span>";
+                    console.log(d)
+                    return "<strong>Country: </strong><span class='details'>" + d.properties.name + 
+                    "<br></span>" + "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" 
+                    + "<strong>ELEC: </strong><span class='details'>" + format(d.Electricity2021) +"</span>";
                 })
 
     svg.call(tip);
@@ -44,9 +47,12 @@ function map(dataset) {
 
     function ready(error, countries, data) {
         var countryById = {};
+        var elecById = {};
 
         data.forEach(function(d) { countryById[d.id] = +d.Renewable2021; });
         countries.features.forEach(function(d) { d.Renewable2021 = countryById[d.id] });
+        data.forEach(function(d) { elecById[d.id] = +d.Electricity2021; });     //adds elec data for tooltip use
+        countries.features.forEach(function(d) { d.Electricity2021 = elecById[d.id] });
 
         svg.append("g")
             .attr("class", "countries")
@@ -59,7 +65,7 @@ function map(dataset) {
             .style('stroke-width', 1.5)
             .style("opacity",0.8)
             // tooltips
-            .style("stroke","white")
+            .style("stroke","black")
             .style('stroke-width', 0.3)
             .on('mouseover',function(d){
                 tip.show(d);
@@ -74,7 +80,7 @@ function map(dataset) {
 
                 d3.select(this)
                 .style("opacity", 0.8)
-                .style("stroke","white")
+                .style("stroke","black")
                 .style("stroke-width",0.3);
             });
 

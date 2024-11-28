@@ -99,7 +99,8 @@ h1, h2, h3 {
 
 /* The map will take the left half of the screen */
 .map-holder {
-	flex: 1;  
+	flex: 1; 
+  background-color: #c3c5cf; 
 }
 
 /* Don't also do text drag selection */
