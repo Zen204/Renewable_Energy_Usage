@@ -50,11 +50,42 @@
   </div>
   
   <!-- Your visualization here -->
-
-
-  <div class="vis-holder">
-    <div class="map-holder" id="map"></div>
-    <div class="scatterplot-holder" id="scatterplot"></div>
+  <!-- Pie Chart  --> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Pie Chart</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+  <h1>Global Usage of Energy Types as a Percent</h1>
+  <br>
+  <div class="content">
+    <div class="chart-container">
+      <div class="pie-chart"></div>
+      <div class="tooltip" id="tooltip"></div>
+    </div>
+    <div class="legend">
+      <h2>Renewable Energy Technology</h2>
+      <ul>
+        <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
+        <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
+        <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
+        <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
+      </ul>
+    </div>
+  </div>
+  <!-- Geo Area List -->
+  <div class="geo-area-list" >
+    <h2>Geo Area Names</h2>
+    <div class="geo-area-list">
+        <div class="geo-area">Africa</div>
+        <div class="geo-area">Asia</div>
+        <div class="geo-area">Australia</div>
+        <div class="geo-area">Europe</div>
+        <div class="geo-area">Northern America</div>
+        <div class="geo-area">South America</div>
+      </div>
+  <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
     <!-- <div class="linechart-holder" id="linechart"></div> -->
 
     
