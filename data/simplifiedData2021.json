@@ -4,1476 +4,1844 @@
       "Electricity2021": "97.7",
       "GeoAreaCode": "4",
       "GeoAreaName": "Afghanistan",
-      "CountryID": "AFG"
+      "id": "AFG",
+      "Continent": "Asia",
+      "GDP": "378.0828919"
     },
     {
       "Renewable2021": "41.91",
       "Electricity2021": "100",
       "GeoAreaCode": "8",
       "GeoAreaName": "Albania",
-      "CountryID": "ALB"
+      "id": "ALB",
+      "Continent": "Europe",
+      "GDP": "6281.046775"
     },
     {
       "Renewable2021": "0.12",
       "Electricity2021": "99.8",
       "GeoAreaCode": "12",
       "GeoAreaName": "Algeria",
-      "CountryID": "DZA"
+      "id": "DZA",
+      "Continent": "Africa",
+      "GDP": "3700.320562"
     },
     {
       "Renewable2021": "18.39",
       "Electricity2021": "100",
       "GeoAreaCode": "20",
       "GeoAreaName": "Andorra",
-      "CountryID": "AND"
+      "id": "AND",
+      "Continent": "Europe",
+      "GDP": "42065.97076"
     },
     {
       "Renewable2021": "52.88",
       "Electricity2021": "48.2",
       "GeoAreaCode": "24",
       "GeoAreaName": "Angola",
-      "CountryID": "AGO"
+      "id": "AGO",
+      "Continent": "Africa",
+      "GDP": "2026.030952"
     },
     {
       "Renewable2021": "0.77",
       "Electricity2021": "100",
       "GeoAreaCode": "660",
       "GeoAreaName": "Anguilla",
-      "CountryID": "AIA"
+      "id": "AIA",
+      "Continent": "North America",
+      "GDP": "19106.06093"
     },
     {
       "Renewable2021": "0.9",
       "Electricity2021": "100",
       "GeoAreaCode": "28",
       "GeoAreaName": "Antigua and Barbuda",
-      "CountryID": "ATG"
+      "id": "ATG",
+      "Continent": "North America",
+      "GDP": "16740.3482"
     },
     {
       "Renewable2021": "9.24",
       "Electricity2021": "100",
       "GeoAreaCode": "32",
       "GeoAreaName": "Argentina",
-      "CountryID": "ARG"
+      "id": "ARG",
+      "Continent": "South America",
+      "GDP": "10775.99984"
     },
     {
       "Renewable2021": "9.13",
       "Electricity2021": "100",
       "GeoAreaCode": "51",
       "GeoAreaName": "Armenia",
-      "CountryID": "ARM"
+      "id": "ARM",
+      "Continent": "Asia",
+      "GDP": "4972.786412"
     },
     {
       "Renewable2021": "8.76",
       "Electricity2021": "100",
       "GeoAreaCode": "533",
       "GeoAreaName": "Aruba",
-      "CountryID": "ABW"
+      "id": "ABW",
+      "Continent": "North America",
+      "GDP": "29127.75939"
     },
     {
       "Renewable2021": "12.32",
       "Electricity2021": "100",
       "GeoAreaCode": "36",
       "GeoAreaName": "Australia",
-      "CountryID": "AUS"
+      "id": "AUS",
+      "Continent": "Oceania",
+      "GDP": "67616.30121"
     },
     {
       "Renewable2021": "36",
       "Electricity2021": "100",
       "GeoAreaCode": "40",
       "GeoAreaName": "Austria",
-      "CountryID": "AUT"
+      "id": "AUT",
+      "Continent": "Europe",
+      "GDP": "53720.12527"
     },
     {
       "Renewable2021": "1.32",
       "Electricity2021": "100",
       "GeoAreaCode": "31",
       "GeoAreaName": "Azerbaijan",
-      "CountryID": "AZE"
+      "id": "AZE",
+      "Continent": "Asia",
+      "GDP": "5316.149936"
     },
     {
       "Renewable2021": "1.11",
       "Electricity2021": "100",
       "GeoAreaCode": "44",
       "GeoAreaName": "Bahamas",
-      "CountryID": "BHS"
+      "id": "BHS",
+      "Continent": "North America",
+      "GDP": "28260.36705"
     },
     {
       "Renewable2021": "0.02",
       "Electricity2021": "100",
       "GeoAreaCode": "48",
       "GeoAreaName": "Bahrain",
-      "CountryID": "BHR"
+      "id": "BHR",
+      "Continent": "Asia",
+      "GDP": "26860.07455"
     },
     {
       "Renewable2021": "25.04",
       "Electricity2021": "99",
       "GeoAreaCode": "50",
       "GeoAreaName": "Bangladesh",
-      "CountryID": "BGD"
+      "id": "BGD",
+      "Continent": "Asia",
+      "GDP": "2449.024978"
     },
     {
       "Renewable2021": "5.46",
       "Electricity2021": "100",
       "GeoAreaCode": "52",
       "GeoAreaName": "Barbados",
-      "CountryID": "BRB"
+      "id": "BRB",
+      "Continent": "North America",
+      "GDP": "17507.46799"
     },
     {
       "Renewable2021": "8.22",
       "Electricity2021": "100",
       "GeoAreaCode": "112",
       "GeoAreaName": "Belarus",
-      "CountryID": "BLR"
+      "id": "BLR",
+      "Continent": "Europe",
+      "GDP": "7274.227485"
     },
     {
       "Renewable2021": "11.68",
       "Electricity2021": "100",
       "GeoAreaCode": "56",
       "GeoAreaName": "Belgium",
-      "CountryID": "BEL"
+      "id": "BEL",
+      "Continent": "Europe",
+      "GDP": "51737.76027"
     },
     {
       "Renewable2021": "26.56",
       "Electricity2021": "97.7",
       "GeoAreaCode": "84",
       "GeoAreaName": "Belize",
-      "CountryID": "BLZ"
+      "id": "BLZ",
+      "Continent": "North America",
+      "GDP": "6060.968224"
     },
     {
       "Renewable2021": "54.52",
       "Electricity2021": "42",
       "GeoAreaCode": "204",
       "GeoAreaName": "Benin",
-      "CountryID": "BEN"
+      "id": "BEN",
+      "Continent": "Africa",
+      "GDP": "1360.911474"
     },
     {
       "Renewable2021": "0.9",
       "Electricity2021": "100",
       "GeoAreaCode": "60",
       "GeoAreaName": "Bermuda",
-      "CountryID": "BMU"
+      "id": "BMU",
+      "Continent": "North America",
+      "GDP": "113524.8111"
     },
     {
       "Renewable2021": "81.81",
       "Electricity2021": "100",
       "GeoAreaCode": "64",
       "GeoAreaName": "Bhutan",
-      "CountryID": "BTN"
+      "id": "BTN",
+      "Continent": "Asia",
+      "GDP": "3560.197894"
     },
     {
       "Renewable2021": "12.76",
       "Electricity2021": "98.6",
       "GeoAreaCode": "68",
       "GeoAreaName": "Bolivia (Plurinational State of)",
-      "CountryID": "BOL"
+      "id": "BOL",
+      "Continent": "South America",
+      "GDP": "3345.023002"
     },
     {
       "Renewable2021": "36.61",
       "Electricity2021": "100",
       "GeoAreaCode": "70",
       "GeoAreaName": "Bosnia and Herzegovina",
-      "CountryID": "BIH"
+      "id": "BIH",
+      "Continent": "Europe",
+      "GDP": "7237.273787"
     },
     {
       "Renewable2021": "27.36",
       "Electricity2021": "73.7",
       "GeoAreaCode": "72",
       "GeoAreaName": "Botswana",
-      "CountryID": "BWA"
+      "id": "BWA",
+      "Continent": "Africa",
+      "GDP": "7238.796096"
     },
     {
       "Renewable2021": "46.48",
       "Electricity2021": "99.5",
       "GeoAreaCode": "76",
       "GeoAreaName": "Brazil",
-      "CountryID": "BRA"
+      "id": "BRA",
+      "Continent": "South America",
+      "GDP": "7696.78513"
     },
     {
       "Renewable2021": "0.03",
       "Electricity2021": "100",
       "GeoAreaCode": "96",
       "GeoAreaName": "Brunei Darussalam",
-      "CountryID": "BRN"
+      "id": "BRN",
+      "Continent": "Asia",
+      "GDP": "31448.91361"
     },
     {
       "Renewable2021": "20.38",
       "Electricity2021": "99.8",
       "GeoAreaCode": "100",
       "GeoAreaName": "Bulgaria",
-      "CountryID": "BGR"
+      "id": "BGR",
+      "Continent": "Europe",
+      "GDP": "12204.36863"
     },
     {
       "Renewable2021": "71.16",
       "Electricity2021": "19",
       "GeoAreaCode": "854",
       "GeoAreaName": "Burkina Faso",
-      "CountryID": "BFA"
+      "id": "BFA",
+      "Continent": "Africa",
+      "GDP": "904.47493"
     },
     {
       "Renewable2021": "83.14",
       "Electricity2021": "10.2",
       "GeoAreaCode": "108",
       "GeoAreaName": "Burundi",
-      "CountryID": "BDI"
+      "id": "BDI",
+      "Continent": "Africa",
+      "GDP": "298.1703494"
     },
     {
       "Renewable2021": "22.64",
       "Electricity2021": "95.5",
       "GeoAreaCode": "132",
       "GeoAreaName": "Cabo Verde",
-      "CountryID": "CPV"
+      "id": "CPV",
+      "Continent": "Africa",
+      "GDP": "3557.837775"
     },
     {
       "Renewable2021": "52.38",
       "Electricity2021": "82.5",
       "GeoAreaCode": "116",
       "GeoAreaName": "Cambodia",
-      "CountryID": "KHM"
+      "id": "KHM",
+      "Continent": "Asia",
+      "GDP": "1625.235021"
     },
     {
       "Renewable2021": "79.24",
       "Electricity2021": "65.4",
       "GeoAreaCode": "120",
       "GeoAreaName": "Cameroon",
-      "CountryID": "CMR"
+      "id": "CMR",
+      "Continent": "Africa",
+      "GDP": "1666.932809"
     },
     {
       "Renewable2021": "23.84",
       "Electricity2021": "100",
       "GeoAreaCode": "124",
       "GeoAreaName": "Canada",
-      "CountryID": "CAN"
+      "id": "CAN",
+      "Continent": "North America",
+      "GDP": "52456.71907"
     },
     {
       "Renewable2021": "0.01",
       "Electricity2021": "100",
       "GeoAreaCode": "136",
       "GeoAreaName": "Cayman Islands",
-      "CountryID": "CYM"
+      "id": "CYM",
+      "Continent": "North America",
+      "GDP": "88475.60235"
     },
     {
       "Renewable2021": "90.92",
       "Electricity2021": "15.7",
       "GeoAreaCode": "140",
       "GeoAreaName": "Central African Republic",
-      "CountryID": "CAF"
+      "id": "CAF",
+      "Continent": "Africa",
+      "GDP": "461.2649974"
     },
     {
       "Renewable2021": "69.9",
       "Electricity2021": "11.3",
       "GeoAreaCode": "148",
       "GeoAreaName": "Chad",
-      "CountryID": "TCD"
+      "id": "TCD",
+      "Continent": "Africa",
+      "GDP": "954.7115973"
     },
     {
       "Renewable2021": "24.17",
       "Electricity2021": "100",
       "GeoAreaCode": "152",
       "GeoAreaName": "Chile",
-      "CountryID": "CHL"
+      "id": "CHL",
+      "Continent": "South America",
+      "GDP": "16247.40102"
     },
     {
       "Renewable2021": "15.21",
       "Electricity2021": "100",
       "GeoAreaCode": "156",
       "GeoAreaName": "China",
-      "CountryID": "CHN"
+      "id": "CHN",
+      "Continent": "Asia",
+      "GDP": "12497.7495"
     },
     {
       "Renewable2021": "29.7",
       "Electricity2021": "100",
       "GeoAreaCode": "170",
       "GeoAreaName": "Colombia",
-      "CountryID": "COL"
+      "id": "COL",
+      "Continent": "South America",
+      "GDP": "6183.787783"
     },
     {
       "Renewable2021": "41.19",
       "Electricity2021": "87.9",
       "GeoAreaCode": "174",
       "GeoAreaName": "Comoros",
-      "CountryID": "COM"
+      "id": "COM",
+      "Continent": "Africa",
+      "GDP": "1577.470841"
     },
     {
       "Renewable2021": "71.38",
       "Electricity2021": "49.7",
       "GeoAreaCode": "178",
       "GeoAreaName": "Congo",
-      "CountryID": "COG"
+      "id": "COG",
+      "Continent": "Africa",
+      "GDP": "2525.394509"
     },
     {
       "Renewable2021": "8.76",
       "Electricity2021": "100",
       "GeoAreaCode": "184",
       "GeoAreaName": "Cook Islands",
-      "CountryID": "COK"
+      "id": "COK",
+      "Continent": "Oceania",
+      "GDP": "14526.15037"
     },
     {
       "Renewable2021": "34.16",
       "Electricity2021": "100",
       "GeoAreaCode": "188",
       "GeoAreaName": "Costa Rica",
-      "CountryID": "CRI"
+      "id": "CRI",
+      "Continent": "North America",
+      "GDP": "12537.25675"
     },
     {
       "Renewable2021": "34.07",
       "Electricity2021": "100",
       "GeoAreaCode": "191",
       "GeoAreaName": "Croatia",
-      "CountryID": "HRV"
+      "id": "HRV",
+      "Continent": "Europe",
+      "GDP": "17042.05712"
     },
     {
       "Renewable2021": "20.91",
       "Electricity2021": "100",
       "GeoAreaCode": "192",
       "GeoAreaName": "Cuba",
-      "CountryID": "CUB"
+      "id": "CUB",
+      "Continent": "North America",
+      "GDP": "11255.22936"
     },
     {
       "Renewable2021": "2.75",
       "Electricity2021": "100",
       "GeoAreaCode": "531",
       "GeoAreaName": "Curaçao",
-      "CountryID": "CUW"
+      "id": "CUW",
+      "Continent": "North America",
+      "GDP": "14393.31274"
     },
     {
       "Renewable2021": "15.63",
       "Electricity2021": "100",
       "GeoAreaCode": "196",
       "GeoAreaName": "Cyprus",
-      "CountryID": "CYP"
+      "id": "CYP",
+      "Continent": "Europe",
+      "GDP": "33502.20374"
     },
     {
       "Renewable2021": "17.16",
       "Electricity2021": "100",
       "GeoAreaCode": "203",
       "GeoAreaName": "Czechia",
-      "CountryID": "CZE"
+      "id": "CZE",
+      "Continent": "Europe",
+      "GDP": "26809.80822"
     },
     {
       "Renewable2021": "14.72",
       "Electricity2021": "52.6",
       "GeoAreaCode": "408",
       "GeoAreaName": "Democratic People's Republic of Korea",
-      "CountryID": "PRK"
+      "id": "PRK",
+      "Continent": "Asia",
+      "GDP": "654.1480076"
     },
     {
       "Renewable2021": "96.33",
       "Electricity2021": "20.8",
       "GeoAreaCode": "180",
       "GeoAreaName": "Democratic Republic of the Congo",
-      "CountryID": "COD"
+      "id": "COD",
+      "Continent": "Africa",
+      "GDP": "551.1269155"
     },
     {
       "Renewable2021": "39.52",
       "Electricity2021": "100",
       "GeoAreaCode": "208",
       "GeoAreaName": "Denmark",
-      "CountryID": "DNK"
+      "id": "DNK",
+      "Continent": "Europe",
+      "GDP": "69298.14952"
     },
     {
       "Renewable2021": "26.56",
       "Electricity2021": "65.4",
       "GeoAreaCode": "262",
       "GeoAreaName": "Djibouti",
-      "CountryID": "DJI"
+      "id": "DJI",
+      "Continent": "Africa",
+      "GDP": "3348.013391"
     },
     {
       "Renewable2021": "8.83",
       "Electricity2021": "100",
       "GeoAreaCode": "212",
       "GeoAreaName": "Dominica",
-      "CountryID": "DMA"
+      "id": "DMA",
+      "Continent": "North America",
+      "GDP": "7668.158132"
     },
     {
       "Renewable2021": "14.82",
       "Electricity2021": "98.1",
       "GeoAreaCode": "214",
       "GeoAreaName": "Dominican Republic",
-      "CountryID": "DOM"
+      "id": "DOM",
+      "Continent": "North America",
+      "GDP": "8476.749688"
     },
     {
       "Renewable2021": "18.9",
       "Electricity2021": "100",
       "GeoAreaCode": "218",
       "GeoAreaName": "Ecuador",
-      "CountryID": "ECU"
+      "id": "ECU",
+      "Continent": "South America",
+      "GDP": "5965.132871"
     },
     {
       "Renewable2021": "6.11",
       "Electricity2021": "100",
       "GeoAreaCode": "818",
       "GeoAreaName": "Egypt",
-      "CountryID": "EGY"
+      "id": "EGY",
+      "Continent": "Africa",
+      "GDP": "3898.01973"
     },
     {
       "Renewable2021": "21.91",
       "Electricity2021": "97.9",
       "GeoAreaCode": "222",
       "GeoAreaName": "El Salvador",
-      "CountryID": "SLV"
+      "id": "SLV",
+      "Continent": "North America",
+      "GDP": "4664.312503"
     },
     {
       "Renewable2021": "5.25",
       "Electricity2021": "66.8",
       "GeoAreaCode": "226",
       "GeoAreaName": "Equatorial Guinea",
-      "CountryID": "GNQ"
+      "id": "GNQ",
+      "Continent": "Africa",
+      "GDP": "7506.667861"
     },
     {
       "Renewable2021": "80.66",
       "Electricity2021": "52.5",
       "GeoAreaCode": "232",
       "GeoAreaName": "Eritrea",
-      "CountryID": "ERI"
+      "id": "ERI",
+      "Continent": "Africa",
+      "GDP": "610.9843564"
     },
     {
       "Renewable2021": "37.98",
       "Electricity2021": "100",
       "GeoAreaCode": "233",
       "GeoAreaName": "Estonia",
-      "CountryID": "EST"
+      "id": "EST",
+      "Continent": "Europe",
+      "GDP": "27990.62103"
     },
     {
       "Renewable2021": "65.4",
       "Electricity2021": "82.9",
       "GeoAreaCode": "748",
       "GeoAreaName": "Eswatini",
-      "CountryID": "SWZ"
+      "id": "SWZ",
+      "Continent": "Africa",
+      "GDP": "3978.394074"
     },
     {
       "Renewable2021": "90.63",
       "Electricity2021": "54.2",
       "GeoAreaCode": "231",
       "GeoAreaName": "Ethiopia",
-      "CountryID": "ETH"
-    },
-    {
-      "Renewable2021": "5.08",
-      "Electricity2021": "100",
-      "GeoAreaCode": "234",
-      "GeoAreaName": "Faroe Islands",
-      "CountryID": "FRO"
+      "id": "ETH",
+      "Continent": "Africa",
+      "GDP": "825.2221276"
     },
     {
       "Renewable2021": "29.7",
       "Electricity2021": "92.1",
       "GeoAreaCode": "242",
       "GeoAreaName": "Fiji",
-      "CountryID": "FJI"
+      "id": "FJI",
+      "Continent": "Oceania",
+      "GDP": "4656.050592"
     },
     {
       "Renewable2021": "50.22",
       "Electricity2021": "100",
       "GeoAreaCode": "246",
       "GeoAreaName": "Finland",
-      "CountryID": "FIN"
+      "id": "FIN",
+      "Continent": "Europe",
+      "GDP": "53608.59388"
     },
     {
       "Renewable2021": "16.25",
       "Electricity2021": "100",
       "GeoAreaCode": "250",
       "GeoAreaName": "France",
-      "CountryID": "FRA"
+      "id": "FRA",
+      "Continent": "Europe",
+      "GDP": "44251.46535"
     },
     {
       "Renewable2021": "7.44",
       "Electricity2021": "100",
       "GeoAreaCode": "258",
       "GeoAreaName": "French Polynesia",
-      "CountryID": "PYF"
+      "id": "PYF",
+      "Continent": "Oceania",
+      "GDP": "20230.24114"
     },
     {
       "Renewable2021": "91.27",
       "Electricity2021": "91.8",
       "GeoAreaCode": "266",
       "GeoAreaName": "Gabon",
-      "CountryID": "GAB"
+      "id": "GAB",
+      "Continent": "Africa",
+      "GDP": "8635.356742"
     },
     {
       "Renewable2021": "48.58",
       "Electricity2021": "63.7",
       "GeoAreaCode": "270",
       "GeoAreaName": "Gambia",
-      "CountryID": "GMB"
+      "id": "GMB",
+      "Continent": "Africa",
+      "GDP": "776.1273033"
     },
     {
       "Renewable2021": "25.18",
       "Electricity2021": "100",
       "GeoAreaCode": "268",
       "GeoAreaName": "Georgia",
-      "CountryID": "GEO"
+      "id": "GEO",
+      "Continent": "Asia",
+      "GDP": "4956.268698"
     },
     {
       "Renewable2021": "17.61",
       "Electricity2021": "100",
       "GeoAreaCode": "276",
       "GeoAreaName": "Germany",
-      "CountryID": "DEU"
+      "id": "DEU",
+      "Continent": "Europe",
+      "GDP": "51295.74521"
     },
     {
       "Renewable2021": "39.05",
       "Electricity2021": "86.3",
       "GeoAreaCode": "288",
       "GeoAreaName": "Ghana",
-      "CountryID": "GHA"
-    },
-    {
-      "Renewable2021": "0",
-      "Electricity2021": "100",
-      "GeoAreaCode": "292",
-      "GeoAreaName": "Gibraltar",
-      "CountryID": "GIB"
+      "id": "GHA",
+      "Continent": "Africa",
+      "GDP": "2422.085913"
     },
     {
       "Renewable2021": "21.47",
       "Electricity2021": "100",
       "GeoAreaCode": "300",
       "GeoAreaName": "Greece",
-      "CountryID": "GRC"
+      "id": "GRC",
+      "Continent": "Europe",
+      "GDP": "20551.48934"
     },
     {
       "Renewable2021": "11.64",
       "Electricity2021": "100",
       "GeoAreaCode": "304",
       "GeoAreaName": "Greenland",
-      "CountryID": "GRL"
+      "id": "GRL",
+      "Continent": "North America",
+      "GDP": "57532.66116"
     },
     {
       "Renewable2021": "10.22",
       "Electricity2021": "93.7",
       "GeoAreaCode": "308",
       "GeoAreaName": "Grenada",
-      "CountryID": "GRD"
-    },
-    {
-      "Renewable2021": "4.5",
-      "Electricity2021": "100",
-      "GeoAreaCode": "316",
-      "GeoAreaName": "Guam",
-      "CountryID": "GUM"
+      "id": "GRD",
+      "Continent": "North America",
+      "GDP": "9010.670753"
     },
     {
       "Renewable2021": "62.13",
       "Electricity2021": "97.9",
       "GeoAreaCode": "320",
       "GeoAreaName": "Guatemala",
-      "CountryID": "GTM"
+      "id": "GTM",
+      "Continent": "North America",
+      "GDP": "4887.024042"
     },
     {
       "Renewable2021": "66.85",
       "Electricity2021": "46.8",
       "GeoAreaCode": "324",
       "GeoAreaName": "Guinea",
-      "CountryID": "GIN"
+      "id": "GIN",
+      "Continent": "Africa",
+      "GDP": "1166.740248"
     },
     {
       "Renewable2021": "87.37",
       "Electricity2021": "35.8",
       "GeoAreaCode": "624",
       "GeoAreaName": "Guinea-Bissau",
-      "CountryID": "GNB"
+      "id": "GNB",
+      "Continent": "Africa",
+      "GDP": "768.6661479"
     },
     {
       "Renewable2021": "13.2",
       "Electricity2021": "92.9",
       "GeoAreaCode": "328",
       "GeoAreaName": "Guyana",
-      "CountryID": "GUY"
+      "id": "GUY",
+      "Continent": "South America",
+      "GDP": "9994.645704"
     },
     {
       "Renewable2021": "76.72",
       "Electricity2021": "47.2",
       "GeoAreaCode": "332",
       "GeoAreaName": "Haiti",
-      "CountryID": "HTI"
+      "id": "HTI",
+      "Continent": "North America",
+      "GDP": "1663.561694"
     },
     {
       "Renewable2021": "45.91",
       "Electricity2021": "94.1",
       "GeoAreaCode": "340",
       "GeoAreaName": "Honduras",
-      "CountryID": "HND"
+      "id": "HND",
+      "Continent": "North America",
+      "GDP": "2771.722616"
     },
     {
       "Renewable2021": "0.42",
       "Electricity2021": "100",
       "GeoAreaCode": "344",
       "GeoAreaName": "China, Hong Kong Special Administrative Region",
-      "CountryID": "HKG"
+      "id": "HKG",
+      "Continent": "Asia",
+      "GDP": "49223.45393"
     },
     {
       "Renewable2021": "15.3",
       "Electricity2021": "100",
       "GeoAreaCode": "348",
       "GeoAreaName": "Hungary",
-      "CountryID": "HUN"
+      "id": "HUN",
+      "Continent": "Europe",
+      "GDP": "18753.24974"
     },
     {
       "Renewable2021": "82.43",
       "Electricity2021": "100",
       "GeoAreaCode": "352",
       "GeoAreaName": "Iceland",
-      "CountryID": "ISL"
+      "id": "ISL",
+      "Continent": "Europe",
+      "GDP": "69115.639"
     },
     {
       "Renewable2021": "34.92",
       "Electricity2021": "99.6",
       "GeoAreaCode": "356",
       "GeoAreaName": "India",
-      "CountryID": "IND"
+      "id": "IND",
+      "Continent": "Asia",
+      "GDP": "2255.866685"
     },
     {
       "Renewable2021": "20.19",
       "Electricity2021": "99.2",
       "GeoAreaCode": "360",
       "GeoAreaName": "Indonesia",
-      "CountryID": "IDN"
+      "id": "IDN",
+      "Continent": "Asia",
+      "GDP": "4334.215983"
     },
     {
       "Renewable2021": "0.91",
       "Electricity2021": "100",
       "GeoAreaCode": "364",
       "GeoAreaName": "Iran (Islamic Republic of)",
-      "CountryID": "IRN"
+      "id": "IRN",
+      "Continent": "Asia",
+      "GDP": "4075.486344"
     },
     {
       "Renewable2021": "1.1",
       "Electricity2021": "100",
       "GeoAreaCode": "368",
       "GeoAreaName": "Iraq",
-      "CountryID": "IRQ"
+      "id": "IRQ",
+      "Continent": "Asia",
+      "GDP": "4770.83534"
     },
     {
       "Renewable2021": "12.69",
       "Electricity2021": "100",
       "GeoAreaCode": "372",
       "GeoAreaName": "Ireland",
-      "CountryID": "IRL"
-    },
-    {
-      "Renewable2021": "3.16",
-      "Electricity2021": "100",
-      "GeoAreaCode": "833",
-      "GeoAreaName": "Isle of Man",
-      "CountryID": "IMN"
+      "id": "IRL",
+      "Continent": "Europe",
+      "GDP": "102955.8011"
     },
     {
       "Renewable2021": "6.2",
       "Electricity2021": "100",
       "GeoAreaCode": "376",
       "GeoAreaName": "Israel",
-      "CountryID": "ISR"
+      "id": "ISR",
+      "Continent": "Asia",
+      "GDP": "55023.23007"
     },
     {
       "Renewable2021": "17.54",
       "Electricity2021": "100",
       "GeoAreaCode": "380",
       "GeoAreaName": "Italy",
-      "CountryID": "ITA"
+      "id": "ITA",
+      "Continent": "Europe",
+      "GDP": "36383.32763"
     },
     {
       "Renewable2021": "10.49",
       "Electricity2021": "100",
       "GeoAreaCode": "388",
       "GeoAreaName": "Jamaica",
-      "CountryID": "JAM"
+      "id": "JAM",
+      "Continent": "North America",
+      "GDP": "5183.580142"
     },
     {
       "Renewable2021": "8.84",
       "Electricity2021": "100",
       "GeoAreaCode": "392",
       "GeoAreaName": "Japan",
-      "CountryID": "JPN"
+      "id": "JPN",
+      "Continent": "Asia",
+      "GDP": "40168.80756"
     },
     {
       "Renewable2021": "11.5",
       "Electricity2021": "99.9",
       "GeoAreaCode": "400",
       "GeoAreaName": "Jordan",
-      "CountryID": "JOR"
+      "id": "JOR",
+      "Continent": "Asia",
+      "GDP": "4046.983885"
     },
     {
       "Renewable2021": "1.99",
       "Electricity2021": "100",
       "GeoAreaCode": "398",
       "GeoAreaName": "Kazakhstan",
-      "CountryID": "KAZ"
+      "id": "KAZ",
+      "Continent": "Asia",
+      "GDP": "10268.15382"
     },
     {
       "Renewable2021": "67.67",
       "Electricity2021": "76.5",
       "GeoAreaCode": "404",
       "GeoAreaName": "Kenya",
-      "CountryID": "KEN"
+      "id": "KEN",
+      "Continent": "Africa",
+      "GDP": "2069.661137"
     },
     {
       "Renewable2021": "42.23",
       "Electricity2021": "92.8",
       "GeoAreaCode": "296",
       "GeoAreaName": "Kiribati",
-      "CountryID": "KIR"
+      "id": "KIR",
+      "Continent": "Oceania",
+      "GDP": "1764.934486"
     },
     {
       "Renewable2021": "0.07",
       "Electricity2021": "100",
       "GeoAreaCode": "414",
       "GeoAreaName": "Kuwait",
-      "CountryID": "KWT"
+      "id": "KWT",
+      "Continent": "Asia",
+      "GDP": "32324.60284"
     },
     {
       "Renewable2021": "27.63",
       "Electricity2021": "99.7",
       "GeoAreaCode": "417",
       "GeoAreaName": "Kyrgyzstan",
-      "CountryID": "KGZ"
+      "id": "KGZ",
+      "Continent": "Asia",
+      "GDP": "1339.00521"
     },
     {
       "Renewable2021": "51.53",
       "Electricity2021": "100",
       "GeoAreaCode": "418",
       "GeoAreaName": "Lao People's Democratic Republic",
-      "CountryID": "LAO"
+      "id": "LAO",
+      "Continent": "Asia",
+      "GDP": "2568.924082"
     },
     {
       "Renewable2021": "43.99",
       "Electricity2021": "100",
       "GeoAreaCode": "428",
       "GeoAreaName": "Latvia",
-      "CountryID": "LVA"
+      "id": "LVA",
+      "Continent": "Europe",
+      "GDP": "21048.4691"
     },
     {
       "Renewable2021": "6.82",
       "Electricity2021": "100",
       "GeoAreaCode": "422",
       "GeoAreaName": "Lebanon",
-      "CountryID": "LBN"
+      "id": "LBN",
+      "Continent": "Asia",
+      "GDP": "6565.362003"
     },
     {
       "Renewable2021": "33.63",
       "Electricity2021": "50.4",
       "GeoAreaCode": "426",
       "GeoAreaName": "Lesotho",
-      "CountryID": "LSO"
-    },
-    {
-      "Renewable2021": "19.48",
-      "Electricity2021": "100",
-      "GeoAreaCode": "807",
-      "GeoAreaName": "North Macedonia",
-      "CountryID": "MKD"
+      "id": "LSO",
+      "Continent": "Africa",
+      "GDP": "1054.93275"
     },
     {
       "Renewable2021": "93.19",
       "Electricity2021": "29.8",
       "GeoAreaCode": "430",
       "GeoAreaName": "Liberia",
-      "CountryID": "LBR"
+      "id": "LBR",
+      "Continent": "Africa",
+      "GDP": "551.3997323"
     },
     {
       "Renewable2021": "3.12",
       "Electricity2021": "70.2",
       "GeoAreaCode": "434",
       "GeoAreaName": "Libya",
-      "CountryID": "LBY"
+      "id": "LBY",
+      "Continent": "Africa",
+      "GDP": "5791.254976"
     },
     {
       "Renewable2021": "53.61",
       "Electricity2021": "100",
       "GeoAreaCode": "438",
       "GeoAreaName": "Liechtenstein",
-      "CountryID": "LIE"
+      "id": "LIE",
+      "Continent": "Europe",
+      "GDP": "197504.585"
     },
     {
       "Renewable2021": "33.22",
       "Electricity2021": "100",
       "GeoAreaCode": "440",
       "GeoAreaName": "Lithuania",
-      "CountryID": "LTU"
+      "id": "LTU",
+      "Continent": "Europe",
+      "GDP": "23971.04402"
     },
     {
       "Renewable2021": "20.51",
       "Electricity2021": "100",
       "GeoAreaCode": "442",
       "GeoAreaName": "Luxembourg",
-      "CountryID": "LUX"
+      "id": "LUX",
+      "Continent": "Europe",
+      "GDP": "133867.1903"
     },
     {
       "Renewable2021": "83.61",
       "Electricity2021": "35.1",
       "GeoAreaCode": "450",
       "GeoAreaName": "Madagascar",
-      "CountryID": "MDG"
+      "id": "MDG",
+      "Continent": "Africa",
+      "GDP": "503.3520811"
     },
     {
       "Renewable2021": "71.08",
       "Electricity2021": "14.2",
       "GeoAreaCode": "454",
       "GeoAreaName": "Malawi",
-      "CountryID": "MWI"
+      "id": "MWI",
+      "Continent": "Africa",
+      "GDP": "628.6945059"
     },
     {
       "Renewable2021": "7.48",
       "Electricity2021": "100",
       "GeoAreaCode": "458",
       "GeoAreaName": "Malaysia",
-      "CountryID": "MYS"
+      "id": "MYS",
+      "Continent": "Asia",
+      "GDP": "11109.26828"
     },
     {
       "Renewable2021": "1.38",
       "Electricity2021": "100",
       "GeoAreaCode": "462",
       "GeoAreaName": "Maldives",
-      "CountryID": "MDV"
+      "id": "MDV",
+      "Continent": "Asia",
+      "GDP": "10076.31726"
     },
     {
       "Renewable2021": "71.16",
       "Electricity2021": "53.4",
       "GeoAreaCode": "466",
       "GeoAreaName": "Mali",
-      "CountryID": "MLI"
+      "id": "MLI",
+      "Continent": "Africa",
+      "GDP": "881.5100886"
     },
     {
       "Renewable2021": "8.62",
       "Electricity2021": "100",
       "GeoAreaCode": "470",
       "GeoAreaName": "Malta",
-      "CountryID": "MLT"
+      "id": "MLT",
+      "Continent": "Europe",
+      "GDP": "34337.43358"
     },
     {
       "Renewable2021": "12.06",
       "Electricity2021": "99.8",
       "GeoAreaCode": "584",
       "GeoAreaName": "Marshall Islands",
-      "CountryID": "MHL"
+      "id": "MHL",
+      "Continent": "Oceania",
+      "GDP": "6172.144257"
     },
     {
       "Renewable2021": "22.08",
       "Electricity2021": "47.7",
       "GeoAreaCode": "478",
       "GeoAreaName": "Mauritania",
-      "CountryID": "MRT"
+      "id": "MRT",
+      "Continent": "Africa",
+      "GDP": "2166.044797"
     },
     {
       "Renewable2021": "8.61",
       "Electricity2021": "99.6",
       "GeoAreaCode": "480",
       "GeoAreaName": "Mauritius",
-      "CountryID": "MUS"
+      "id": "MUS",
+      "Continent": "Africa",
+      "GDP": "8835.40001"
     },
     {
       "Renewable2021": "12.97",
       "Electricity2021": "100",
       "GeoAreaCode": "484",
       "GeoAreaName": "Mexico",
-      "CountryID": "MEX"
+      "id": "MEX",
+      "Continent": "North America",
+      "GDP": "10363.19255"
     },
     {
       "Renewable2021": "2.08",
       "Electricity2021": "83.6",
       "GeoAreaCode": "583",
       "GeoAreaName": "Micronesia (Federated States of)",
-      "CountryID": "FSM"
+      "id": "FSM",
+      "Continent": "Oceania",
+      "GDP": "3571.336769"
     },
     {
       "Renewable2021": "3.03",
       "Electricity2021": "100",
       "GeoAreaCode": "496",
       "GeoAreaName": "Mongolia",
-      "CountryID": "MNG"
+      "id": "MNG",
+      "Continent": "Asia",
+      "GDP": "4566.140131"
     },
     {
       "Renewable2021": "39.64",
       "Electricity2021": "99.8",
       "GeoAreaCode": "499",
       "GeoAreaName": "Montenegro",
-      "CountryID": "MNE"
+      "id": "MNE",
+      "Continent": "Europe",
+      "GDP": "9334.285937"
     },
     {
       "Renewable2021": "10.9",
       "Electricity2021": "100",
       "GeoAreaCode": "504",
       "GeoAreaName": "Morocco",
-      "CountryID": "MAR"
+      "id": "MAR",
+      "Continent": "Africa",
+      "GDP": "3824.996302"
     },
     {
       "Renewable2021": "76.86",
       "Electricity2021": "31.5",
       "GeoAreaCode": "508",
       "GeoAreaName": "Mozambique",
-      "CountryID": "MOZ"
+      "id": "MOZ",
+      "Continent": "Africa",
+      "GDP": "504.0377872"
     },
     {
       "Renewable2021": "62.86",
       "Electricity2021": "72.5",
       "GeoAreaCode": "104",
       "GeoAreaName": "Myanmar",
-      "CountryID": "MMR"
+      "id": "MMR",
+      "Continent": "Asia",
+      "GDP": "1332.445577"
     },
     {
       "Renewable2021": "29.99",
       "Electricity2021": "55.2",
       "GeoAreaCode": "516",
       "GeoAreaName": "Namibia",
-      "CountryID": "NAM"
+      "id": "NAM",
+      "Continent": "Africa",
+      "GDP": "4919.188931"
     },
     {
       "Renewable2021": "1.65",
       "Electricity2021": "100",
       "GeoAreaCode": "520",
       "GeoAreaName": "Nauru",
-      "CountryID": "NRU"
+      "id": "NRU",
+      "Continent": "Oceania",
+      "GDP": "12390.37011"
     },
     {
       "Renewable2021": "73.72",
       "Electricity2021": "89.9",
       "GeoAreaCode": "524",
       "GeoAreaName": "Nepal",
-      "CountryID": "NPL"
+      "id": "NPL",
+      "Continent": "Asia",
+      "GDP": "1226.707742"
     },
     {
       "Renewable2021": "12.22",
       "Electricity2021": "100",
       "GeoAreaCode": "528",
       "GeoAreaName": "Netherlands (Kingdom of the)",
-      "CountryID": "NLD"
+      "id": "NLD",
+      "Continent": "Europe",
+      "GDP": "58833.06043"
     },
     {
       "Renewable2021": "8.33",
       "Electricity2021": "100",
       "GeoAreaCode": "540",
       "GeoAreaName": "New Caledonia",
-      "CountryID": "NCL"
+      "id": "NCL",
+      "Continent": "Oceania",
+      "GDP": "34994.26583"
     },
     {
       "Renewable2021": "28.85",
       "Electricity2021": "100",
       "GeoAreaCode": "554",
       "GeoAreaName": "New Zealand",
-      "CountryID": "NZL"
+      "id": "NZL",
+      "Continent": "Oceania",
+      "GDP": "49364.70733"
     },
     {
       "Renewable2021": "50.36",
       "Electricity2021": "86.3",
       "GeoAreaCode": "558",
       "GeoAreaName": "Nicaragua",
-      "CountryID": "NIC"
+      "id": "NIC",
+      "Continent": "North America",
+      "GDP": "2064.924166"
     },
     {
       "Renewable2021": "79.58",
       "Electricity2021": "18.6",
       "GeoAreaCode": "562",
       "GeoAreaName": "Niger",
-      "CountryID": "NER"
+      "id": "NER",
+      "Continent": "Africa",
+      "GDP": "590.6294773"
     },
     {
       "Renewable2021": "80.31",
       "Electricity2021": "59.5",
       "GeoAreaCode": "566",
       "GeoAreaName": "Nigeria",
-      "CountryID": "NGA"
-    },
-    {
-      "Renewable2021": "3.01",
-      "Electricity2021": "99.5",
-      "GeoAreaCode": "570",
-      "GeoAreaName": "Niue",
-      "CountryID": "NIU"
-    },
-    {
-      "Renewable2021": "0.48",
-      "Electricity2021": "100",
-      "GeoAreaCode": "580",
-      "GeoAreaName": "Northern Mariana Islands",
-      "CountryID": "MNP"
+      "id": "NGA",
+      "Continent": "Africa",
+      "GDP": "2019.313776"
     },
     {
       "Renewable2021": "61.36",
       "Electricity2021": "100",
       "GeoAreaCode": "578",
       "GeoAreaName": "Norway",
-      "CountryID": "NOR"
+      "id": "NOR",
+      "Continent": "Europe",
+      "GDP": "90744.30108"
     },
     {
       "Renewable2021": "0.1",
       "Electricity2021": "100",
       "GeoAreaCode": "512",
       "GeoAreaName": "Oman",
-      "CountryID": "OMN"
+      "id": "OMN",
+      "Continent": "Asia",
+      "GDP": "19509.46649"
     },
     {
       "Renewable2021": "41.56",
       "Electricity2021": "94.9",
       "GeoAreaCode": "586",
       "GeoAreaName": "Pakistan",
-      "CountryID": "PAK"
+      "id": "PAK",
+      "Continent": "Asia",
+      "GDP": "1480.110716"
     },
     {
       "Renewable2021": "0.87",
       "Electricity2021": "100",
       "GeoAreaCode": "585",
       "GeoAreaName": "Palau",
-      "CountryID": "PLW"
+      "id": "PLW",
+      "Continent": "Oceania",
+      "GDP": "12084.12827"
     },
     {
       "Renewable2021": "27.96",
       "Electricity2021": "95.3",
       "GeoAreaCode": "591",
       "GeoAreaName": "Panama",
-      "CountryID": "PAN"
+      "id": "PAN",
+      "Continent": "North America",
+      "GDP": "15491.28979"
     },
     {
       "Renewable2021": "54.5",
       "Electricity2021": "20.9",
       "GeoAreaCode": "598",
       "GeoAreaName": "Papua New Guinea",
-      "CountryID": "PNG"
+      "id": "PNG",
+      "Continent": "Oceania",
+      "GDP": "2624.604163"
     },
     {
       "Renewable2021": "58.82",
       "Electricity2021": "100",
       "GeoAreaCode": "600",
       "GeoAreaName": "Paraguay",
-      "CountryID": "PRY"
+      "id": "PRY",
+      "Continent": "South America",
+      "GDP": "5959.441763"
     },
     {
       "Renewable2021": "30.56",
       "Electricity2021": "95.6",
       "GeoAreaCode": "604",
       "GeoAreaName": "Peru",
-      "CountryID": "PER"
+      "id": "PER",
+      "Continent": "South America",
+      "GDP": "6635.463923"
     },
     {
       "Renewable2021": "28.03",
       "Electricity2021": "97.5",
       "GeoAreaCode": "608",
       "GeoAreaName": "Philippines",
-      "CountryID": "PHL"
+      "id": "PHL",
+      "Continent": "Asia",
+      "GDP": "3460.539401"
     },
     {
       "Renewable2021": "15.2",
       "Electricity2021": "100",
       "GeoAreaCode": "616",
       "GeoAreaName": "Poland",
-      "CountryID": "POL"
+      "id": "POL",
+      "Continent": "Europe",
+      "GDP": "17786.12848"
     },
     {
       "Renewable2021": "32.33",
       "Electricity2021": "100",
       "GeoAreaCode": "620",
       "GeoAreaName": "Portugal",
-      "CountryID": "PRT"
+      "id": "PRT",
+      "Continent": "Europe",
+      "GDP": "24833.06915"
     },
     {
       "Renewable2021": "2.57",
       "Electricity2021": "100",
       "GeoAreaCode": "630",
       "GeoAreaName": "Puerto Rico",
-      "CountryID": "PRI"
+      "id": "PRI",
+      "Continent": "North America",
+      "GDP": "32668.30015"
     },
     {
       "Renewable2021": "0.03",
       "Electricity2021": "100",
       "GeoAreaCode": "634",
       "GeoAreaName": "Qatar",
-      "CountryID": "QAT"
+      "id": "QAT",
+      "Continent": "Asia",
+      "GDP": "66858.74172"
     },
     {
       "Renewable2021": "3.65",
       "Electricity2021": "100",
       "GeoAreaCode": "410",
       "GeoAreaName": "Republic of Korea",
-      "CountryID": "KOR"
+      "id": "KOR",
+      "Continent": "Asia",
+      "GDP": "35084.45462"
     },
     {
       "Renewable2021": "21.43",
       "Electricity2021": "100",
       "GeoAreaCode": "498",
       "GeoAreaName": "Republic of Moldova",
-      "CountryID": "MDA"
+      "id": "MDA",
+      "Continent": "Europe",
+      "GDP": "4472.265979"
     },
     {
       "Renewable2021": "23.58",
       "Electricity2021": "100",
       "GeoAreaCode": "642",
       "GeoAreaName": "Romania",
-      "CountryID": "ROU"
+      "id": "ROU",
+      "Continent": "Europe",
+      "GDP": "14786.94302"
     },
     {
       "Renewable2021": "3.54",
       "Electricity2021": "100",
       "GeoAreaCode": "643",
       "GeoAreaName": "Russian Federation",
-      "CountryID": "RUS"
+      "id": "RUS",
+      "Continent": "Europe",
+      "GDP": "12659.24157"
     },
     {
       "Renewable2021": "79.37",
       "Electricity2021": "48.7",
       "GeoAreaCode": "646",
       "GeoAreaName": "Rwanda",
-      "CountryID": "RWA"
+      "id": "RWA",
+      "Continent": "Africa",
+      "GDP": "822.3157487"
     },
     {
       "Renewable2021": "1.64",
       "Electricity2021": "100",
       "GeoAreaCode": "659",
       "GeoAreaName": "Saint Kitts and Nevis",
-      "CountryID": "KNA"
+      "id": "KNA",
+      "Continent": "North America",
+      "GDP": "18082.68799"
     },
     {
       "Renewable2021": "9.67",
       "Electricity2021": "100",
       "GeoAreaCode": "662",
       "GeoAreaName": "Saint Lucia",
-      "CountryID": "LCA"
+      "id": "LCA",
+      "Continent": "North America",
+      "GDP": "9870.784445"
     },
     {
       "Renewable2021": "4.98",
       "Electricity2021": "100",
       "GeoAreaCode": "670",
       "GeoAreaName": "Saint Vincent and the Grenadines",
-      "CountryID": "VCT"
+      "id": "VCT",
+      "Continent": "North America",
+      "GDP": "8360.099739"
     },
     {
       "Renewable2021": "35.95",
       "Electricity2021": "98.3",
       "GeoAreaCode": "882",
       "GeoAreaName": "Samoa",
-      "CountryID": "WSM"
+      "id": "WSM",
+      "Continent": "Oceania",
+      "GDP": "3918.659715"
     },
     {
       "Renewable2021": "40.75",
       "Electricity2021": "78.5",
       "GeoAreaCode": "678",
       "GeoAreaName": "Sao Tome and Principe",
-      "CountryID": "STP"
+      "id": "STP",
+      "Continent": "Africa",
+      "GDP": "2368.080929"
     },
     {
       "Renewable2021": "0.08",
       "Electricity2021": "100",
       "GeoAreaCode": "682",
       "GeoAreaName": "Saudi Arabia",
-      "CountryID": "SAU"
+      "id": "SAU",
+      "Continent": "Asia",
+      "GDP": "24160.67605"
     },
     {
       "Renewable2021": "35.42",
       "Electricity2021": "68",
       "GeoAreaCode": "686",
       "GeoAreaName": "Senegal",
-      "CountryID": "SEN"
+      "id": "SEN",
+      "Continent": "Africa",
+      "GDP": "1633.560119"
     },
     {
       "Renewable2021": "27.2",
       "Electricity2021": "100",
       "GeoAreaCode": "688",
       "GeoAreaName": "Serbia",
-      "CountryID": "SRB"
+      "id": "SRB",
+      "Continent": "Europe",
+      "GDP": "8645.199101"
     },
     {
       "Renewable2021": "1.72",
       "Electricity2021": "100",
       "GeoAreaCode": "690",
       "GeoAreaName": "Seychelles",
-      "CountryID": "SYC"
+      "id": "SYC",
+      "Continent": "Africa",
+      "GDP": "14069.59059"
     },
     {
       "Renewable2021": "71.14",
       "Electricity2021": "27.5",
       "GeoAreaCode": "694",
       "GeoAreaName": "Sierra Leone",
-      "CountryID": "SLE"
+      "id": "SLE",
+      "Continent": "Africa",
+      "GDP": "504.6212381"
     },
     {
       "Renewable2021": "1.1",
       "Electricity2021": "100",
       "GeoAreaCode": "702",
       "GeoAreaName": "Singapore",
-      "CountryID": "SGP"
+      "id": "SGP",
+      "Continent": "Asia",
+      "GDP": "71333.5409"
     },
     {
       "Renewable2021": "0.05",
       "Electricity2021": "100",
       "GeoAreaCode": "534",
       "GeoAreaName": "Sint Maarten (Dutch part)",
-      "CountryID": "SXM"
+      "id": "SXM",
+      "Continent": "North America",
+      "GDP": "31439.00984"
     },
     {
       "Renewable2021": "17.9",
       "Electricity2021": "100",
       "GeoAreaCode": "703",
       "GeoAreaName": "Slovakia",
-      "CountryID": "SVK"
+      "id": "SVK",
+      "Continent": "Europe",
+      "GDP": "21766.65021"
     },
     {
       "Renewable2021": "23.39",
       "Electricity2021": "100",
       "GeoAreaCode": "705",
       "GeoAreaName": "Slovenia",
-      "CountryID": "SVN"
+      "id": "SVN",
+      "Continent": "Europe",
+      "GDP": "29174.25205"
     },
     {
       "Renewable2021": "49.13",
       "Electricity2021": "76.3",
       "GeoAreaCode": "90",
       "GeoAreaName": "Solomon Islands",
-      "CountryID": "SLB"
+      "id": "SLB",
+      "Continent": "Oceania",
+      "GDP": "2232.507657"
     },
     {
       "Renewable2021": "95.37",
       "Electricity2021": "49.3",
       "GeoAreaCode": "706",
       "GeoAreaName": "Somalia",
-      "CountryID": "SOM"
+      "id": "SOM",
+      "Continent": "Africa",
+      "GDP": "576.5405819"
     },
     {
       "Renewable2021": "9.7",
       "Electricity2021": "89.3",
       "GeoAreaCode": "710",
       "GeoAreaName": "South Africa",
-      "CountryID": "ZAF"
+      "id": "ZAF",
+      "Continent": "Africa",
+      "GDP": "7073.612652"
     },
     {
       "Renewable2021": "32.39",
       "Electricity2021": "7.7",
       "GeoAreaCode": "728",
       "GeoAreaName": "South Sudan",
-      "CountryID": "SSD"
+      "id": "SSD",
+      "Continent": "Africa",
+      "GDP": "399.3178891"
     },
     {
       "Renewable2021": "18.96",
       "Electricity2021": "100",
       "GeoAreaCode": "724",
       "GeoAreaName": "Spain",
-      "CountryID": "ESP"
+      "id": "ESP",
+      "Continent": "Europe",
+      "GDP": "30443.14512"
     },
     {
       "Renewable2021": "48.8",
       "Electricity2021": "100",
       "GeoAreaCode": "144",
       "GeoAreaName": "Sri Lanka",
-      "CountryID": "LKA"
+      "id": "LKA",
+      "Continent": "Asia",
+      "GDP": "4102.362904"
     },
     {
       "Renewable2021": "15.4",
       "Electricity2021": "100",
       "GeoAreaCode": "275",
       "GeoAreaName": "State of Palestine",
-      "CountryID": "PSE"
+      "id": "PSE",
+      "Continent": "Asia",
+      "GDP": "3527.686956"
     },
     {
       "Renewable2021": "60.98",
       "Electricity2021": "61.8",
       "GeoAreaCode": "729",
       "GeoAreaName": "Sudan",
-      "CountryID": "SDN"
+      "id": "SDN",
+      "Continent": "Africa",
+      "GDP": "770.8125743"
     },
     {
       "Renewable2021": "14.49",
       "Electricity2021": "98.8",
       "GeoAreaCode": "740",
       "GeoAreaName": "Suriname",
-      "CountryID": "SUR"
+      "id": "SUR",
+      "Continent": "South America",
+      "GDP": "5429.647233"
     },
     {
       "Renewable2021": "57.9",
       "Electricity2021": "100",
       "GeoAreaCode": "752",
       "GeoAreaName": "Sweden",
-      "CountryID": "SWE"
+      "id": "SWE",
+      "Continent": "Europe",
+      "GDP": "61116.75052"
     },
     {
       "Renewable2021": "27.69",
       "Electricity2021": "100",
       "GeoAreaCode": "756",
       "GeoAreaName": "Switzerland",
-      "CountryID": "CHE"
+      "id": "CHE",
+      "Continent": "Europe",
+      "GDP": "93587.71035"
     },
     {
       "Renewable2021": "1.14",
       "Electricity2021": "88.8",
       "GeoAreaCode": "760",
       "GeoAreaName": "Syrian Arab Republic",
-      "CountryID": "SYR"
+      "id": "SYR",
+      "Continent": "Asia",
+      "GDP": "556.022373"
     },
     {
       "Renewable2021": "34.89",
       "Electricity2021": "99.6",
       "GeoAreaCode": "762",
       "GeoAreaName": "Tajikistan",
-      "CountryID": "TJK"
+      "id": "TJK",
+      "Continent": "Asia",
+      "GDP": "916.6919671"
     },
     {
       "Renewable2021": "18.97",
       "Electricity2021": "100",
       "GeoAreaCode": "764",
       "GeoAreaName": "Thailand",
-      "CountryID": "THA"
+      "id": "THA",
+      "Continent": "Asia",
+      "GDP": "7060.898046"
     },
     {
       "Renewable2021": "12.14",
       "Electricity2021": "100",
       "GeoAreaCode": "626",
       "GeoAreaName": "Timor-Leste",
-      "CountryID": "TLS"
+      "id": "TLS",
+      "Continent": "Asia",
+      "GDP": "2741.950829"
     },
     {
       "Renewable2021": "75.13",
       "Electricity2021": "55.7",
       "GeoAreaCode": "768",
       "GeoAreaName": "Togo",
-      "CountryID": "TGO"
+      "id": "TGO",
+      "Continent": "Africa",
+      "GDP": "959.3814878"
     },
     {
       "Renewable2021": "1.77",
       "Electricity2021": "100",
       "GeoAreaCode": "776",
       "GeoAreaName": "Tonga",
-      "CountryID": "TON"
+      "id": "TON",
+      "Continent": "Oceania",
+      "GDP": "4450.531493"
     },
     {
       "Renewable2021": "0.46",
       "Electricity2021": "100",
       "GeoAreaCode": "780",
       "GeoAreaName": "Trinidad and Tobago",
-      "CountryID": "TTO"
+      "id": "TTO",
+      "Continent": "North America",
+      "GDP": "16056.23066"
     },
     {
       "Renewable2021": "11.58",
       "Electricity2021": "99.9",
       "GeoAreaCode": "788",
       "GeoAreaName": "Tunisia",
-      "CountryID": "TUN"
+      "id": "TUN",
+      "Continent": "Africa",
+      "GDP": "3807.184654"
     },
     {
       "Renewable2021": "12.02",
       "Electricity2021": "100",
       "GeoAreaCode": "792",
       "GeoAreaName": "Türkiye",
-      "CountryID": "TUR"
+      "id": "TUR",
+      "Continent": "Asia",
+      "GDP": "9671.027527"
     },
     {
       "Renewable2021": "0.06",
       "Electricity2021": "100",
       "GeoAreaCode": "795",
       "GeoAreaName": "Turkmenistan",
-      "CountryID": "TKM"
+      "id": "TKM",
+      "Continent": "Asia",
+      "GDP": "8803.809216"
     },
     {
       "Renewable2021": "0.76",
       "Electricity2021": "100",
       "GeoAreaCode": "796",
       "GeoAreaName": "Turks and Caicos Islands",
-      "CountryID": "TCA"
+      "id": "TCA",
+      "Continent": "North America",
+      "GDP": "23158.6379"
     },
     {
       "Renewable2021": "5.04",
       "Electricity2021": "99.7",
       "GeoAreaCode": "798",
       "GeoAreaName": "Tuvalu",
-      "CountryID": "TUV"
+      "id": "TUV",
+      "Continent": "Oceania",
+      "GDP": "5370.419271"
     },
     {
       "Renewable2021": "90.95",
       "Electricity2021": "45.2",
       "GeoAreaCode": "800",
       "GeoAreaName": "Uganda",
-      "CountryID": "UGA"
+      "id": "UGA",
+      "Continent": "Africa",
+      "GDP": "929.6840928"
     },
     {
       "Renewable2021": "8.87",
       "Electricity2021": "100",
       "GeoAreaCode": "804",
       "GeoAreaName": "Ukraine",
-      "CountryID": "UKR"
+      "id": "UKR",
+      "Continent": "Europe",
+      "GDP": "4589.003703"
     },
     {
       "Renewable2021": "1.01",
       "Electricity2021": "100",
       "GeoAreaCode": "784",
       "GeoAreaName": "United Arab Emirates",
-      "CountryID": "ARE"
+      "id": "ARE",
+      "Continent": "Asia",
+      "GDP": "44332.34005"
     },
     {
       "Renewable2021": "12.15",
       "Electricity2021": "100",
       "GeoAreaCode": "826",
       "GeoAreaName": "United Kingdom of Great Britain and Northern Ireland",
-      "CountryID": "GBR"
+      "id": "GBR",
+      "Continent": "Europe",
+      "GDP": "46692.29553"
     },
     {
       "Renewable2021": "78.31",
       "Electricity2021": "42.7",
       "GeoAreaCode": "834",
       "GeoAreaName": "United Republic of Tanzania",
-      "CountryID": "TZA"
+      "id": "TZA",
+      "Continent": "Africa",
+      "GDP": "1151.183257"
     },
     {
       "Renewable2021": "10.9",
       "Electricity2021": "100",
       "GeoAreaCode": "840",
       "GeoAreaName": "United States of America",
-      "CountryID": "USA"
-    },
-    {
-      "Renewable2021": "5.9",
-      "Electricity2021": "100",
-      "GeoAreaCode": "850",
-      "GeoAreaName": "United States Virgin Islands",
-      "CountryID": "VIR"
+      "id": "USA",
+      "Continent": "North America",
+      "GDP": "70012.36305"
     },
     {
       "Renewable2021": "57.8",
       "Electricity2021": "100",
       "GeoAreaCode": "858",
       "GeoAreaName": "Uruguay",
-      "CountryID": "URY"
+      "id": "URY",
+      "Continent": "South America",
+      "GDP": "17923.42948"
     },
     {
       "Renewable2021": "1",
       "Electricity2021": "99.9",
       "GeoAreaCode": "860",
       "GeoAreaName": "Uzbekistan",
-      "CountryID": "UZB"
+      "id": "UZB",
+      "Continent": "Asia",
+      "GDP": "2042.18461"
     },
     {
       "Renewable2021": "24.64",
       "Electricity2021": "70",
       "GeoAreaCode": "548",
       "GeoAreaName": "Vanuatu",
-      "CountryID": "VUT"
+      "id": "VUT",
+      "Continent": "Oceania",
+      "GDP": "3044.57364"
     },
     {
       "Renewable2021": "33.69",
       "Electricity2021": "100",
       "GeoAreaCode": "862",
       "GeoAreaName": "Venezuela (Bolivarian Republic of)",
-      "CountryID": "VEN"
+      "id": "VEN",
+      "Continent": "South America",
+      "GDP": "3966.630727"
     },
     {
       "Renewable2021": "24.23",
       "Electricity2021": "100",
       "GeoAreaCode": "704",
       "GeoAreaName": "Viet Nam",
-      "CountryID": "VNM"
+      "id": "VNM",
+      "Continent": "Asia",
+      "GDP": "3756.488901"
     },
     {
       "Renewable2021": "3.67",
       "Electricity2021": "74.9",
       "GeoAreaCode": "887",
       "GeoAreaName": "Yemen",
-      "CountryID": "YEM"
+      "id": "YEM",
+      "Continent": "Asia",
+      "GDP": "271.9941067"
     },
     {
       "Renewable2021": "83.04",
       "Electricity2021": "46.7",
       "GeoAreaCode": "894",
       "GeoAreaName": "Zambia",
-      "CountryID": "ZMB"
+      "id": "ZMB",
+      "Continent": "Africa",
+      "GDP": "1135.078255"
     },
     {
       "Renewable2021": "82.38",
       "Electricity2021": "49",
       "GeoAreaCode": "716",
       "GeoAreaName": "Zimbabwe",
-      "CountryID": "ZWE"
+      "id": "ZWE",
+      "Continent": "Africa",
+      "GDP": "1507.99479"
+    },
+    {
+      "Renewable2021": "19.48",
+      "Electricity2021": "100",
+      "GeoAreaCode": "807",
+      "GeoAreaName": "North Macedonia",
+      "id": "MKD",
+      "Continent": "Europe",
+      "GDP": "6656.242593"
+    },
+    {
+      "Renewable2021": "58.17",
+      "Electricity2021": "71.1",
+      "GeoAreaCode": "384",
+      "GeoAreaName": "Côte d'Ivoire",
+      "id": "CIV",
+      "Continent": "Africa",
+      "GDP": "2613.378893"
     }
-]
+  ]

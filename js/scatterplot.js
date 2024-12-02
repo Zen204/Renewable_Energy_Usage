@@ -92,7 +92,10 @@ function scatterplot() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "</span>";
+            return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
+            + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" 
+            + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "<br></span>" 
+            + "<strong>GDP per Capita: </strong><span class='details'>" + d.GDP + "</span>";
         })
 
         svg.call(tip);
@@ -113,6 +116,9 @@ function scatterplot() {
       
         
         let mouseIsDown = false
+        let clickedOnPoint = false
+
+        
 
         svg.selectAll('.scatterPoint')
         .on("mouseover", function(d, i, elements) {
@@ -129,20 +135,26 @@ function scatterplot() {
           }
           tip.hide(d)
         })
-        .on("click", function(dataFromClick, i, elements) {
+        .on("mousedown", function(dataFromClick, i, elements) {
+            mouseIsDown = true
+            clickedOnPoint = true
+            svg.selectAll(".scatterPoint").classed("selected", false)
             d3.select(this).classed("selected", true)
             updateHighlight()
         });
         
 
         document.addEventListener("mousedown", () => {
-          mouseIsDown = true
-          svg.selectAll(".scatterPoint").classed("selected", false)
-          updateHighlight()
+            if (clickedOnPoint == false){
+                mouseIsDown = true
+                svg.selectAll(".scatterPoint").classed("selected", false)
+                updateHighlight()
+            }
         });
-
+  
         document.addEventListener("mouseup", () => {
-          mouseIsDown = false
+            mouseIsDown = false
+            clickedOnPoint = false
         });
 
         

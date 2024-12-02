@@ -32,7 +32,6 @@ function map(dataset) {
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                    console.log(d)
                     return "<strong>Country: </strong><span class='details'>" + d.properties.name + 
                     "<br></span>" + "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" 
                     + "<strong>ELEC: </strong><span class='details'>" + format(d.Electricity2021) +"</span>";
