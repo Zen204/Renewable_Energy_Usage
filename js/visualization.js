@@ -21,7 +21,7 @@
       ("#scatterplot", data);
 
     var mapChart = map("data/world_rnew.tsv")
-
+    let barChart = barchart();
 
     let lcYearPoverty = linechart()
       .x(d => d.Electricity2021)
