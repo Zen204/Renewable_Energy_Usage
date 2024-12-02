@@ -32,9 +32,10 @@ function map(dataset) {
                 .attr('class', 'd3-tip')
                 .offset([-10, 0])
                 .html(function(d) {
-                    return "<strong>Country: </strong><span class='details'>" + d.properties.name + 
-                    "<br></span>" + "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" 
-                    + "<strong>ELEC: </strong><span class='details'>" + format(d.Electricity2021) +"</span>";
+                    return "<strong>Country: </strong><span class='details'>" + d.properties.name +  "<br></span>" + 
+                    "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" +
+                    "<strong>ELEC: </strong><span class='details'>" + format(d.Electricity2021) +"<br></span>" +
+                    "<strong>GDP per capita: </strong><span class='details'>" + format(d.GDP) +"</span>";
                 })
 
     svg.call(tip);
@@ -47,11 +48,14 @@ function map(dataset) {
     function ready(error, countries, data) {
         var countryById = {};
         var elecById = {};
+        var gdpById = {};
 
         data.forEach(function(d) { countryById[d.id] = +d.Renewable2021; });
         countries.features.forEach(function(d) { d.Renewable2021 = countryById[d.id] });
         data.forEach(function(d) { elecById[d.id] = +d.Electricity2021; });     //adds elec data for tooltip use
         countries.features.forEach(function(d) { d.Electricity2021 = elecById[d.id] });
+        data.forEach(function(d) { gdpById[d.id] = +d.GDP; });     //adds GDP per capita data for tooltip use
+        countries.features.forEach(function(d) { d.GDP = gdpById[d.id] });
 
         svg.append("g")
             .attr("class", "countries")
