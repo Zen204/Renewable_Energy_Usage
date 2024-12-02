@@ -1,11 +1,12 @@
 function barchart(width, height, id) {
-	
+
+  
 	var margin = {top: 10, right: 30, bottom: 20, left: 50},
     width = 460 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#my_dataviz")
+var svg = d3.select("#barchart")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
@@ -13,21 +14,33 @@ var svg = d3.select("#my_dataviz")
     .attr("transform",
           "translate(" + margin.left + "," + margin.top + ")");
 
+
+
+
 // Parse the Data
 
 d3.csv("data/full_file.csv", function(data) {	
+  country_dict={}
+  for (let i = 0; i < data.length; i++) { //assigning value pairs between indices and a country name
+    country_this=data[i]["Country"]
+    country_dict[country_this] = i;
+  }
+
 
   // List of subgroups = header of the csv files = soil condition here
   var subgroups = data.columns.slice(1)//ELEC and RNEW
   
   console.log(subgroups)
+  /*
   var worldDATA=data.slice(-1)
   console.log(worldDATA)
-
+  */
   // List of groups = species here = value of the first column called group -> I show them on the X axis
   //var groups = d3.map(data, function(d){return(d.group)}).keys()
-  data=data.slice(0,3);
-  data=[...worldDATA, ...data]
+  //data=data.slice(0,3);
+  data=[data[country_dict["World"]], data[country_dict["United States of America"]], data[country_dict["China"]], data[country_dict["Congo"]]]
+  console.log(data)
+  //data=worldDATA;
   var groups=[]
   var Countries = data.map(function(d) {
     return {
@@ -41,16 +54,19 @@ d3.csv("data/full_file.csv", function(data) {
   console.log(groups)//COUNTRIES
 
   // Add X axis
+  
   var x = d3.scaleBand()
       .domain(groups)
       .range([0, width])
       .padding([0.2])
 
+  
   svg.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).tickSize(0));
 
   // Add Y axis
+  
   var y = d3.scaleLinear()
     .domain([0, 100])
     .range([ height, 0 ]);
@@ -76,7 +92,7 @@ d3.csv("data/full_file.csv", function(data) {
     .data(data)
     .enter()
     .append("g")
-      //.attr("transform", function(d) { return "translate(" + x(d.group) + ",0)"; })
+    .attr("transform", function(d) { return "translate(" + x(d.Country) + ",0)"; })
     .selectAll("rect")
     .data(function(d) { return subgroups.map(function(key) { return {key: key, value: d[key]}; }); })
     .enter().append("rect")
@@ -86,6 +102,15 @@ d3.csv("data/full_file.csv", function(data) {
       .attr("height", function(d) { return height - y(d.value); })
       .attr("fill", function(d) { return color(d.key); });
 
-})}
+
+    
+
+})
+      
+
+
+
+}
+
 
 
