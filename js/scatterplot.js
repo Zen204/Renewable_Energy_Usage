@@ -14,13 +14,15 @@ function scatterplot() {
       },
     width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
-    xValue = d => d[0],
-    yValue = d => d[1],
+    xValue = d => d[1],
+    yValue = d => d[0],
+    rValue = d => d.GDP,
     xLabelText = "",
     yLabelText = "",
     yLabelOffsetPx = 0,
     xScale = d3.scaleLinear(),
     yScale = d3.scaleLinear(),
+    rScale = d3.scaleLinear(),
     ourBrush = null,
     selectableElements = d3.select(null),
     dispatcher;
@@ -41,19 +43,30 @@ function scatterplot() {
         //Define scales
         xScale
             .domain([
-            d3.min(data, d => xValue(d)),
-            d3.max(data, d => xValue(d))
+            d3.min(data, d => +xValue(d)),
+            d3.max(data, d => +xValue(d))
             ])
             .rangeRound([0, width]);
         
     
         yScale
             .domain([
-            d3.min(data, d => yValue(d)),
-            d3.max(data, d => yValue(d))
+            d3.min(data, d => +yValue(d)),
+            d3.max(data, d => +yValue(d))
             ])
             .rangeRound([height, 0]);
     
+        console.log(d3.min(data, d => +rValue(d)))
+        console.log(d3.max(data, d => +rValue(d)))
+        console.log(xValue)
+        // Create a linear scale
+        rScale
+            .domain([
+                d3.min(data, d => +rValue(d)),
+                d3.max(data, d => +rValue(d))
+            ]) 
+            .rangeRound([1, 8]);
+
         let xAxis = svg.append("g")
             .attr("transform", "translate(0," + (height) + ")")
             .call(d3.axisBottom(xScale));
@@ -63,6 +76,7 @@ function scatterplot() {
             .attr("class", "axisLabel")
             .attr("transform", "translate(" + (width - 50) + ",-10)")
             .text(xLabelText);
+        
         
         let yAxis = svg.append("g")
             .call(d3.axisLeft(yScale))
@@ -105,13 +119,21 @@ function scatterplot() {
 
         svg.call(tip);
 
+
+
+        
         points = points.enter()
             .append("circle")
             .attr("class", "point scatterPoint")
             .merge(points)
             .attr("cx", X)
             .attr("cy", Y)
-            .attr("r", 3)
+            .attr("r", R)
+            //     function(d) 
+            // {
+            // // { console.log(d)
+            // //     console.log(X(d));
+            //     return d.GDP/10000; })
             .attr("pointer-events", "all")
             .style("stroke", d => colorScale(d.Continent)); 
 
@@ -228,6 +250,10 @@ function scatterplot() {
     function Y(d) {
       return yScale(yValue(d));
     }
+
+    function R(d) {
+        return rScale(rValue(d));
+      }
   
     chart.margin = function (_) {
       if (!arguments.length) return margin;
@@ -258,6 +284,12 @@ function scatterplot() {
       yValue = _;
       return chart;
     };
+
+    chart.r = function (_) {
+        if (!arguments.length) return rValue;
+        rValue = _;
+        return chart;
+      };
   
     chart.xLabel = function (_) {
       if (!arguments.length) return xLabelText;
