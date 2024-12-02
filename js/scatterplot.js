@@ -71,6 +71,11 @@ function scatterplot() {
             .attr("transform", "translate(" + yLabelOffsetPx + ", -12)")
             .text(yLabelText);
   
+        const colorScale = d3.scaleOrdinal()
+            .domain(data.map(d => d.category)) // Get unique categories
+            .range(d3.schemeCategory10); // Use a built-in color scheme
+          
+
         // Add the points
         let points = svg.append("g")
             .selectAll(".scatterPoint")
@@ -92,7 +97,7 @@ function scatterplot() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
+            return d.Continent + "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
             + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" 
             + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "<br></span>" 
             + "<strong>GDP per Capita: </strong><span class='details'>" + d.GDP + "</span>";
@@ -108,6 +113,8 @@ function scatterplot() {
             .attr("cy", Y)
             .attr("r", 3)
             .attr("pointer-events", "all")
+            .style("stroke", d => colorScale(d.Continent)); 
+
             
 
         
