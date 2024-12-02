@@ -1,4 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/h8SwtrsU)
+## Project URL
+https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi116a-brandeis-infovis-fall24-1-cosi-116a-f24-final-project-repository-Final-Project-Template.git
+
 # COSI 116A Final Project Template
 
 This template will help you get started with your project. Please look through all these materials so you know how to organize your project.
