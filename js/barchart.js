@@ -25,6 +25,7 @@ d3.csv("data/full_file.csv", function(data) {
     country_this=data[i]["Country"]
     country_dict[country_this] = i;
   }
+country_list=["World", "United States of America", "China", "Congo"]
 
 
   // List of subgroups = header of the csv files = soil condition here
@@ -38,7 +39,7 @@ d3.csv("data/full_file.csv", function(data) {
   // List of groups = species here = value of the first column called group -> I show them on the X axis
   //var groups = d3.map(data, function(d){return(d.group)}).keys()
   //data=data.slice(0,3);
-  data=[data[country_dict["World"]], data[country_dict["United States of America"]], data[country_dict["China"]], data[country_dict["Congo"]]]
+data=[data[country_dict[country_list[0]]], data[country_dict[country_list[1]]], data[country_dict[country_list[2]]], data[country_dict[country_list[3]]]]
   console.log(data)
   //data=worldDATA;
   var groups=[]
