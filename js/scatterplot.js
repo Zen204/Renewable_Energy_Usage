@@ -97,7 +97,7 @@ function scatterplot() {
         .attr('class', 'd3-tip')
         .offset([-10, 0])
         .html(function(d) {
-            return d.Continent + "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
+            return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
             + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" 
             + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "<br></span>" 
             + "<strong>GDP per Capita: </strong><span class='details'>" + d.GDP + "</span>";
