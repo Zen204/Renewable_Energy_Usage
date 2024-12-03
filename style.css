@@ -195,15 +195,15 @@ h1, h2, h3 {
 	margin: 40px auto;
 }
 
-/* The scatterplot will take the left half of the screen */
-.scatterplot-holder {
-	flex: 1;  
+/* The scatterplot and map will take the left half of the screen */
+.scatterplot-holder, .map-holder {
+	flex: 0 0 50%;  
 }
 
-/* The map will take the left half of the screen */
-.map-holder {
+/* The bar and pie charts will take the right half of the screen */
+.barchart-holder, .piechart-holder {
 	flex: 1; 
-  background-color: #c3c5cf; 
+  /* background-color: #c3c5cf;  */
 }
 
 /* Don't also do text drag selection */
@@ -242,6 +242,7 @@ h1, h2, h3 {
 .vis-holder {
   width: 100%;
   height: 100%;
+  display: flex;
 }
 
 

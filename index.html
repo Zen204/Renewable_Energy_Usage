@@ -52,35 +52,38 @@
   <!-- Your visualization here -->
   <div class="vis-holder">
     <div class="map-holder" id="map"></div>
-    <div class="scatterplot-holder" id="scatterplot"></div>
-    <div class="barchart-holder" id="barchart"></div>
-  
-  <!-- Pie Chart  --> 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Pie Chart</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <div class="piechart-holder">
+        <!-- Pie Chart  --> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Pie Chart</title>
+        <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
 
 
-  <h1>Global Usage of Energy Types as a Percent</h1>
-  <br>
-  <div class="content">
-    <div class="chart-container">
-      <div class="pie-chart"></div>
-      <div class="tooltip" id="tooltip"></div>
-      
-
-    </div>
-    </div>
-    <div class="legend">
-      <h2>Renewable Energy Technology</h2>
-      <ul>
-        <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
-        <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
-        <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
-        <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
-      </ul>
+        <h1>Global Usage of Energy Types as a Percent</h1>
+        <br>
+        <div class="content">
+          <div class="chart-container">
+            <div class="pie-chart"></div>
+            <div class="tooltip" id="tooltip"></div>
+          </div>
+        </div>
+        <div class="legend">
+          <h2>Renewable Energy Technology</h2>
+          <ul>
+            <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
+            <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
+            <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
+            <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
+          </ul>
+        </div>
     </div>
   </div>
+
+  <div class="vis-holder">  
+    <div class="scatterplot-holder" id="scatterplot"></div>
+    <div class="barchart-holder" id="barchart"></div>
+  </div>
+  
   <!-- Geo Area List -->
   <div class="geo-area-list" >
     <h2>Geo Area Names</h2>
@@ -91,8 +94,8 @@
         <div class="geo-area">Europe</div>
         <div class="geo-area">Northern America</div>
         <div class="geo-area">South America</div>
-      </div>
     </div>
+  </div>
   <script src="js/script_pie.js"></script> <!-- Link to the JavaScript file -->
 
     <!-- <div class="linechart-holder" id="linechart"></div> -->
@@ -145,9 +148,7 @@
 
     <h1>Conclusion</h1>
 
-    <p><em>Short summary of work completed and areas for improvement/future-work.</em></p>
-    
-    <p><em>Expectation: Meaningfully wraps up project and has good future directions.</em></p>
+    <p><em>The project outlines a comprehensive plan for visualizing energy-related data using maps, scatter plots, pie charts, and bar charts, each assigned to a specific team member. Madeline's map displays renewable energy percentages by color, Rowan's scatter plot shows renewable energy per capita versus electricity access, Zen's pie chart illustrates types of renewable energy for selected countries, and Maya's bar chart compares statistics between countries. Interactive components include pop-ups with detailed statistics when clicking on a country in the map or scatter plot, while the pie chart updates to show averages for selected countries. The bar chart dynamically updates with country-specific bars alongside a global average. By default, global averages are displayed in the pie and bar charts, allowing users to compare selected countries against these averages. Planned extra features/ areas of improvement include incorporating contextual information, such as regional comparisons or trends over time, to add depth to the analysis and make it more scalable to handle various inputs of large data. These improvements aim to enhance user engagement and provide a more comprehensive understanding of the data.</em></p>
 
     
     <h1>Acknowledgments</h1>
