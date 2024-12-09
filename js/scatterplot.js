@@ -138,8 +138,26 @@ function scatterplot() {
             .style("stroke", d => colorScale(d.Continent)); 
 
             
-
-        
+          const legend = svg.append("g")
+            .attr("transform", `translate(${margin.left-20}, ${300})`);
+          var colorScaleDomain = colorScale.domain()
+          colorScaleDomain.shift()
+          console.log(colorScaleDomain)
+          const legendItems = legend.selectAll("g")
+            .data(colorScaleDomain)
+            .enter().append("g")
+            .attr("transform", (d, i) => `translate(0, ${i * 20})`);
+          
+          legendItems.append("circle")
+            .attr("r", 5)
+            .attr("fill", colorScale);
+          
+          legendItems.append("text")
+            .attr("x", 15)
+            .attr("y", 6)
+            .text(d => d);        
+          legendItems._groups.shift()  
+        console.log(legendItems._groups)
 
         selectableElements = points;
       
