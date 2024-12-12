@@ -10,7 +10,7 @@ function scatterplot() {
         top: 60,
         left: 50,
         right: 30, 
-        bottom: 20
+        bottom: 150
       },
     width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
@@ -22,7 +22,7 @@ function scatterplot() {
     yLabelOffsetPx = 0,
     xScale = d3.scaleLinear(),
     yScale = d3.scaleLinear(),
-    rScale = d3.scaleLinear(),
+    rScale = d3.scaleLog(),
     ourBrush = null,
     selectableElements = d3.select(null),
     dispatcher;
@@ -65,7 +65,7 @@ function scatterplot() {
                 d3.min(data, d => +rValue(d)),
                 d3.max(data, d => +rValue(d))
             ]) 
-            .rangeRound([1, 8]);
+            .rangeRound([0, 5]);
 
         let xAxis = svg.append("g")
             .attr("transform", "translate(0," + (height) + ")")
@@ -74,7 +74,7 @@ function scatterplot() {
         // X axis label
         xAxis.append("text")        
             .attr("class", "axisLabel")
-            .attr("transform", "translate(" + (width - 50) + ",-10)")
+            .attr("transform", "translate(" + (width - 300) + ",-10)")
             .text(xLabelText);
         
         
@@ -87,8 +87,9 @@ function scatterplot() {
   
         const colorScale = d3.scaleOrdinal()
             .domain(data.map(d => d.category)) // Get unique categories
-            .range(d3.schemeCategory10); // Use a built-in color scheme
-          
+            .range(["#000000", "#e6194B", "#f58231", "#FFD700", "#3cb44b",
+              "#42d4f4", "#911eb4"]); // Use a built-in color scheme
+
 
         // Add the points
         let points = svg.append("g")
@@ -139,9 +140,10 @@ function scatterplot() {
 
             
           const legend = svg.append("g")
-            .attr("transform", `translate(${margin.left-20}, ${300})`);
+            .attr("transform", `translate(${margin.left-20}, ${325})`);
           var colorScaleDomain = colorScale.domain()
           colorScaleDomain.shift()
+          console.log("Here is the domain")
           console.log(colorScaleDomain)
           const legendItems = legend.selectAll("g")
             .data(colorScaleDomain)
@@ -159,6 +161,33 @@ function scatterplot() {
           legendItems._groups.shift()  
         console.log(legendItems._groups)
 
+
+        
+        const legend2 = svg.append("g")
+            .attr("transform", `translate(${margin.left+200}, ${325})`);
+          
+          //   var colorScaleDomain2 = colorScale2.domain()
+          // console.log(colorScaleDomain2)
+          // colorScaleDomain2.shift()
+          // console.log(colorScaleDomain2)
+          const legendItems2 = legend2.selectAll("g")
+            // .data(rScale.domain())
+            .data([1000, 5000, 10000, 50000, 100000])
+            .enter().append("g")
+            .attr("transform", (d, i) => `translate(0, ${i * 20})`);
+          
+          legendItems2.append("circle")
+            .attr("r", rScale)
+            .classed("legendPoint", true)
+            // .attr("r", rScale);
+            
+          
+          legendItems2.append("text")
+            .attr("x", 15)
+            .attr("y", 6)
+            .text(d => d);        
+          // legendItems2._groups.shift()  
+        console.log(legendItems2._groups)
         selectableElements = points;
       
         

@@ -225,6 +225,12 @@ h1, h2, h3 {
 	stroke-width: 3;
 	opacity: 0.35;
   }
+
+.legendPoint {
+  stroke-width: 3;
+  stroke: black;
+  fill: white;
+}
   
   
   .axisLabel {
