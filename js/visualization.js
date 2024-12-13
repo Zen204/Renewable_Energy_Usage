@@ -19,7 +19,9 @@
       .yLabelOffset(150)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#scatterplot", data);
-
+    // Initialize the bar chart
+    var barChartUpdate = barchart(460, 400, "barchart");
+    
     var mapChart = map("data/world_rnew.tsv")
     let barChart = barchart();
 
