@@ -236,7 +236,11 @@ function scatterplot() {
         
         function updateHighlight() {
             let list = svg.selectAll(".selected").data()
-
+            //MAYA ADDED THIS SECTION
+            let selectedCountries = list.map(d => d.GeoAreaName);          
+            console.log(selectedCountries);
+            updateBarChart(selectedCountries);
+            //END MAYA ADDED
             let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
 
             // Let other charts know about our selection
