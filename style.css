@@ -200,6 +200,7 @@ h1, h2, h3 {
 	flex: 0 0 50%;  
 }
 
+
 /* The bar and pie charts will take the right half of the screen */
 .barchart-holder, .piechart-holder {
 	flex: 1; 
@@ -220,18 +221,24 @@ h1, h2, h3 {
 
 /* Default style for marks and channels used for the scatter plot */
 .point {
-	fill: white;
-	/* stroke: #400b96; */
-	stroke-width: 3;
+	/* fill: white; */
+	stroke: black;
+	stroke-width: 0.5;
 	opacity: 0.35;
+  position: relative;
+  z-index: 1;
   }
 
-.legendPoint {
-  stroke-width: 3;
+.sizeLegendPoint {
+  stroke-width: 0.5;
   stroke: black;
   fill: white;
 }
-  
+
+.colorLegendPoint {
+  stroke-width: 0.5;
+  stroke: black;
+}
   
   .axisLabel {
 	fill: #475d7c;
@@ -239,9 +246,12 @@ h1, h2, h3 {
   
   /* Style for selected marks (circles) */
   circle.selected {
-	fill: pink;
-	stroke: red;
-	opacity: 5;
+	/* fill: blue;
+	stroke: red; */
+	opacity: 1;
+  position: relative;
+  z-index: 999999;
+  /* stroke-width : 10; */
   }
 
 /* But your visualization should be full-width and full-height */

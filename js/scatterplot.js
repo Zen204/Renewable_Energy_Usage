@@ -56,16 +56,14 @@ function scatterplot() {
             ])
             .rangeRound([height, 0]);
     
-        console.log(d3.min(data, d => +rValue(d)))
-        console.log(d3.max(data, d => +rValue(d)))
-        console.log(xValue)
+
         // Create a linear scale
         rScale
             .domain([
                 d3.min(data, d => +rValue(d)),
                 d3.max(data, d => +rValue(d))
             ]) 
-            .rangeRound([0, 5]);
+            .range([1, 7]);
 
         let xAxis = svg.append("g")
             .attr("transform", "translate(0," + (height) + ")")
@@ -100,7 +98,6 @@ function scatterplot() {
     
         // svg.selectAll("point.scatterPoint")
         // .on('mouseover',function(d){
-        //     console.log("Mouse")
         //     tip.show(d);
         // })
 
@@ -132,19 +129,17 @@ function scatterplot() {
             .attr("r", R)
             //     function(d) 
             // {
-            // // { console.log(d)
-            // //     console.log(X(d));
+            // // { 
             //     return d.GDP/10000; })
             .attr("pointer-events", "all")
-            .style("stroke", d => colorScale(d.Continent)); 
+            .style("fill", d => colorScale(d.Continent)); 
 
             
           const legend = svg.append("g")
             .attr("transform", `translate(${margin.left-20}, ${325})`);
           var colorScaleDomain = colorScale.domain()
           colorScaleDomain.shift()
-          console.log("Here is the domain")
-          console.log(colorScaleDomain)
+
           const legendItems = legend.selectAll("g")
             .data(colorScaleDomain)
             .enter().append("g")
@@ -152,14 +147,15 @@ function scatterplot() {
           
           legendItems.append("circle")
             .attr("r", 5)
-            .attr("fill", colorScale);
+            .attr("fill", colorScale)
+            .classed("colorLegendPoint", true);
           
           legendItems.append("text")
             .attr("x", 15)
             .attr("y", 6)
             .text(d => d);        
           legendItems._groups.shift()  
-        console.log(legendItems._groups)
+
 
 
         
@@ -167,9 +163,8 @@ function scatterplot() {
             .attr("transform", `translate(${margin.left+200}, ${325})`);
           
           //   var colorScaleDomain2 = colorScale2.domain()
-          // console.log(colorScaleDomain2)
           // colorScaleDomain2.shift()
-          // console.log(colorScaleDomain2)
+
           const legendItems2 = legend2.selectAll("g")
             // .data(rScale.domain())
             .data([1000, 5000, 10000, 50000, 100000])
@@ -178,16 +173,15 @@ function scatterplot() {
           
           legendItems2.append("circle")
             .attr("r", rScale)
-            .classed("legendPoint", true)
+            .classed("sizeLegendPoint", true)
             // .attr("r", rScale);
-            
+          
           
           legendItems2.append("text")
             .attr("x", 15)
             .attr("y", 6)
             .text(d => d);        
-          // legendItems2._groups.shift()  
-        console.log(legendItems2._groups)
+
         selectableElements = points;
       
         
@@ -199,14 +193,14 @@ function scatterplot() {
         svg.selectAll('.scatterPoint')
         .on("mouseover", function(d, i, elements) {
           if (mouseIsDown == true) {
-            d3.select(this).classed("selected", true)
+            selectNode(this)
             updateHighlight()   
           }
           tip.show(d);
         })
         .on("mouseout", function(d, i, elements) {
           if (mouseIsDown == true) {
-            d3.select(this).classed("selected", true)
+            selectNode(this)
             updateHighlight()
           }
           tip.hide(d)
@@ -215,7 +209,7 @@ function scatterplot() {
             mouseIsDown = true
             clickedOnPoint = true
             svg.selectAll(".scatterPoint").classed("selected", false)
-            d3.select(this).classed("selected", true)
+            selectNode(this)
             updateHighlight()
         });
         
@@ -234,11 +228,17 @@ function scatterplot() {
         });
 
         
+        function selectNode(activeNode) {
+          d3.select(activeNode).classed("selected", true)
+          const parent = activeNode.parentNode;
+          parent.removeChild(activeNode);
+          parent.appendChild(activeNode);
+        }
+
         function updateHighlight() {
             let list = svg.selectAll(".selected").data()
             //MAYA ADDED THIS SECTION
             let selectedCountries = list.map(d => d.GeoAreaName);          
-            console.log(selectedCountries);
             updateBarChart(selectedCountries);
             //END MAYA ADDED
             let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
