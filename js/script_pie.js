@@ -1,11 +1,12 @@
 // Initialize an empty object to hold energy data
 let energyData = {};
+let countryEnergyMap = {};
 
 // Function to update the pie chart based on the selected region
 function updatePieChart(region) {
   // Retrieve the data for the specified region
-  const regionData = energyData[region];
-  if (!regionData) return; // Ensure region data exists, exit if not
+  const countryData = countryEnergyMap[countryName];
+  if (!countryData) return;
 
   // Calculate the total energy for the region
   const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
@@ -87,20 +88,17 @@ document.querySelectorAll(".geo-area").forEach((item) => {
 
 // Fetch energy data when the document is loaded
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./data/energyData.json") // Fetch energy data from a JSON file
+  // Load energy data
+  fetch("./data/Processed_Renewable_Energy_Data.json")
     .then((response) => {
-      if (!response.ok) {
-        throw new Error("Failed to load energy data."); // Handle fetch errors
-      }
-      return response.json(); // Parse response as JSON
+      if (!response.ok) throw new Error("Failed to load energy data.");
+      return response.json();
     })
     .then((data) => {
-      energyData = data; // Populate the energyData object with fetched data
-      updatePieChart("World"); // Initialize chart with "World" data
+      energyData = data; // Assign energy data
+      data.forEach((item) => {
+        countryEnergyMap[item.country] = item; // Map country names to their energy data
+      });
     })
-    .catch((error) => {
-      console.error("Error loading energy data:", error); // Log errors to the console
-      document.querySelector(".pie-chart").textContent =
-        "Failed to load chart data."; // Display error message in the chart area
-    });
+    .catch((error) => console.error("Error loading energy data:", error));
 });
