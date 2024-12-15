@@ -232,13 +232,13 @@ function scatterplot() {
         });
         
 
-        document.addEventListener("mousedown", () => {
-            if (clickedOnPoint == false){
-                mouseIsDown = true
-                svg.selectAll(".scatterPoint").classed("selected", false)
-                updateHighlight()
-            }
-        });
+        // document.addEventListener("mousedown", () => {
+        //     if (clickedOnPoint == false){
+        //         mouseIsDown = true
+        //         svg.selectAll(".scatterPoint").classed("selected", false)
+        //         updateHighlight()
+        //     }
+        // });
   
         document.addEventListener("mouseup", () => {
             mouseIsDown = false
