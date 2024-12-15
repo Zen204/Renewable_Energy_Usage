@@ -157,14 +157,18 @@ body {
   
   /* Style for the region selector bar at the bottom of the page */
   .geo-area-list {
-  display: flex; /* Display the buttons in a row */
-  justify-content: center; /* Center the buttons horizontally */
-  gap: 10px; /* Add spacing between buttons */
-  background-color: #f9f9f9; /* Background color for the button container */
-  padding: 10px; /* Add padding for the buttons */
-  border: 1px solid #ccc; /* Add a border around the list */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
-}
+    position: fixed; /* Fix to the bottom of the screen */
+    bottom: 0;
+    left: 0; 
+    right: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    border-top: 1px solid #ccc; 
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+  }
   
   /* Style for individual region buttons */
   .geo-area {
