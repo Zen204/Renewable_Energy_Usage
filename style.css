@@ -136,7 +136,7 @@ body {
   
 
   .legend ul {
-    list-style-type: none; 
+    list-style-type: none; /* Remove bullet points */
     padding: 0; 
     margin: 0; 
   }
@@ -144,7 +144,7 @@ body {
   /* Style for individual legend items */
   .legend li {
     display: flex; 
-    align-items: center; 
+    align-items: center; /* Center content vertically */
     margin: 5px 0; 
   }
   
@@ -166,8 +166,8 @@ body {
     gap: 10px; 
     background-color: #f9f9f9;
     padding: 10px 0;
-    border-top: 1px solid #ccc; 
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
+    border-top: 1px solid #ccc; /* Add a border to separate from content above */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
   }
   
   /* Style for individual region buttons */
@@ -193,7 +193,7 @@ body {
   }
   
   /* Pie CSS ends here */
-
+  
 /* General formatting */
 body {
 	padding: 0 10px;
@@ -211,16 +211,15 @@ h1, h2, h3 {
 	margin: 40px auto;
 }
 
-/* The scatterplot and map will take the left half of the screen */
-.scatterplot-holder, .map-holder {
-	flex: 0 0 50%;  
+/* The scatterplot will take the left half of the screen */
+.scatterplot-holder {
+	flex: 1;  
 }
 
-
-/* The bar and pie charts will take the right half of the screen */
-.barchart-holder, .piechart-holder {
+/* The map will take the left half of the screen */
+.map-holder {
 	flex: 1; 
-  /* background-color: #c3c5cf;  */
+  background-color: #c3c5cf; 
 }
 
 /* Don't also do text drag selection */
@@ -237,24 +236,12 @@ h1, h2, h3 {
 
 /* Default style for marks and channels used for the scatter plot */
 .point {
-	/* fill: white; */
-	stroke: black;
-	stroke-width: 0.5;
+	fill: white;
+	stroke: #400b96;
+	stroke-width: 3;
 	opacity: 0.35;
-  position: relative;
-  z-index: 1;
   }
-
-.sizeLegendPoint {
-  stroke-width: 0.5;
-  stroke: black;
-  fill: white;
-}
-
-.colorLegendPoint {
-  stroke-width: 0.5;
-  stroke: black;
-}
+  
   
   .axisLabel {
 	fill: #475d7c;
@@ -262,19 +249,15 @@ h1, h2, h3 {
   
   /* Style for selected marks (circles) */
   circle.selected {
-	/* fill: blue;
-	stroke: red; */
-	opacity: 1;
-  position: relative;
-  z-index: 999999;
-  /* stroke-width : 10; */
+	fill: pink;
+	stroke: red;
+	opacity: 5;
   }
 
 /* But your visualization should be full-width and full-height */
 .vis-holder {
   width: 100%;
   height: 100%;
-  display: flex;
 }
 
 
