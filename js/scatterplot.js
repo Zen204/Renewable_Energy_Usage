@@ -30,12 +30,22 @@ function scatterplot() {
     // Create the chart by adding an svg to the div with the id 
     // specified by the selector using the given data
     function chart(selector, data) {
+      let mouseIsDown = false
+      let clickedOnPoint = false
+
         let svg = d3.select(selector)
             .append("svg")
             .attr("preserveAspectRatio", "xMidYMid meet")
             .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
             .classed("svg-content", true)
-            .classed("text-unselectable", true);
+            .classed("text-unselectable", true)
+            .on("mousedown", () => {
+                if (clickedOnPoint == false){
+                    mouseIsDown = true
+                    svg.selectAll(".scatterPoint").classed("selected", false)
+                    updateHighlight()
+                }
+            });
     
         svg = svg.append("g")
             .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -203,9 +213,9 @@ function scatterplot() {
         selectableElements = points;
       
         
-        let mouseIsDown = false
-        let clickedOnPoint = false
+        
 
+        
         
 
         svg.selectAll('.scatterPoint')
