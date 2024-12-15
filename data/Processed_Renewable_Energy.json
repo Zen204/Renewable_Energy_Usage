@@ -1,4 +1,10 @@
 {
+    "World": {
+    "BIOENERGY": 18.89716,
+    "HYDROPOWER": 157.45718,
+    "SOLAR": 133.1536,
+    "WIND": 112.73321
+  },
   "Afghanistan": {
     "GeoAreaCode": 4,
     "BIOENERGY": 0.0,
