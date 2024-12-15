@@ -1,24 +1,28 @@
-// Initialize an empty object to hold energy data
 let energyData = {};
+let selectedCountry = "World";
 
-// Function to update the pie chart based on the selected region
-function updatePieChart(region) {
-  // Retrieve the data for the specified region
-  const regionData = energyData[region];
-  if (!regionData) return; // Ensure region data exists, exit if not
+// Function to filter countries in the list
+function filterCountries() {
+  const query = document.getElementById("country-search").value.toLowerCase();
+  document.querySelectorAll(".geo-area").forEach((item) => {
+    item.style.display = item.textContent.toLowerCase().includes(query) ? "block" : "none";
+  });
+}
 
-  // Calculate the total energy for the region
-  const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
-  let cumulativePercentage = 0; // Track cumulative percentage for slices
+// Function to update the pie chart based on the selected country
+function updatePieChart(country) {
+  const countryData = energyData[country];
+  if (!countryData) return;
 
-  // Generate gradient stops for the pie chart based on energy data
-  const gradientStops = Object.entries(regionData).map(([type, value]) => {
-    const percentage = (value / total) * 100; // Calculate percentage of each energy type
-    const start = cumulativePercentage; // Start of the slice
-    const end = cumulativePercentage + percentage; // End of the slice
-    cumulativePercentage = end; // Update cumulative percentage
+  const total = Object.values(countryData).reduce((sum, value) => sum + value, 0);
+  let cumulativePercentage = 0;
 
-    // Define colors for each energy type
+  const gradientStops = Object.entries(countryData).map(([type, value]) => {
+    const percentage = (value / total) * 100;
+    const start = cumulativePercentage;
+    const end = cumulativePercentage + percentage;
+    cumulativePercentage = end;
+
     const colors = {
       BIOENERGY: "#0fa049",
       HYDROPOWER: "#40a8c4",
@@ -26,81 +30,72 @@ function updatePieChart(region) {
       WIND: "#8e44ad",
     };
 
-    return { type, color: colors[type], start, end, value, percentage }; // Return gradient stop data
+    return { type, color: colors[type], start, end, value, percentage };
   });
 
-  // Select the pie chart element and set its background using conic-gradient
   const chart = document.querySelector(".pie-chart");
   chart.style.background = `conic-gradient(${gradientStops
     .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
     .join(", ")})`;
 
-  // Add an event listener for mouse movement over the pie chart
   chart.addEventListener("mousemove", (e) => {
     const rect = chart.getBoundingClientRect();
-    const x = e.clientX - rect.left - rect.width / 2; // Calculate x relative to center
-    const y = e.clientY - rect.top - rect.height / 2; // Calculate y relative to center
-    const angle = (Math.atan2(y, x) * (180 / Math.PI) + 360) % 360; // Calculate angle in degrees
+    const x = e.clientX - rect.left - rect.width / 2;
+    const y = e.clientY - rect.top - rect.height / 2;
+    const angle = (Math.atan2(y, x) * (180 / Math.PI) + 360) % 360;
 
-    // Find the slice corresponding to the mouse position
     const hoveredSlice = gradientStops.find(
       (stop) => angle >= stop.start * 3.6 && angle < stop.end * 3.6
     );
 
-    // Display a tooltip with information about the hovered slice
     const tooltip = document.getElementById("tooltip");
     if (hoveredSlice) {
-      tooltip.style.opacity = 1; // Show tooltip
-      tooltip.style.left = `${e.clientX + 10}px`; // Position tooltip near the mouse
+      tooltip.style.opacity = 1;
+      tooltip.style.left = `${e.clientX + 10}px`;
       tooltip.style.top = `${e.clientY + 10}px`;
       tooltip.textContent = `${hoveredSlice.type}: ${hoveredSlice.value.toFixed(
         2
-      )} W/Capita (${hoveredSlice.percentage.toFixed(2)}%)`; // Display slice info
+      )} W/Capita (${hoveredSlice.percentage.toFixed(2)}%)`;
     } else {
-      tooltip.style.opacity = 0; // Hide tooltip if no slice is hovered
+      tooltip.style.opacity = 0;
     }
   });
 
-  // Hide tooltip when the mouse leaves the pie chart
   chart.addEventListener("mouseleave", () => {
     document.getElementById("tooltip").style.opacity = 0;
   });
 }
 
-// Variable to store the currently selected region
-let selectedRegion = "World";
-
-// Add hover listeners to region list elements to update the pie chart
-document.querySelectorAll(".geo-area").forEach((item) => {
-  item.addEventListener("mouseenter", () => {
-    const region = item.textContent.trim(); // Get region name from element text
-    selectedRegion = region; // Update selected region
-    updatePieChart(selectedRegion); // Update the pie chart with new region data
-
-    // Highlight the selected region in the list
-    document
-      .querySelectorAll(".geo-area")
-      .forEach((el) => el.classList.remove("selected")); // Remove existing highlights
-    item.classList.add("selected"); // Highlight the hovered region
-  });
-});
-
-// Fetch energy data when the document is loaded
+// Fetch energy data and initialize the UI
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./data/energyData.json") // Fetch energy data from a JSON file
+  fetch("./Processed_Renewable_Energy.json")
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Failed to load energy data."); // Handle fetch errors
+        throw new Error("Failed to load energy data.");
       }
-      return response.json(); // Parse response as JSON
+      return response.json();
     })
     .then((data) => {
-      energyData = data; // Populate the energyData object with fetched data
-      updatePieChart("World"); // Initialize chart with "World" data
+      energyData = data;
+
+      const countryList = document.getElementById("country-list");
+      Object.keys(data).forEach((country) => {
+        const item = document.createElement("div");
+        item.className = "geo-area";
+        item.textContent = country;
+        item.addEventListener("mouseenter", () => {
+          selectedCountry = country;
+          updatePieChart(selectedCountry);
+          document.querySelectorAll(".geo-area").forEach((el) => el.classList.remove("selected"));
+          item.classList.add("selected");
+        });
+        countryList.appendChild(item);
+      });
+
+      updatePieChart(selectedCountry); // Initialize with "World" data
     })
     .catch((error) => {
-      console.error("Error loading energy data:", error); // Log errors to the console
-      document.querySelector(".pie-chart").textContent =
-        "Failed to load chart data."; // Display error message in the chart area
+      console.error("Error loading energy data:", error);
+      document.querySelector(".pie-chart").textContent = "Failed to load chart data.";
     });
 });
