@@ -117,6 +117,37 @@ function map(dataset) {
 
         
     }
-  
 
+    function update(countrySelection){
+        // function findFunction(country){
+        //     console.log("country")
+        //     console.log(country)
+        //     return true
+        // }
+        nodeList = svg.selectAll("path")._groups[0]
+        
+        nodeList.forEach(country => {
+            if (country.__data__.properties != undefined){
+                if (countrySelection.includes(country.__data__.properties.name)){
+                    country.__data__.mapSelected = true
+                    d3.select(country).style("stroke", "red").style("stroke-width",3)
+                }
+                else{
+                    country.__data__.mapSelected = false
+                    d3.select(country).style("stroke", "black").style("stroke-width",0.3)
+                }
+            }
+          });
+        // console.log(user)
+    }
+    return update;
+}
+
+// Usage of the map function
+var mapUpdate = map("data/world_rnew.tsv");
+
+// Function to update the bar chart based on selected countries
+function updateMap(selectedCountries) {
+    // console.log(selectedCountries)
+    mapUpdate(selectedCountries);
 }

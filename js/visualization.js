@@ -22,7 +22,7 @@
     // Initialize the bar chart
     var barChartUpdate = barchart(460, 400, "barchart");
     
-    var mapChart = map("data/world_rnew.tsv")
+    // var mapChart = map("data/world_rnew.tsv")
     let barChart = barchart();
 
     let lcYearPoverty = linechart()

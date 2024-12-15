@@ -259,6 +259,9 @@ function scatterplot() {
             let selectedCountries = list.map(d => d.GeoAreaName);          
             updateBarChart(selectedCountries);
             //END MAYA ADDED
+            //MADELINE ADDED THIS
+            updateMap(selectedCountries);
+            //MADELINE DONE
             let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
 
             // Let other charts know about our selection
