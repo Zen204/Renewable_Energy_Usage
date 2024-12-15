@@ -76,124 +76,108 @@ names {
 
 /* Pie CSS starts here */
 
-/* Reset body styles and apply a global font */
-body {
-    font-family: Arial, sans-serif; /* Set font family for the entire page */
-    margin: 0; 
-    padding: 0; 
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
   }
   
-  /* Center-align the main heading and add some spacing */
   h1 {
-    text-align: center; 
-    margin-top: 20px; 
+    text-align: center;
+    margin-top: 20px;
   }
   
-  /* Center content horizontally and vertically, and stack items in a column */
   .content {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
-  /* Define the container for the pie chart with a fixed size */
   .chart-container {
-    position: relative; 
-    width: 300px; 
-    height: 300px; 
-    margin: 10px auto; 
-  }
-  
-  /* Style the pie chart itself */
-  .pie-chart {
-    width: 100%; 
-    height: 100%; 
-    border-radius: 50%; 
-    background: conic-gradient(#ddd 0%, #ddd 100%); 
     position: relative;
-    transform: rotate(90deg); 
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
   }
   
-  /* Style the tooltip that appears over the chart */
-  .tooltip {
-    position: sticky;
-    padding: 10px 10px; 
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #fff; 
-    font-size: 15px; 
-    border-radius: 1px; 
-    pointer-events: none; 
-    opacity: 0; 
-    transition: opacity 0.3s ease; 
-    z-index: 1;
-  }
-  
-  /* Style for the legend below the chart */
-  .legend {
-    margin-top: 10px; 
-  }
-  
+  .pie-chart {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(#ddd 0%, #ddd 100%);
+    position: relative;
+    transform: rotate(90deg);
+  } 
 
+  .tooltip {
+    position: absolute;
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+  }
+  
+  .legend {
+    margin-top: 20px;
+  }
+  
   .legend ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; 
-    margin: 0; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
   
-  /* Style for individual legend items */
   .legend li {
-    display: flex; 
-    align-items: center; /* Center content vertically */
-    margin: 5px 0; 
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
   }
   
-  /* Style for the color boxes in the legend */
   .color-box {
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; /* Add space between the box and text */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
   }
   
-  /* Style for the region selector bar at the bottom of the page */
-  .geo-area-list {
-    position: fixed; /* Fix to the bottom of the screen */
+.geo-area-list {
+    position: fixed;
     bottom: 0;
-    left: 0; 
-    right: 0; 
-    display: flex; 
-    justify-content: center; 
-    gap: 10px; 
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     background-color: #f9f9f9;
     padding: 10px 0;
-    border-top: 1px solid #ccc; /* Add a border to separate from content above */
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-top: 1px solid #ccc;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
   }
   
-  /* Style for individual region buttons */
   .geo-area {
-    background-color: #ddd; 
+    background-color: #ddd;
     padding: 10px 15px;
     border-radius: 5px;
-    text-align: center; 
+    text-align: center;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease; 
+    transition: background-color 0.3s ease, transform 0.2s ease;
   }
   
-  /* Hover effect for region buttons */
   .geo-area:hover {
-    background-color: #ccc; 
-    transform: scale(1.1); 
+    background-color: #ccc;
+    transform: scale(1.1);
   }
   
-  /* Style for the currently selected region */
   .geo-area.selected {
-    background-color: #bbb; /* Slightly darker background for the selected region */
-    font-weight: bold; 
+    background-color: #bbb;
+    font-weight: bold;
   }
-  
-  /* Pie CSS ends here */
-  
+/* Pie CSS ends here */
 /* General formatting */
 body {
 	padding: 0 10px;
@@ -211,15 +195,16 @@ h1, h2, h3 {
 	margin: 40px auto;
 }
 
-/* The scatterplot will take the left half of the screen */
-.scatterplot-holder {
-	flex: 1;  
+/* The scatterplot and map will take the left half of the screen */
+.scatterplot-holder, .map-holder {
+	flex: 0 0 50%;  
 }
 
-/* The map will take the left half of the screen */
-.map-holder {
+
+/* The bar and pie charts will take the right half of the screen */
+.barchart-holder, .piechart-holder {
 	flex: 1; 
-  background-color: #c3c5cf; 
+  /* background-color: #c3c5cf;  */
 }
 
 /* Don't also do text drag selection */
@@ -236,12 +221,24 @@ h1, h2, h3 {
 
 /* Default style for marks and channels used for the scatter plot */
 .point {
-	fill: white;
-	stroke: #400b96;
-	stroke-width: 3;
+	/* fill: white; */
+	stroke: black;
+	stroke-width: 0.5;
 	opacity: 0.35;
+  position: relative;
+  z-index: 1;
   }
-  
+
+.sizeLegendPoint {
+  stroke-width: 0.5;
+  stroke: black;
+  fill: white;
+}
+
+.colorLegendPoint {
+  stroke-width: 0.5;
+  stroke: black;
+}
   
   .axisLabel {
 	fill: #475d7c;
@@ -249,15 +246,19 @@ h1, h2, h3 {
   
   /* Style for selected marks (circles) */
   circle.selected {
-	fill: pink;
-	stroke: red;
-	opacity: 5;
+	/* fill: blue;
+	stroke: red; */
+	opacity: 1;
+  position: relative;
+  z-index: 999999;
+  /* stroke-width : 10; */
   }
 
 /* But your visualization should be full-width and full-height */
 .vis-holder {
   width: 100%;
   height: 100%;
+  display: flex;
 }
 
 
