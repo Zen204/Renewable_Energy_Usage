@@ -10,7 +10,7 @@ function scatterplot() {
         top: 60,
         left: 50,
         right: 30, 
-        bottom: 150
+        bottom: 170
       },
     width = 500 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom,
@@ -72,7 +72,9 @@ function scatterplot() {
         // X axis label
         xAxis.append("text")        
             .attr("class", "axisLabel")
-            .attr("transform", "translate(" + (width - 300) + ",-10)")
+            .attr("text-anchor", "middle")
+            .attr("y", height-margin.bottom-72)
+            .attr("x", width/2)
             .text(xLabelText);
         
         
@@ -80,9 +82,17 @@ function scatterplot() {
             .call(d3.axisLeft(yScale))
             .append("text")
             .attr("class", "axisLabel")
-            .attr("transform", "translate(" + yLabelOffsetPx + ", -12)")
-            .text(yLabelText);
-  
+            // .attr("transform", "translate(0, 125)")
+            .attr("writing-mode", "vertical-lr")
+            .attr("text-anchor", "middle")
+            .attr("transform", "rotate(180)")
+            .attr("y", -height / 2)
+            .attr("x", -margin.left + 80)
+            .text(yLabelText)
+            
+        
+        
+
         const colorScale = d3.scaleOrdinal()
             .domain(data.map(d => d.category)) // Get unique categories
             .range(["#000000", "#e6194B", "#f58231", "#FFD700", "#3cb44b",
@@ -110,8 +120,8 @@ function scatterplot() {
         .offset([-10, 0])
         .html(function(d) {
             return "<strong>Country: </strong><span class='details'>" + d.GeoAreaName + "<br></span>" 
-            + "<strong>Electricity: </strong><span class='details'>" + d.Electricity2021 +"<br></span>" 
-            + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "<br></span>" 
+            + "<strong>Electricity Access: </strong><span class='details'>" + d.Electricity2021 +"%<br></span>" 
+            + "<strong>Renewable Energy: </strong><span class='details'>" + d.Renewable2021 + "%<br></span>" 
             + "<strong>GDP per Capita: </strong><span class='details'>" + d.GDP + "</span>";
         })
 
@@ -136,7 +146,7 @@ function scatterplot() {
 
             
           const legend = svg.append("g")
-            .attr("transform", `translate(${margin.left-20}, ${325})`);
+            .attr("transform", `translate(${margin.left-20}, ${height+margin.top})`);
           var colorScaleDomain = colorScale.domain()
           colorScaleDomain.shift()
 
@@ -155,12 +165,16 @@ function scatterplot() {
             .attr("y", 6)
             .text(d => d);        
           legendItems._groups.shift()  
-
+          
+          let legendLabel = svg.append("text")
+            // .classed("legend ", "axisLabel")
+            .attr("transform", `translate(${margin.left-26}, ${height+margin.top-12})`)
+            .text("Country by Color")
 
 
         
         const legend2 = svg.append("g")
-            .attr("transform", `translate(${margin.left+200}, ${325})`);
+            .attr("transform", `translate(${margin.left+200}, ${height+margin.top})`);
           
           //   var colorScaleDomain2 = colorScale2.domain()
           // colorScaleDomain2.shift()
@@ -182,6 +196,10 @@ function scatterplot() {
             .attr("y", 6)
             .text(d => d);        
 
+          let legendLabel2 = svg.append("text")
+            // .classed("legend ", "axisLabel")
+            .attr("transform", `translate(${margin.left+194}, ${height+margin.top-12})`)
+            .text("Country GDP by Size")
         selectableElements = points;
       
         

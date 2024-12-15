@@ -13,9 +13,9 @@
     // a div id selector to put our svg in; and the data to use.
     let scatter = scatterplot()
       .x(d => d.Electricity2021)
-      .xLabel("Electricity Percentages")
+      .xLabel("Percent of Population with Access to Electricty")
       .y(d => d.Renewable2021)
-      .yLabel("Renewable Energy Percentages")
+      .yLabel("Percent of Total Energy that comes from Renewable Sources")
       .yLabelOffset(150)
       .selectionDispatcher(d3.dispatch(dispatchString))
       ("#scatterplot", data);
