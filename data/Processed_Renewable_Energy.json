@@ -1,1429 +1,1226 @@
 {
     "World": {
-    "BIOENERGY": 18.89716,
-    "HYDROPOWER": 157.45718,
-    "SOLAR": 133.1536,
-    "WIND": 112.73321
-  },
-  "Afghanistan": {
-    "GeoAreaCode": 4,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 8.89309,
-    "SOLAR": 0.76465,
-    "WIND": 0.00998
-  },
-  "Albania": {
-    "GeoAreaCode": 8,
-    "BIOENERGY": 0.49918,
-    "HYDROPOWER": 878.19779,
-    "SOLAR": 8.05686,
-    "WIND": 0.0
-  },
-  "Algeria": {
-    "GeoAreaCode": 12,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 2.91774,
-    "SOLAR": 10.14976,
-    "WIND": 0.22636
-  },
-  "Andorra": {
-    "GeoAreaCode": 20,
-    "BIOENERGY": 63.26391,
-    "HYDROPOWER": 582.02799,
-    "SOLAR": 55.06491,
-    "WIND": 0.0
-  },
-  "Angola": {
-    "GeoAreaCode": 24,
-    "BIOENERGY": 1.4781,
-    "HYDROPOWER": 108.08322,
-    "SOLAR": 0.04223,
-    "WIND": 0.0
-  },
-  "Anguilla": {
-    "GeoAreaCode": 660,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 97.88612,
-    "WIND": 0.0
-  },
-  "Antigua and Barbuda": {
-    "GeoAreaCode": 28,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 137.99762,
-    "WIND": 0.0
-  },
-  "Argentina": {
-    "GeoAreaCode": 32,
-    "BIOENERGY": 6.21195,
-    "HYDROPOWER": 229.15775,
-    "SOLAR": 23.70358,
-    "WIND": 72.71109
-  },
-  "Armenia": {
-    "GeoAreaCode": 51,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 481.98228,
-    "SOLAR": 52.34732,
-    "WIND": 1.04802
-  },
-  "Aruba": {
-    "GeoAreaCode": 533,
-    "BIOENERGY": 18.77282,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 127.65518,
-    "WIND": 281.59231
-  },
-  "Australia": {
-    "GeoAreaCode": 36,
-    "BIOENERGY": 33.60198,
-    "HYDROPOWER": 297.55694,
-    "SOLAR": 993.66967,
-    "WIND": 407.1974
-  },
-  "Austria": {
-    "GeoAreaCode": 40,
-    "BIOENERGY": 131.25793,
-    "HYDROPOWER": 1652.96934,
-    "SOLAR": 311.8781,
-    "WIND": 381.95244
-  },
-  "Azerbaijan": {
-    "GeoAreaCode": 31,
-    "BIOENERGY": 4.33434,
-    "HYDROPOWER": 112.20798,
-    "SOLAR": 4.64463,
-    "WIND": 6.39969
-  },
-  "Bahamas": {
-    "GeoAreaCode": 44,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 17.04559,
-    "WIND": 0.73546
-  },
-  "Bahrain": {
-    "GeoAreaCode": 48,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 7.73749,
-    "WIND": 0.46471
-  },
-  "Bangladesh": {
-    "GeoAreaCode": 50,
-    "BIOENERGY": 0.03159,
-    "HYDROPOWER": 1.35808,
-    "SOLAR": 2.98611,
-    "WIND": 0.01712
-  },
-  "Barbados": {
-    "GeoAreaCode": 52,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 227.33286,
-    "WIND": 0.21337
-  },
-  "Belarus": {
-    "GeoAreaCode": 112,
-    "BIOENERGY": 12.57025,
-    "HYDROPOWER": 10.02279,
-    "SOLAR": 17.05963,
-    "WIND": 11.66194
-  },
-  "Belgium": {
-    "GeoAreaCode": 56,
-    "BIOENERGY": 70.35316,
-    "HYDROPOWER": 9.53372,
-    "SOLAR": 517.80062,
-    "WIND": 426.16669
-  },
-  "Belize": {
-    "GeoAreaCode": 84,
-    "BIOENERGY": 88.74312,
-    "HYDROPOWER": 142.36397,
-    "SOLAR": 16.37373,
-    "WIND": 0.05
-  },
-  "Benin": {
-    "GeoAreaCode": 204,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.03847,
-    "SOLAR": 0.22621,
-    "WIND": 0.0
-  },
-  "Bhutan": {
-    "GeoAreaCode": 64,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 3002.41419,
-    "SOLAR": 0.58522,
-    "WIND": 0.77172
-  },
-  "Bolivia (Plurinational State of)": {
-    "GeoAreaCode": 68,
-    "BIOENERGY": 20.91399,
-    "HYDROPOWER": 65.93252,
-    "SOLAR": 14.10327,
-    "WIND": 10.57993
-  },
-  "Bosnia and Herzegovina": {
-    "GeoAreaCode": 70,
-    "BIOENERGY": 3.12142,
-    "HYDROPOWER": 561.54448,
-    "SOLAR": 17.27636,
-    "WIND": 41.2725
-  },
-  "Botswana": {
-    "GeoAreaCode": 72,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 2.42194,
-    "WIND": 0.0
-  },
-  "Brazil": {
-    "GeoAreaCode": 76,
-    "BIOENERGY": 76.29169,
-    "HYDROPOWER": 510.55932,
-    "SOLAR": 66.24039,
-    "WIND": 98.73393
-  },
-  "Brunei Darussalam": {
-    "GeoAreaCode": 96,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 10.93465,
-    "WIND": 0.0
-  },
-  "Bulgaria": {
-    "GeoAreaCode": 100,
-    "BIOENERGY": 6.87219,
-    "HYDROPOWER": 363.8224,
-    "SOLAR": 185.12016,
-    "WIND": 102.29284
-  },
-  "Burkina Faso": {
-    "GeoAreaCode": 854,
-    "BIOENERGY": 0.04072,
-    "HYDROPOWER": 1.56556,
-    "SOLAR": 2.55187,
-    "WIND": 0.0
-  },
-  "Burundi": {
-    "GeoAreaCode": 108,
-    "BIOENERGY": 0.31869,
-    "HYDROPOWER": 3.84688,
-    "SOLAR": 0.7173,
-    "WIND": 0.0
-  },
-  "Cabo Verde": {
-    "GeoAreaCode": 132,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 12.8945,
-    "WIND": 47.28494
-  },
-  "Cambodia": {
-    "GeoAreaCode": 116,
-    "BIOENERGY": 2.5963,
-    "HYDROPOWER": 80.15541,
-    "SOLAR": 22.64172,
-    "WIND": 0.01507
-  },
-  "Cameroon": {
-    "GeoAreaCode": 120,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 29.86548,
-    "SOLAR": 0.52639,
-    "WIND": 0.0
-  },
-  "Canada": {
-    "GeoAreaCode": 124,
-    "BIOENERGY": 70.08141,
-    "HYDROPOWER": 2168.43855,
-    "SOLAR": 119.35522,
-    "WIND": 374.88024
-  },
-  "Cayman Islands": {
-    "GeoAreaCode": 136,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 201.08313,
-    "WIND": 0.0
-  },
-  "Central African Republic": {
-    "GeoAreaCode": 140,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 3.45418,
-    "SOLAR": 0.05791,
-    "WIND": 0.0
-  },
-  "Chad": {
-    "GeoAreaCode": 148,
-    "BIOENERGY": 0.11642,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.04232,
-    "WIND": 0.06403
-  },
-  "Chile": {
-    "GeoAreaCode": 152,
-    "BIOENERGY": 68.1768,
-    "HYDROPOWER": 349.19247,
-    "SOLAR": 229.22253,
-    "WIND": 160.92835
-  },
-  "China": {
-    "GeoAreaCode": 156,
-    "BIOENERGY": 20.86636,
-    "HYDROPOWER": 248.63709,
-    "SOLAR": 215.28453,
-    "WIND": 230.71389
-  },
-  "China, Hong Kong Special Administrative Region": {
-    "GeoAreaCode": 344,
-    "BIOENERGY": 6.97251,
-    "HYDROPOWER": 0.06671,
-    "SOLAR": 12.72133,
-    "WIND": 0.10714
-  },
-  "Colombia": {
-    "GeoAreaCode": 170,
-    "BIOENERGY": 7.70061,
-    "HYDROPOWER": 232.12523,
-    "SOLAR": 3.95859,
-    "WIND": 0.35755
-  },
-  "Comoros": {
-    "GeoAreaCode": 174,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 1.76236,
-    "SOLAR": 0.0,
-    "WIND": 0.0
-  },
-  "Congo": {
-    "GeoAreaCode": 178,
-    "BIOENERGY": 2.09054,
-    "HYDROPOWER": 36.65303,
-    "SOLAR": 0.09682,
-    "WIND": 0.0
-  },
-  "Cook Islands": {
-    "GeoAreaCode": 184,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 327.58925,
-    "WIND": 0.0
-  },
-  "Costa Rica": {
-    "GeoAreaCode": 188,
-    "BIOENERGY": 15.66932,
-    "HYDROPOWER": 461.65674,
-    "SOLAR": 14.33248,
-    "WIND": 75.7127
-  },
-  "Côte d'Ivoire": {
-    "GeoAreaCode": 384,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 31.98894,
-    "SOLAR": 0.28022,
-    "WIND": 0.0
-  },
-  "Croatia": {
-    "GeoAreaCode": 191,
-    "BIOENERGY": 38.02829,
-    "HYDROPOWER": 541.97705,
-    "SOLAR": 34.06291,
-    "WIND": 243.07074
-  },
-  "Cuba": {
-    "GeoAreaCode": 192,
-    "BIOENERGY": 84.64619,
-    "HYDROPOWER": 6.38749,
-    "SOLAR": 21.84958,
-    "WIND": 1.04385
-  },
-  "Curaçao": {
-    "GeoAreaCode": 531,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 69.48166,
-    "WIND": 244.30224
-  },
-  "Cyprus": {
-    "GeoAreaCode": 196,
-    "BIOENERGY": 10.57236,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 252.79379,
-    "WIND": 126.58859
-  },
-  "Czechia": {
-    "GeoAreaCode": 203,
-    "BIOENERGY": 81.20257,
-    "HYDROPOWER": 105.92611,
-    "SOLAR": 213.69463,
-    "WIND": 32.29208
-  },
-  "Democratic People's Republic of Korea": {
-    "GeoAreaCode": 408,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 187.31777,
-    "SOLAR": 1.99369,
-    "WIND": 0.0231
-  },
-  "Democratic Republic of the Congo": {
-    "GeoAreaCode": 180,
-    "BIOENERGY": 0.03087,
-    "HYDROPOWER": 28.35002,
-    "SOLAR": 0.20694,
-    "WIND": 0.0
-  },
-  "Denmark": {
-    "GeoAreaCode": 208,
-    "BIOENERGY": 367.24682,
-    "HYDROPOWER": 1.21672,
-    "SOLAR": 291.07809,
-    "WIND": 1199.27437
-  },
-  "Djibouti": {
-    "GeoAreaCode": 262,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.32744,
-    "WIND": 18.09043
-  },
-  "Dominica": {
-    "GeoAreaCode": 212,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 91.69751,
-    "SOLAR": 4.35011,
-    "WIND": 3.31437
-  },
-  "Dominican Republic": {
-    "GeoAreaCode": 214,
-    "BIOENERGY": 4.67544,
-    "HYDROPOWER": 56.21444,
-    "SOLAR": 55.42337,
-    "WIND": 33.30673
-  },
-  "Ecuador": {
-    "GeoAreaCode": 218,
-    "BIOENERGY": 8.57525,
-    "HYDROPOWER": 286.48283,
-    "SOLAR": 1.55368,
-    "WIND": 1.18835
-  },
-  "Egypt": {
-    "GeoAreaCode": 818,
-    "BIOENERGY": 1.12573,
-    "HYDROPOWER": 25.91931,
-    "SOLAR": 15.2157,
-    "WIND": 15.00977
-  },
-  "El Salvador": {
-    "GeoAreaCode": 222,
-    "BIOENERGY": 47.65522,
-    "HYDROPOWER": 90.73913,
-    "SOLAR": 86.02845,
-    "WIND": 8.5522
-  },
-  "Equatorial Guinea": {
-    "GeoAreaCode": 226,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 77.78687,
-    "SOLAR": 0.11196,
-    "WIND": 0.0
-  },
-  "Eritrea": {
-    "GeoAreaCode": 232,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 2.9851,
-    "WIND": 0.22788
-  },
-  "Estonia": {
-    "GeoAreaCode": 233,
-    "BIOENERGY": 222.77397,
-    "HYDROPOWER": 4.51569,
-    "SOLAR": 297.10973,
-    "WIND": 237.07365
-  },
-  "Eswatini": {
-    "GeoAreaCode": 748,
-    "BIOENERGY": 88.90596,
-    "HYDROPOWER": 52.16935,
-    "SOLAR": 9.16738,
-    "WIND": 0.0
-  },
-  "Ethiopia": {
-    "GeoAreaCode": 231,
-    "BIOENERGY": 2.7851,
-    "HYDROPOWER": 33.84749,
-    "SOLAR": 0.17612,
-    "WIND": 2.6937
-  },
-  "Fiji": {
-    "GeoAreaCode": 242,
-    "BIOENERGY": 66.32418,
-    "HYDROPOWER": 149.71718,
-    "SOLAR": 9.77061,
-    "WIND": 11.00464
-  },
-  "Finland": {
-    "GeoAreaCode": 246,
-    "BIOENERGY": 489.70446,
-    "HYDROPOWER": 572.79707,
-    "SOLAR": 76.77034,
-    "WIND": 588.33178
-  },
-  "France": {
-    "GeoAreaCode": 250,
-    "BIOENERGY": 31.67417,
-    "HYDROPOWER": 380.64848,
-    "SOLAR": 229.64592,
-    "WIND": 290.40072
-  },
-  "French Polynesia": {
-    "GeoAreaCode": 258,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 156.66114,
-    "SOLAR": 150.2309,
-    "WIND": 0.8157
-  },
-  "Gabon": {
-    "GeoAreaCode": 266,
-    "BIOENERGY": 0.51256,
-    "HYDROPOWER": 141.07721,
-    "SOLAR": 0.21357,
-    "WIND": 0.0
-  },
-  "Gambia": {
-    "GeoAreaCode": 270,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 1.01481,
-    "WIND": 0.45986
-  },
-  "Georgia": {
-    "GeoAreaCode": 268,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 789.47466,
-    "SOLAR": 4.8872,
-    "WIND": 5.58811
-  },
-  "Germany": {
-    "GeoAreaCode": 276,
-    "BIOENERGY": 117.78768,
-    "HYDROPOWER": 65.82059,
-    "SOLAR": 711.83346,
-    "WIND": 765.3052
-  },
-  "Ghana": {
-    "GeoAreaCode": 288,
-    "BIOENERGY": 0.25505,
-    "HYDROPOWER": 48.24547,
-    "SOLAR": 3.34307,
-    "WIND": 0.00061
-  },
-  "Greece": {
-    "GeoAreaCode": 300,
-    "BIOENERGY": 10.38805,
-    "HYDROPOWER": 327.51369,
-    "SOLAR": 409.50412,
-    "WIND": 445.09024
-  },
-  "Greenland": {
-    "GeoAreaCode": 304,
-    "BIOENERGY": 10.31239,
-    "HYDROPOWER": 1623.31312,
-    "SOLAR": 10.49019,
-    "WIND": 0.889
-  },
-  "Grenada": {
-    "GeoAreaCode": 308,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 29.32349,
-    "WIND": 0.642
-  },
-  "Guatemala": {
-    "GeoAreaCode": 320,
-    "BIOENERGY": 49.40914,
-    "HYDROPOWER": 89.25607,
-    "SOLAR": 5.75336,
-    "WIND": 6.09933
-  },
-  "Guinea": {
-    "GeoAreaCode": 324,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 60.17039,
-    "SOLAR": 1.08019,
-    "WIND": 0.0
-  },
-  "Guinea-Bissau": {
-    "GeoAreaCode": 624,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.56728,
-    "WIND": 0.0
-  },
-  "Guyana": {
-    "GeoAreaCode": 328,
-    "BIOENERGY": 52.65565,
-    "HYDROPOWER": 2.94568,
-    "SOLAR": 10.38447,
-    "WIND": 0.21502
-  },
-  "Haiti": {
-    "GeoAreaCode": 332,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 6.81245,
-    "SOLAR": 0.24092,
-    "WIND": 0.0021
-  },
-  "Honduras": {
-    "GeoAreaCode": 340,
-    "BIOENERGY": 21.87648,
-    "HYDROPOWER": 82.66214,
-    "SOLAR": 51.43941,
-    "WIND": 23.24304
-  },
-  "Hungary": {
-    "GeoAreaCode": 348,
-    "BIOENERGY": 56.69538,
-    "HYDROPOWER": 6.17933,
-    "SOLAR": 305.671,
-    "WIND": 33.3684
-  },
-  "Iceland": {
-    "GeoAreaCode": 352,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 5709.65207,
-    "SOLAR": 18.90451,
-    "WIND": 4.86046
-  },
-  "India": {
-    "GeoAreaCode": 356,
-    "BIOENERGY": 7.52493,
-    "HYDROPOWER": 33.23533,
-    "SOLAR": 35.33103,
-    "WIND": 28.46568
-  },
-  "Indonesia": {
-    "GeoAreaCode": 360,
-    "BIOENERGY": 8.29278,
-    "HYDROPOWER": 24.1157,
-    "SOLAR": 0.82205,
-    "WIND": 0.56368
-  },
-  "Iran (Islamic Republic of)": {
-    "GeoAreaCode": 364,
-    "BIOENERGY": 0.12989,
-    "HYDROPOWER": 126.84559,
-    "SOLAR": 5.18472,
-    "WIND": 3.52807
-  },
-  "Iraq": {
-    "GeoAreaCode": 368,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 35.77329,
-    "SOLAR": 0.85166,
-    "WIND": 0.0
-  },
-  "Ireland": {
-    "GeoAreaCode": 372,
-    "BIOENERGY": 21.57434,
-    "HYDROPOWER": 47.52808,
-    "SOLAR": 27.1275,
-    "WIND": 870.15309
-  },
-  "Israel": {
-    "GeoAreaCode": 376,
-    "BIOENERGY": 2.92447,
-    "HYDROPOWER": 0.67415,
-    "SOLAR": 403.48047,
-    "WIND": 3.06178
-  },
-  "Italy": {
-    "GeoAreaCode": 380,
-    "BIOENERGY": 57.73737,
-    "HYDROPOWER": 317.50804,
-    "SOLAR": 381.50239,
-    "WIND": 189.96743
-  },
-  "Jamaica": {
-    "GeoAreaCode": 388,
-    "BIOENERGY": 11.36261,
-    "HYDROPOWER": 10.60935,
-    "SOLAR": 32.71675,
-    "WIND": 36.07178
-  },
-  "Japan": {
-    "GeoAreaCode": 392,
-    "BIOENERGY": 36.58541,
-    "HYDROPOWER": 225.59529,
-    "SOLAR": 629.25454,
-    "WIND": 34.20202
-  },
-  "Jordan": {
-    "GeoAreaCode": 400,
-    "BIOENERGY": 1.1661,
-    "HYDROPOWER": 1.23786,
-    "SOLAR": 136.3955,
-    "WIND": 55.74942
-  },
-  "Kazakhstan": {
-    "GeoAreaCode": 398,
-    "BIOENERGY": 0.40737,
-    "HYDROPOWER": 146.22484,
-    "SOLAR": 54.05214,
-    "WIND": 35.62896
-  },
-  "Kenya": {
-    "GeoAreaCode": 404,
-    "BIOENERGY": 1.86214,
-    "HYDROPOWER": 16.04249,
-    "SOLAR": 4.10155,
-    "WIND": 8.22743
-  },
-  "Kiribati": {
-    "GeoAreaCode": 296,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 24.93133,
-    "WIND": 0.0
-  },
-  "Kuwait": {
-    "GeoAreaCode": 414,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 19.82512,
-    "WIND": 2.91757
-  },
-  "Kyrgyzstan": {
-    "GeoAreaCode": 417,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 425.93589,
-    "SOLAR": 0.0,
-    "WIND": 0.0
-  },
-  "Lao People's Democratic Republic": {
-    "GeoAreaCode": 418,
-    "BIOENERGY": 14.44972,
-    "HYDROPOWER": 1184.23131,
-    "SOLAR": 4.58582,
-    "WIND": 0.0
-  },
-  "Latvia": {
-    "GeoAreaCode": 428,
-    "BIOENERGY": 80.98269,
-    "HYDROPOWER": 847.011,
-    "SOLAR": 3.8182,
-    "WIND": 41.1592
-  },
-  "Lebanon": {
-    "GeoAreaCode": 422,
-    "BIOENERGY": 1.25165,
-    "HYDROPOWER": 50.42349,
-    "SOLAR": 33.94467,
-    "WIND": 0.53642
-  },
-  "Lesotho": {
-    "GeoAreaCode": 426,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 32.51435,
-    "SOLAR": 0.28184,
-    "WIND": 0.0
-  },
-  "Liberia": {
-    "GeoAreaCode": 430,
-    "BIOENERGY": 0.03562,
-    "HYDROPOWER": 17.88033,
-    "SOLAR": 0.49736,
-    "WIND": 0.0
-  },
-  "Libya": {
-    "GeoAreaCode": 434,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.94027,
-    "WIND": 0.0
-  },
-  "Lithuania": {
-    "GeoAreaCode": 440,
-    "BIOENERGY": 41.4476,
-    "HYDROPOWER": 41.98588,
-    "SOLAR": 91.50769,
-    "WIND": 240.79083
-  },
-  "Luxembourg": {
-    "GeoAreaCode": 442,
-    "BIOENERGY": 87.88543,
-    "HYDROPOWER": 54.00573,
-    "SOLAR": 433.524,
-    "WIND": 213.42018
-  },
-  "Madagascar": {
-    "GeoAreaCode": 450,
-    "BIOENERGY": 0.00809,
-    "HYDROPOWER": 5.67188,
-    "SOLAR": 1.14142,
-    "WIND": 0.00612
-  },
-  "Malawi": {
-    "GeoAreaCode": 454,
-    "BIOENERGY": 0.93013,
-    "HYDROPOWER": 19.70312,
-    "SOLAR": 7.04826,
-    "WIND": 0.0
-  },
-  "Malaysia": {
-    "GeoAreaCode": 458,
-    "BIOENERGY": 26.80805,
-    "HYDROPOWER": 184.99584,
-    "SOLAR": 53.22969,
-    "WIND": 0.0
-  },
-  "Maldives": {
-    "GeoAreaCode": 462,
-    "BIOENERGY": 0.47943,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 59.07486,
-    "WIND": 2.69821
-  },
-  "Mali": {
-    "GeoAreaCode": 466,
-    "BIOENERGY": 2.13221,
-    "HYDROPOWER": 14.39412,
-    "SOLAR": 2.72312,
-    "WIND": 0.0
-  },
-  "Malta": {
-    "GeoAreaCode": 470,
-    "BIOENERGY": 8.65689,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 390.42388,
-    "WIND": 0.18984
-  },
-  "Marshall Islands": {
-    "GeoAreaCode": 584,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 40.45184,
-    "WIND": 0.26159
-  },
-  "Mauritania": {
-    "GeoAreaCode": 478,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 18.96197,
-    "WIND": 7.454
-  },
-  "Mauritius": {
-    "GeoAreaCode": 480,
-    "BIOENERGY": 69.78902,
-    "HYDROPOWER": 47.11625,
-    "SOLAR": 84.42816,
-    "WIND": 8.18375
-  },
-  "Mexico": {
-    "GeoAreaCode": 484,
-    "BIOENERGY": 7.74783,
-    "HYDROPOWER": 104.9918,
-    "SOLAR": 64.55868,
-    "WIND": 56.46598
-  },
-  "Micronesia (Federated States of)": {
-    "GeoAreaCode": 583,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 6.4085,
-    "SOLAR": 25.62516,
-    "WIND": 7.29243
-  },
-  "Mongolia": {
-    "GeoAreaCode": 496,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 8.66006,
-    "SOLAR": 28.31278,
-    "WIND": 46.59622
-  },
-  "Montenegro": {
-    "GeoAreaCode": 499,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 1109.62015,
-    "SOLAR": 4.09328,
-    "WIND": 187.94029
-  },
-  "Morocco": {
-    "GeoAreaCode": 504,
-    "BIOENERGY": 0.19959,
-    "HYDROPOWER": 35.21179,
-    "SOLAR": 23.03341,
-    "WIND": 39.67464
-  },
-  "Mozambique": {
-    "GeoAreaCode": 508,
-    "BIOENERGY": 0.43645,
-    "HYDROPOWER": 68.29825,
-    "SOLAR": 1.99283,
-    "WIND": 0.0
-  },
-  "Myanmar": {
-    "GeoAreaCode": 104,
-    "BIOENERGY": 1.09171,
-    "HYDROPOWER": 61.42208,
-    "SOLAR": 1.49535,
-    "WIND": 0.00011
-  },
-  "Namibia": {
-    "GeoAreaCode": 516,
-    "BIOENERGY": 0.09881,
-    "HYDROPOWER": 138.7269,
-    "SOLAR": 59.8656,
-    "WIND": 2.06747
-  },
-  "Nauru": {
-    "GeoAreaCode": 520,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 232.03581,
-    "WIND": 0.0
-  },
-  "Nepal": {
-    "GeoAreaCode": 524,
-    "BIOENERGY": 0.19977,
-    "HYDROPOWER": 66.37126,
-    "SOLAR": 3.21372,
-    "WIND": 0.00663
-  },
-  "Netherlands (Kingdom of the)": {
-    "GeoAreaCode": 528,
-    "BIOENERGY": 50.23473,
-    "HYDROPOWER": 2.10837,
-    "SOLAR": 851.95663,
-    "WIND": 443.92069
-  },
-  "New Caledonia": {
-    "GeoAreaCode": 540,
-    "BIOENERGY": 1.30299,
-    "HYDROPOWER": 281.91452,
-    "SOLAR": 437.85268,
-    "WIND": 130.59416
-  },
-  "New Zealand": {
-    "GeoAreaCode": 554,
-    "BIOENERGY": 28.07167,
-    "HYDROPOWER": 1061.07011,
-    "SOLAR": 37.23395,
-    "WIND": 177.98218
-  },
-  "Nicaragua": {
-    "GeoAreaCode": 558,
-    "BIOENERGY": 32.13061,
-    "HYDROPOWER": 23.11935,
-    "SOLAR": 2.37791,
-    "WIND": 27.18034
-  },
-  "Niger": {
-    "GeoAreaCode": 562,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 1.07082,
-    "WIND": 0.0
-  },
-  "Nigeria": {
-    "GeoAreaCode": 566,
-    "BIOENERGY": 0.10491,
-    "HYDROPOWER": 9.89122,
-    "SOLAR": 0.32264,
-    "WIND": 0.0
-  },
-  "North Macedonia": {
-    "GeoAreaCode": 807,
-    "BIOENERGY": 4.94454,
-    "HYDROPOWER": 327.66613,
-    "SOLAR": 40.37788,
-    "WIND": 17.59115
-  },
-  "Norway": {
-    "GeoAreaCode": 578,
-    "BIOENERGY": 14.24203,
-    "HYDROPOWER": 6306.65696,
-    "SOLAR": 38.00207,
-    "WIND": 934.47721
-  },
-  "Oman": {
-    "GeoAreaCode": 512,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 34.30815,
-    "WIND": 11.06079
-  },
-  "Pakistan": {
-    "GeoAreaCode": 586,
-    "BIOENERGY": 1.87011,
-    "HYDROPOWER": 43.40026,
-    "SOLAR": 4.65255,
-    "WIND": 5.76985
-  },
-  "Palau": {
-    "GeoAreaCode": 585,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 240.67909,
-    "WIND": 0.0
-  },
-  "Panama": {
-    "GeoAreaCode": 591,
-    "BIOENERGY": 15.65061,
-    "HYDROPOWER": 416.16798,
-    "SOLAR": 106.83739,
-    "WIND": 62.05089
-  },
-  "Papua New Guinea": {
-    "GeoAreaCode": 598,
-    "BIOENERGY": 1.84051,
-    "HYDROPOWER": 25.93564,
-    "SOLAR": 0.36645,
-    "WIND": 0.0
-  },
-  "Paraguay": {
-    "GeoAreaCode": 600,
-    "BIOENERGY": 6.17829,
-    "HYDROPOWER": 1314.18021,
-    "SOLAR": 0.02238,
-    "WIND": 0.00298
-  },
-  "Peru": {
-    "GeoAreaCode": 604,
-    "BIOENERGY": 5.54375,
-    "HYDROPOWER": 163.22308,
-    "SOLAR": 9.85559,
-    "WIND": 12.13063
-  },
-  "Philippines": {
-    "GeoAreaCode": 608,
-    "BIOENERGY": 4.559,
-    "HYDROPOWER": 26.75611,
-    "SOLAR": 12.07508,
-    "WIND": 3.88917
-  },
-  "Poland": {
-    "GeoAreaCode": 616,
-    "BIOENERGY": 28.70669,
-    "HYDROPOWER": 25.43999,
-    "SOLAR": 193.57761,
-    "WIND": 181.87817
-  },
-  "Portugal": {
-    "GeoAreaCode": 620,
-    "BIOENERGY": 69.65606,
-    "HYDROPOWER": 705.03687,
-    "SOLAR": 159.95894,
-    "WIND": 527.43165
-  },
-  "Puerto Rico": {
-    "GeoAreaCode": 630,
-    "BIOENERGY": 1.47419,
-    "HYDROPOWER": 30.12873,
-    "SOLAR": 149.74073,
-    "WIND": 30.41866
-  },
-  "Qatar": {
-    "GeoAreaCode": 634,
-    "BIOENERGY": 7.06783,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 1.89716,
-    "WIND": 0.0
-  },
-  "Republic of Korea": {
-    "GeoAreaCode": 410,
-    "BIOENERGY": 52.6817,
-    "HYDROPOWER": 35.51987,
-    "SOLAR": 410.26323,
-    "WIND": 33.2625
-  },
-  "Republic of Moldova": {
-    "GeoAreaCode": 498,
-    "BIOENERGY": 2.28646,
-    "HYDROPOWER": 20.98771,
-    "SOLAR": 4.72839,
-    "WIND": 21.88465
-  },
-  "Romania": {
-    "GeoAreaCode": 642,
-    "BIOENERGY": 7.26474,
-    "HYDROPOWER": 339.94757,
-    "SOLAR": 72.11722,
-    "WIND": 155.98462
-  },
-  "Russian Federation": {
-    "GeoAreaCode": 643,
-    "BIOENERGY": 9.45881,
-    "HYDROPOWER": 354.21881,
-    "SOLAR": 11.4472,
-    "WIND": 13.47321
-  },
-  "Rwanda": {
-    "GeoAreaCode": 646,
-    "BIOENERGY": 0.06203,
-    "HYDROPOWER": 8.82499,
-    "SOLAR": 1.87047,
-    "WIND": 0.0
-  },
-  "Saint Kitts and Nevis": {
-    "GeoAreaCode": 659,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 63.31135,
-    "WIND": 46.21266
-  },
-  "Saint Lucia": {
-    "GeoAreaCode": 662,
-    "BIOENERGY": 0.97968,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 21.34694,
-    "WIND": 0.0
-  },
-  "Saint Vincent and the Grenadines": {
-    "GeoAreaCode": 670,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 54.72913,
-    "SOLAR": 34.86946,
-    "WIND": 0.0
-  },
-  "Samoa": {
-    "GeoAreaCode": 882,
-    "BIOENERGY": 3.42835,
-    "HYDROPOWER": 64.27017,
-    "SOLAR": 62.95369,
-    "WIND": 2.51412
-  },
-  "Sao Tome and Principe": {
-    "GeoAreaCode": 678,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 8.60574,
-    "SOLAR": 0.90988,
-    "WIND": 0.0
-  },
-  "Saudi Arabia": {
-    "GeoAreaCode": 682,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 12.22206,
-    "WIND": 0.0904
-  },
-  "Senegal": {
-    "GeoAreaCode": 686,
-    "BIOENERGY": 1.48133,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 14.19115,
-    "WIND": 9.40349
-  },
-  "Serbia": {
-    "GeoAreaCode": 688,
-    "BIOENERGY": 4.94794,
-    "HYDROPOWER": 338.64194,
-    "SOLAR": 7.10424,
-    "WIND": 54.54469
-  },
-  "Seychelles": {
-    "GeoAreaCode": 690,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 125.83708,
-    "WIND": 56.35337
-  },
-  "Sierra Leone": {
-    "GeoAreaCode": 694,
-    "BIOENERGY": 4.01395,
-    "HYDROPOWER": 7.23104,
-    "SOLAR": 0.52395,
-    "WIND": 0.0
-  },
-  "Singapore": {
-    "GeoAreaCode": 702,
-    "BIOENERGY": 34.74128,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 81.9719,
-    "WIND": 0.01683
-  },
-  "Sint Maarten (Dutch part)": {
-    "GeoAreaCode": 534,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.0,
-    "WIND": 0.0
-  },
-  "Slovakia": {
-    "GeoAreaCode": 703,
-    "BIOENERGY": 45.89158,
-    "HYDROPOWER": 296.45963,
-    "SOLAR": 98.57512,
-    "WIND": 0.73427
-  },
-  "Slovenia": {
-    "GeoAreaCode": 705,
-    "BIOENERGY": 31.8013,
-    "HYDROPOWER": 553.01381,
-    "SOLAR": 217.59074,
-    "WIND": 1.57025
-  },
-  "Solomon Islands": {
-    "GeoAreaCode": 90,
-    "BIOENERGY": 1.06802,
-    "HYDROPOWER": 0.47891,
-    "SOLAR": 3.41739,
-    "WIND": 0.0
-  },
-  "Somalia": {
-    "GeoAreaCode": 706,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 1.37927,
-    "WIND": 0.20802
-  },
-  "South Africa": {
-    "GeoAreaCode": 710,
-    "BIOENERGY": 4.45656,
-    "HYDROPOWER": 12.65148,
-    "SOLAR": 107.04864,
-    "WIND": 49.76238
-  },
-  "South Sudan": {
-    "GeoAreaCode": 728,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 0.1189,
-    "WIND": 0.0
-  },
-  "Spain": {
-    "GeoAreaCode": 724,
-    "BIOENERGY": 26.91519,
-    "HYDROPOWER": 353.8019,
-    "SOLAR": 337.33929,
-    "WIND": 587.69114
-  },
-  "Sri Lanka": {
-    "GeoAreaCode": 144,
-    "BIOENERGY": 2.0711,
-    "HYDROPOWER": 82.62672,
-    "SOLAR": 28.67048,
-    "WIND": 11.57373
-  },
-  "State of Palestine": {
-    "GeoAreaCode": 275,
-    "BIOENERGY": 0.06623,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 34.6424,
-    "WIND": 0.0
-  },
-  "Sudan": {
-    "GeoAreaCode": 729,
-    "BIOENERGY": 4.35857,
-    "HYDROPOWER": 32.45928,
-    "SOLAR": 2.97565,
-    "WIND": 0.0
-  },
-  "Suriname": {
-    "GeoAreaCode": 740,
-    "BIOENERGY": 2.44704,
-    "HYDROPOWER": 293.80164,
-    "SOLAR": 14.55174,
-    "WIND": 0.0
-  },
-  "Sweden": {
-    "GeoAreaCode": 752,
-    "BIOENERGY": 427.43466,
-    "HYDROPOWER": 1567.48332,
-    "SOLAR": 153.43318,
-    "WIND": 1157.53203
-  },
-  "Switzerland": {
-    "GeoAreaCode": 756,
-    "BIOENERGY": 26.92315,
-    "HYDROPOWER": 1731.4805,
-    "SOLAR": 420.53035,
-    "WIND": 10.00989
-  },
-  "Syrian Arab Republic": {
-    "GeoAreaCode": 760,
-    "BIOENERGY": 0.31443,
-    "HYDROPOWER": 69.87312,
-    "SOLAR": 1.54753,
-    "WIND": 0.02814
-  },
-  "Tajikistan": {
-    "GeoAreaCode": 762,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 540.94619,
-    "SOLAR": 0.02256,
-    "WIND": 0.0
-  },
-  "Thailand": {
-    "GeoAreaCode": 764,
-    "BIOENERGY": 62.5151,
-    "HYDROPOWER": 43.43648,
-    "SOLAR": 42.81079,
-    "WIND": 21.58207
-  },
-  "Timor-Leste": {
-    "GeoAreaCode": 626,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.24604,
-    "SOLAR": 0.27935,
-    "WIND": 0.0
-  },
-  "Togo": {
-    "GeoAreaCode": 768,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 7.70403,
-    "SOLAR": 6.62072,
-    "WIND": 0.0
-  },
-  "Tonga": {
-    "GeoAreaCode": 776,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 65.03674,
-    "WIND": 12.4697
-  },
-  "Trinidad and Tobago": {
-    "GeoAreaCode": 780,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 2.68736,
-    "WIND": 0.00655
-  },
-  "Tunisia": {
-    "GeoAreaCode": 788,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 5.38207,
-    "SOLAR": 7.73794,
-    "WIND": 19.97889
-  },
-  "Türkiye": {
-    "GeoAreaCode": 792,
-    "BIOENERGY": 18.67253,
-    "HYDROPOWER": 371.48249,
-    "SOLAR": 92.20398,
-    "WIND": 125.11854
-  },
-  "Turkmenistan": {
-    "GeoAreaCode": 795,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.3469,
-    "SOLAR": 0.0,
-    "WIND": 0.0
-  },
-  "Turks and Caicos Islands": {
-    "GeoAreaCode": 796,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 57.01113,
-    "WIND": 0.0
-  },
-  "Tuvalu": {
-    "GeoAreaCode": 798,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 206.35487,
-    "WIND": 0.0
-  },
-  "Uganda": {
-    "GeoAreaCode": 800,
-    "BIOENERGY": 2.09797,
-    "HYDROPOWER": 22.0463,
-    "SOLAR": 1.97305,
-    "WIND": 0.0
-  },
-  "Ukraine": {
-    "GeoAreaCode": 804,
-    "BIOENERGY": 6.31728,
-    "HYDROPOWER": 110.79353,
-    "SOLAR": 185.19956,
-    "WIND": 40.45354
-  },
-  "United Arab Emirates": {
-    "GeoAreaCode": 784,
-    "BIOENERGY": 0.10678,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 320.59119,
-    "WIND": 0.0016
-  },
-  "United Kingdom of Great Britain and Northern Ireland": {
-    "GeoAreaCode": 826,
-    "BIOENERGY": 109.25069,
-    "HYDROPOWER": 32.5649,
-    "SOLAR": 207.56219,
-    "WIND": 382.67839
-  },
-  "United Republic of Tanzania": {
-    "GeoAreaCode": 834,
-    "BIOENERGY": 1.10374,
-    "HYDROPOWER": 9.36356,
-    "SOLAR": 0.23968,
-    "WIND": 0.03774
-  },
-  "United States of America": {
-    "GeoAreaCode": 840,
-    "BIOENERGY": 33.63228,
-    "HYDROPOWER": 248.68419,
-    "SOLAR": 283.06108,
-    "WIND": 394.71874
-  },
-  "Uruguay": {
-    "GeoAreaCode": 858,
-    "BIOENERGY": 122.82197,
-    "HYDROPOWER": 448.88596,
-    "SOLAR": 77.72994,
-    "WIND": 442.60797
-  },
-  "Uzbekistan": {
-    "GeoAreaCode": 860,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 60.20577,
-    "SOLAR": 3.03684,
-    "WIND": 0.02201
-  },
-  "Vanuatu": {
-    "GeoAreaCode": 548,
-    "BIOENERGY": 8.46032,
-    "HYDROPOWER": 4.00455,
-    "SOLAR": 14.76482,
-    "WIND": 10.65373
-  },
-  "Venezuela (Bolivarian Republic of)": {
-    "GeoAreaCode": 862,
-    "BIOENERGY": 0.0,
-    "HYDROPOWER": 596.78331,
-    "SOLAR": 0.18865,
-    "WIND": 4.89364
-  },
-  "Viet Nam": {
-    "GeoAreaCode": 704,
-    "BIOENERGY": 3.76534,
-    "HYDROPOWER": 221.42645,
-    "SOLAR": 170.94313,
-    "WIND": 42.24975
-  },
-  "Yemen": {
-    "GeoAreaCode": 887,
-    "BIOENERGY": 0.00015,
-    "HYDROPOWER": 0.0,
-    "SOLAR": 7.78576,
-    "WIND": 0.0
-  },
-  "Zambia": {
-    "GeoAreaCode": 894,
-    "BIOENERGY": 2.1979,
-    "HYDROPOWER": 138.91997,
-    "SOLAR": 4.95164,
-    "WIND": 0.0
-  },
-  "Zimbabwe": {
-    "GeoAreaCode": 716,
-    "BIOENERGY": 6.25253,
-    "HYDROPOWER": 67.52827,
-    "SOLAR": 1.74702,
-    "WIND": 0.0
+      "BIOENERGY": 18.89716,
+      "HYDROPOWER": 157.45718,
+      "SOLAR": 133.1536,
+      "WIND": 112.73321
+    },
+    "Afghanistan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 8.89309,
+      "SOLAR": 0.76465,
+      "WIND": 0.00998
+    },
+    "Albania": {
+      "BIOENERGY": 0.49918,
+      "HYDROPOWER": 878.19779,
+      "SOLAR": 8.05686,
+      "WIND": 0.0
+    },
+    "Algeria": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 2.91774,
+      "SOLAR": 10.14976,
+      "WIND": 0.22636
+    },
+    "Andorra": {
+      "BIOENERGY": 63.26391,
+      "HYDROPOWER": 582.02799,
+      "SOLAR": 55.06491,
+      "WIND": 0.0
+    },
+    "Angola": {
+      "BIOENERGY": 1.4781,
+      "HYDROPOWER": 108.08322,
+      "SOLAR": 0.04223,
+      "WIND": 0.0
+    },
+    "Anguilla": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 97.88612,
+      "WIND": 0.0
+    },
+    "Antigua and Barbuda": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 137.99762,
+      "WIND": 0.0
+    },
+    "Argentina": {
+      "BIOENERGY": 6.21195,
+      "HYDROPOWER": 229.15775,
+      "SOLAR": 23.70358,
+      "WIND": 72.71109
+    },
+    "Armenia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 481.98228,
+      "SOLAR": 52.34732,
+      "WIND": 1.04802
+    },
+    "Aruba": {
+      "BIOENERGY": 18.77282,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 127.65518,
+      "WIND": 281.59231
+    },
+    "Australia": {
+      "BIOENERGY": 33.60198,
+      "HYDROPOWER": 297.55694,
+      "SOLAR": 993.66967,
+      "WIND": 407.1974
+    },
+    "Austria": {
+      "BIOENERGY": 131.25793,
+      "HYDROPOWER": 1652.96934,
+      "SOLAR": 311.8781,
+      "WIND": 381.95244
+    },
+    "Azerbaijan": {
+      "BIOENERGY": 4.33434,
+      "HYDROPOWER": 112.20798,
+      "SOLAR": 4.64463,
+      "WIND": 6.39969
+    },
+    "Bahamas": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 17.04559,
+      "WIND": 0.73546
+    },
+    "Bahrain": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 7.73749,
+      "WIND": 0.46471
+    },
+    "Bangladesh": {
+      "BIOENERGY": 0.03159,
+      "HYDROPOWER": 1.35808,
+      "SOLAR": 2.98611,
+      "WIND": 0.01712
+    },
+    "Barbados": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 227.33286,
+      "WIND": 0.21337
+    },
+    "Belarus": {
+      "BIOENERGY": 12.57025,
+      "HYDROPOWER": 10.02279,
+      "SOLAR": 17.05963,
+      "WIND": 11.66194
+    },
+    "Belgium": {
+      "BIOENERGY": 70.35316,
+      "HYDROPOWER": 9.53372,
+      "SOLAR": 517.80062,
+      "WIND": 426.16669
+    },
+    "Belize": {
+      "BIOENERGY": 88.74312,
+      "HYDROPOWER": 142.36397,
+      "SOLAR": 16.37373,
+      "WIND": 0.05
+    },
+    "Benin": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.03847,
+      "SOLAR": 0.22621,
+      "WIND": 0.0
+    },
+    "Bhutan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 3002.41419,
+      "SOLAR": 0.58522,
+      "WIND": 0.77172
+    },
+    "Bolivia (Plurinational State of)": {
+      "BIOENERGY": 20.91399,
+      "HYDROPOWER": 65.93252,
+      "SOLAR": 14.10327,
+      "WIND": 10.57993
+    },
+    "Bosnia and Herzegovina": {
+      "BIOENERGY": 3.12142,
+      "HYDROPOWER": 561.54448,
+      "SOLAR": 17.27636,
+      "WIND": 41.2725
+    },
+    "Botswana": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 2.42194,
+      "WIND": 0.0
+    },
+    "Brazil": {
+      "BIOENERGY": 76.29169,
+      "HYDROPOWER": 510.55932,
+      "SOLAR": 66.24039,
+      "WIND": 98.73393
+    },
+    "Brunei Darussalam": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 10.93465,
+      "WIND": 0.0
+    },
+    "Bulgaria": {
+      "BIOENERGY": 6.87219,
+      "HYDROPOWER": 363.8224,
+      "SOLAR": 185.12016,
+      "WIND": 102.29284
+    },
+    "Burkina Faso": {
+      "BIOENERGY": 0.04072,
+      "HYDROPOWER": 1.56556,
+      "SOLAR": 2.55187,
+      "WIND": 0.0
+    },
+    "Burundi": {
+      "BIOENERGY": 0.31869,
+      "HYDROPOWER": 3.84688,
+      "SOLAR": 0.7173,
+      "WIND": 0.0
+    },
+    "Cabo Verde": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 12.8945,
+      "WIND": 47.28494
+    },
+    "Cambodia": {
+      "BIOENERGY": 2.5963,
+      "HYDROPOWER": 80.15541,
+      "SOLAR": 22.64172,
+      "WIND": 0.01507
+    },
+    "Cameroon": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 29.86548,
+      "SOLAR": 0.52639,
+      "WIND": 0.0
+    },
+    "Canada": {
+      "BIOENERGY": 70.08141,
+      "HYDROPOWER": 2168.43855,
+      "SOLAR": 119.35522,
+      "WIND": 374.88024
+    },
+    "Cayman Islands": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 201.08313,
+      "WIND": 0.0
+    },
+    "Central African Republic": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 3.45418,
+      "SOLAR": 0.05791,
+      "WIND": 0.0
+    },
+    "Chad": {
+      "BIOENERGY": 0.11642,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.04232,
+      "WIND": 0.06403
+    },
+    "Chile": {
+      "BIOENERGY": 68.1768,
+      "HYDROPOWER": 349.19247,
+      "SOLAR": 229.22253,
+      "WIND": 160.92835
+    },
+    "China": {
+      "BIOENERGY": 20.86636,
+      "HYDROPOWER": 248.63709,
+      "SOLAR": 215.28453,
+      "WIND": 230.71389
+    },
+    "China, Hong Kong Special Administrative Region": {
+      "BIOENERGY": 6.97251,
+      "HYDROPOWER": 0.06671,
+      "SOLAR": 12.72133,
+      "WIND": 0.10714
+    },
+    "Colombia": {
+      "BIOENERGY": 7.70061,
+      "HYDROPOWER": 232.12523,
+      "SOLAR": 3.95859,
+      "WIND": 0.35755
+    },
+    "Comoros": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 1.76236,
+      "SOLAR": 0.0,
+      "WIND": 0.0
+    },
+    "Congo": {
+      "BIOENERGY": 2.09054,
+      "HYDROPOWER": 36.65303,
+      "SOLAR": 0.09682,
+      "WIND": 0.0
+    },
+    "Cook Islands": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 327.58925,
+      "WIND": 0.0
+    },
+    "Costa Rica": {
+      "BIOENERGY": 15.66932,
+      "HYDROPOWER": 461.65674,
+      "SOLAR": 14.33248,
+      "WIND": 75.7127
+    },
+    "Côte d'Ivoire": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 31.98894,
+      "SOLAR": 0.28022,
+      "WIND": 0.0
+    },
+    "Croatia": {
+      "BIOENERGY": 38.02829,
+      "HYDROPOWER": 541.97705,
+      "SOLAR": 34.06291,
+      "WIND": 243.07074
+    },
+    "Cuba": {
+      "BIOENERGY": 84.64619,
+      "HYDROPOWER": 6.38749,
+      "SOLAR": 21.84958,
+      "WIND": 1.04385
+    },
+    "Curaçao": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 69.48166,
+      "WIND": 244.30224
+    },
+    "Cyprus": {
+      "BIOENERGY": 10.57236,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 252.79379,
+      "WIND": 126.58859
+    },
+    "Czechia": {
+      "BIOENERGY": 81.20257,
+      "HYDROPOWER": 105.92611,
+      "SOLAR": 213.69463,
+      "WIND": 32.29208
+    },
+    "Democratic People's Republic of Korea": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 187.31777,
+      "SOLAR": 1.99369,
+      "WIND": 0.0231
+    },
+    "Democratic Republic of the Congo": {
+      "BIOENERGY": 0.03087,
+      "HYDROPOWER": 28.35002,
+      "SOLAR": 0.20694,
+      "WIND": 0.0
+    },
+    "Denmark": {
+      "BIOENERGY": 367.24682,
+      "HYDROPOWER": 1.21672,
+      "SOLAR": 291.07809,
+      "WIND": 1199.27437
+    },
+    "Djibouti": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.32744,
+      "WIND": 18.09043
+    },
+    "Dominica": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 91.69751,
+      "SOLAR": 4.35011,
+      "WIND": 3.31437
+    },
+    "Dominican Republic": {
+      "BIOENERGY": 4.67544,
+      "HYDROPOWER": 56.21444,
+      "SOLAR": 55.42337,
+      "WIND": 33.30673
+    },
+    "Ecuador": {
+      "BIOENERGY": 8.57525,
+      "HYDROPOWER": 286.48283,
+      "SOLAR": 1.55368,
+      "WIND": 1.18835
+    },
+    "Egypt": {
+      "BIOENERGY": 1.12573,
+      "HYDROPOWER": 25.91931,
+      "SOLAR": 15.2157,
+      "WIND": 15.00977
+    },
+    "El Salvador": {
+      "BIOENERGY": 47.65522,
+      "HYDROPOWER": 90.73913,
+      "SOLAR": 86.02845,
+      "WIND": 8.5522
+    },
+    "Equatorial Guinea": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 77.78687,
+      "SOLAR": 0.11196,
+      "WIND": 0.0
+    },
+    "Eritrea": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 2.9851,
+      "WIND": 0.22788
+    },
+    "Estonia": {
+      "BIOENERGY": 222.77397,
+      "HYDROPOWER": 4.51569,
+      "SOLAR": 297.10973,
+      "WIND": 237.07365
+    },
+    "Eswatini": {
+      "BIOENERGY": 88.90596,
+      "HYDROPOWER": 52.16935,
+      "SOLAR": 9.16738,
+      "WIND": 0.0
+    },
+    "Ethiopia": {
+      "BIOENERGY": 2.7851,
+      "HYDROPOWER": 33.84749,
+      "SOLAR": 0.17612,
+      "WIND": 2.6937
+    },
+    "Fiji": {
+      "BIOENERGY": 66.32418,
+      "HYDROPOWER": 149.71718,
+      "SOLAR": 9.77061,
+      "WIND": 11.00464
+    },
+    "Finland": {
+      "BIOENERGY": 489.70446,
+      "HYDROPOWER": 572.79707,
+      "SOLAR": 76.77034,
+      "WIND": 588.33178
+    },
+    "France": {
+      "BIOENERGY": 31.67417,
+      "HYDROPOWER": 380.64848,
+      "SOLAR": 229.64592,
+      "WIND": 290.40072
+    },
+    "French Polynesia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 156.66114,
+      "SOLAR": 150.2309,
+      "WIND": 0.8157
+    },
+    "Gabon": {
+      "BIOENERGY": 0.51256,
+      "HYDROPOWER": 141.07721,
+      "SOLAR": 0.21357,
+      "WIND": 0.0
+    },
+    "Gambia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 1.01481,
+      "WIND": 0.45986
+    },
+    "Georgia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 789.47466,
+      "SOLAR": 4.8872,
+      "WIND": 5.58811
+    },
+    "Germany": {
+      "BIOENERGY": 117.78768,
+      "HYDROPOWER": 65.82059,
+      "SOLAR": 711.83346,
+      "WIND": 765.3052
+    },
+    "Ghana": {
+      "BIOENERGY": 0.25505,
+      "HYDROPOWER": 48.24547,
+      "SOLAR": 3.34307,
+      "WIND": 0.00061
+    },
+    "Greece": {
+      "BIOENERGY": 10.38805,
+      "HYDROPOWER": 327.51369,
+      "SOLAR": 409.50412,
+      "WIND": 445.09024
+    },
+    "Greenland": {
+      "BIOENERGY": 10.31239,
+      "HYDROPOWER": 1623.31312,
+      "SOLAR": 10.49019,
+      "WIND": 0.889
+    },
+    "Grenada": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 29.32349,
+      "WIND": 0.642
+    },
+    "Guatemala": {
+      "BIOENERGY": 49.40914,
+      "HYDROPOWER": 89.25607,
+      "SOLAR": 5.75336,
+      "WIND": 6.09933
+    },
+    "Guinea": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 60.17039,
+      "SOLAR": 1.08019,
+      "WIND": 0.0
+    },
+    "Guinea-Bissau": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.56728,
+      "WIND": 0.0
+    },
+    "Guyana": {
+      "BIOENERGY": 52.65565,
+      "HYDROPOWER": 2.94568,
+      "SOLAR": 10.38447,
+      "WIND": 0.21502
+    },
+    "Haiti": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 6.81245,
+      "SOLAR": 0.24092,
+      "WIND": 0.0021
+    },
+    "Honduras": {
+      "BIOENERGY": 21.87648,
+      "HYDROPOWER": 82.66214,
+      "SOLAR": 51.43941,
+      "WIND": 23.24304
+    },
+    "Hungary": {
+      "BIOENERGY": 56.69538,
+      "HYDROPOWER": 6.17933,
+      "SOLAR": 305.671,
+      "WIND": 33.3684
+    },
+    "Iceland": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 5709.65207,
+      "SOLAR": 18.90451,
+      "WIND": 4.86046
+    },
+    "India": {
+      "BIOENERGY": 7.52493,
+      "HYDROPOWER": 33.23533,
+      "SOLAR": 35.33103,
+      "WIND": 28.46568
+    },
+    "Indonesia": {
+      "BIOENERGY": 8.29278,
+      "HYDROPOWER": 24.1157,
+      "SOLAR": 0.82205,
+      "WIND": 0.56368
+    },
+    "Iran (Islamic Republic of)": {
+      "BIOENERGY": 0.12989,
+      "HYDROPOWER": 126.84559,
+      "SOLAR": 5.18472,
+      "WIND": 3.52807
+    },
+    "Iraq": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 35.77329,
+      "SOLAR": 0.85166,
+      "WIND": 0.0
+    },
+    "Ireland": {
+      "BIOENERGY": 21.57434,
+      "HYDROPOWER": 47.52808,
+      "SOLAR": 27.1275,
+      "WIND": 870.15309
+    },
+    "Israel": {
+      "BIOENERGY": 2.92447,
+      "HYDROPOWER": 0.67415,
+      "SOLAR": 403.48047,
+      "WIND": 3.06178
+    },
+    "Italy": {
+      "BIOENERGY": 57.73737,
+      "HYDROPOWER": 317.50804,
+      "SOLAR": 381.50239,
+      "WIND": 189.96743
+    },
+    "Jamaica": {
+      "BIOENERGY": 11.36261,
+      "HYDROPOWER": 10.60935,
+      "SOLAR": 32.71675,
+      "WIND": 36.07178
+    },
+    "Japan": {
+      "BIOENERGY": 36.58541,
+      "HYDROPOWER": 225.59529,
+      "SOLAR": 629.25454,
+      "WIND": 34.20202
+    },
+    "Jordan": {
+      "BIOENERGY": 1.1661,
+      "HYDROPOWER": 1.23786,
+      "SOLAR": 136.3955,
+      "WIND": 55.74942
+    },
+    "Kazakhstan": {
+      "BIOENERGY": 0.40737,
+      "HYDROPOWER": 146.22484,
+      "SOLAR": 54.05214,
+      "WIND": 35.62896
+    },
+    "Kenya": {
+      "BIOENERGY": 1.86214,
+      "HYDROPOWER": 16.04249,
+      "SOLAR": 4.10155,
+      "WIND": 8.22743
+    },
+    "Kiribati": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 24.93133,
+      "WIND": 0.0
+    },
+    "Kuwait": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 19.82512,
+      "WIND": 2.91757
+    },
+    "Kyrgyzstan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 425.93589,
+      "SOLAR": 0.0,
+      "WIND": 0.0
+    },
+    "Lao People's Democratic Republic": {
+      "BIOENERGY": 14.44972,
+      "HYDROPOWER": 1184.23131,
+      "SOLAR": 4.58582,
+      "WIND": 0.0
+    },
+    "Latvia": {
+      "BIOENERGY": 80.98269,
+      "HYDROPOWER": 847.011,
+      "SOLAR": 3.8182,
+      "WIND": 41.1592
+    },
+    "Lebanon": {
+      "BIOENERGY": 1.25165,
+      "HYDROPOWER": 50.42349,
+      "SOLAR": 33.94467,
+      "WIND": 0.53642
+    },
+    "Lesotho": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 32.51435,
+      "SOLAR": 0.28184,
+      "WIND": 0.0
+    },
+    "Liberia": {
+      "BIOENERGY": 0.03562,
+      "HYDROPOWER": 17.88033,
+      "SOLAR": 0.49736,
+      "WIND": 0.0
+    },
+    "Libya": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.94027,
+      "WIND": 0.0
+    },
+    "Lithuania": {
+      "BIOENERGY": 41.4476,
+      "HYDROPOWER": 41.98588,
+      "SOLAR": 91.50769,
+      "WIND": 240.79083
+    },
+    "Luxembourg": {
+      "BIOENERGY": 87.88543,
+      "HYDROPOWER": 54.00573,
+      "SOLAR": 433.524,
+      "WIND": 213.42018
+    },
+    "Madagascar": {
+      "BIOENERGY": 0.00809,
+      "HYDROPOWER": 5.67188,
+      "SOLAR": 1.14142,
+      "WIND": 0.00612
+    },
+    "Malawi": {
+      "BIOENERGY": 0.93013,
+      "HYDROPOWER": 19.70312,
+      "SOLAR": 7.04826,
+      "WIND": 0.0
+    },
+    "Malaysia": {
+      "BIOENERGY": 26.80805,
+      "HYDROPOWER": 184.99584,
+      "SOLAR": 53.22969,
+      "WIND": 0.0
+    },
+    "Maldives": {
+      "BIOENERGY": 0.47943,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 59.07486,
+      "WIND": 2.69821
+    },
+    "Mali": {
+      "BIOENERGY": 2.13221,
+      "HYDROPOWER": 14.39412,
+      "SOLAR": 2.72312,
+      "WIND": 0.0
+    },
+    "Malta": {
+      "BIOENERGY": 8.65689,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 390.42388,
+      "WIND": 0.18984
+    },
+    "Marshall Islands": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 40.45184,
+      "WIND": 0.26159
+    },
+    "Mauritania": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 18.96197,
+      "WIND": 7.454
+    },
+    "Mauritius": {
+      "BIOENERGY": 69.78902,
+      "HYDROPOWER": 47.11625,
+      "SOLAR": 84.42816,
+      "WIND": 8.18375
+    },
+    "Mexico": {
+      "BIOENERGY": 7.74783,
+      "HYDROPOWER": 104.9918,
+      "SOLAR": 64.55868,
+      "WIND": 56.46598
+    },
+    "Micronesia (Federated States of)": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 6.4085,
+      "SOLAR": 25.62516,
+      "WIND": 7.29243
+    },
+    "Mongolia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 8.66006,
+      "SOLAR": 28.31278,
+      "WIND": 46.59622
+    },
+    "Montenegro": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 1109.62015,
+      "SOLAR": 4.09328,
+      "WIND": 187.94029
+    },
+    "Morocco": {
+      "BIOENERGY": 0.19959,
+      "HYDROPOWER": 35.21179,
+      "SOLAR": 23.03341,
+      "WIND": 39.67464
+    },
+    "Mozambique": {
+      "BIOENERGY": 0.43645,
+      "HYDROPOWER": 68.29825,
+      "SOLAR": 1.99283,
+      "WIND": 0.0
+    },
+    "Myanmar": {
+      "BIOENERGY": 1.09171,
+      "HYDROPOWER": 61.42208,
+      "SOLAR": 1.49535,
+      "WIND": 0.00011
+    },
+    "Namibia": {
+      "BIOENERGY": 0.09881,
+      "HYDROPOWER": 138.7269,
+      "SOLAR": 59.8656,
+      "WIND": 2.06747
+    },
+    "Nauru": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 232.03581,
+      "WIND": 0.0
+    },
+    "Nepal": {
+      "BIOENERGY": 0.19977,
+      "HYDROPOWER": 66.37126,
+      "SOLAR": 3.21372,
+      "WIND": 0.00663
+    },
+    "Netherlands (Kingdom of the)": {
+      "BIOENERGY": 50.23473,
+      "HYDROPOWER": 2.10837,
+      "SOLAR": 851.95663,
+      "WIND": 443.92069
+    },
+    "New Caledonia": {
+      "BIOENERGY": 1.30299,
+      "HYDROPOWER": 281.91452,
+      "SOLAR": 437.85268,
+      "WIND": 130.59416
+    },
+    "New Zealand": {
+      "BIOENERGY": 28.07167,
+      "HYDROPOWER": 1061.07011,
+      "SOLAR": 37.23395,
+      "WIND": 177.98218
+    },
+    "Nicaragua": {
+      "BIOENERGY": 32.13061,
+      "HYDROPOWER": 23.11935,
+      "SOLAR": 2.37791,
+      "WIND": 27.18034
+    },
+    "Niger": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 1.07082,
+      "WIND": 0.0
+    },
+    "Nigeria": {
+      "BIOENERGY": 0.10491,
+      "HYDROPOWER": 9.89122,
+      "SOLAR": 0.32264,
+      "WIND": 0.0
+    },
+    "North Macedonia": {
+      "BIOENERGY": 4.94454,
+      "HYDROPOWER": 327.66613,
+      "SOLAR": 40.37788,
+      "WIND": 17.59115
+    },
+    "Norway": {
+      "BIOENERGY": 14.24203,
+      "HYDROPOWER": 6306.65696,
+      "SOLAR": 38.00207,
+      "WIND": 934.47721
+    },
+    "Oman": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 34.30815,
+      "WIND": 11.06079
+    },
+    "Pakistan": {
+      "BIOENERGY": 1.87011,
+      "HYDROPOWER": 43.40026,
+      "SOLAR": 4.65255,
+      "WIND": 5.76985
+    },
+    "Palau": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 240.67909,
+      "WIND": 0.0
+    },
+    "Panama": {
+      "BIOENERGY": 15.65061,
+      "HYDROPOWER": 416.16798,
+      "SOLAR": 106.83739,
+      "WIND": 62.05089
+    },
+    "Papua New Guinea": {
+      "BIOENERGY": 1.84051,
+      "HYDROPOWER": 25.93564,
+      "SOLAR": 0.36645,
+      "WIND": 0.0
+    },
+    "Paraguay": {
+      "BIOENERGY": 6.17829,
+      "HYDROPOWER": 1314.18021,
+      "SOLAR": 0.02238,
+      "WIND": 0.00298
+    },
+    "Peru": {
+      "BIOENERGY": 5.54375,
+      "HYDROPOWER": 163.22308,
+      "SOLAR": 9.85559,
+      "WIND": 12.13063
+    },
+    "Philippines": {
+      "BIOENERGY": 4.559,
+      "HYDROPOWER": 26.75611,
+      "SOLAR": 12.07508,
+      "WIND": 3.88917
+    },
+    "Poland": {
+      "BIOENERGY": 28.70669,
+      "HYDROPOWER": 25.43999,
+      "SOLAR": 193.57761,
+      "WIND": 181.87817
+    },
+    "Portugal": {
+      "BIOENERGY": 69.65606,
+      "HYDROPOWER": 705.03687,
+      "SOLAR": 159.95894,
+      "WIND": 527.43165
+    },
+    "Puerto Rico": {
+      "BIOENERGY": 1.47419,
+      "HYDROPOWER": 30.12873,
+      "SOLAR": 149.74073,
+      "WIND": 30.41866
+    },
+    "Qatar": {
+      "BIOENERGY": 7.06783,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 1.89716,
+      "WIND": 0.0
+    },
+    "Republic of Korea": {
+      "BIOENERGY": 52.6817,
+      "HYDROPOWER": 35.51987,
+      "SOLAR": 410.26323,
+      "WIND": 33.2625
+    },
+    "Republic of Moldova": {
+      "BIOENERGY": 2.28646,
+      "HYDROPOWER": 20.98771,
+      "SOLAR": 4.72839,
+      "WIND": 21.88465
+    },
+    "Romania": {
+      "BIOENERGY": 7.26474,
+      "HYDROPOWER": 339.94757,
+      "SOLAR": 72.11722,
+      "WIND": 155.98462
+    },
+    "Russian Federation": {
+      "BIOENERGY": 9.45881,
+      "HYDROPOWER": 354.21881,
+      "SOLAR": 11.4472,
+      "WIND": 13.47321
+    },
+    "Rwanda": {
+      "BIOENERGY": 0.06203,
+      "HYDROPOWER": 8.82499,
+      "SOLAR": 1.87047,
+      "WIND": 0.0
+    },
+    "Saint Kitts and Nevis": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 63.31135,
+      "WIND": 46.21266
+    },
+    "Saint Lucia": {
+      "BIOENERGY": 0.97968,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 21.34694,
+      "WIND": 0.0
+    },
+    "Saint Vincent and the Grenadines": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 54.72913,
+      "SOLAR": 34.86946,
+      "WIND": 0.0
+    },
+    "Samoa": {
+      "BIOENERGY": 3.42835,
+      "HYDROPOWER": 64.27017,
+      "SOLAR": 62.95369,
+      "WIND": 2.51412
+    },
+    "Sao Tome and Principe": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 8.60574,
+      "SOLAR": 0.90988,
+      "WIND": 0.0
+    },
+    "Saudi Arabia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 12.22206,
+      "WIND": 0.0904
+    },
+    "Senegal": {
+      "BIOENERGY": 1.48133,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 14.19115,
+      "WIND": 9.40349
+    },
+    "Serbia": {
+      "BIOENERGY": 4.94794,
+      "HYDROPOWER": 338.64194,
+      "SOLAR": 7.10424,
+      "WIND": 54.54469
+    },
+    "Seychelles": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 125.83708,
+      "WIND": 56.35337
+    },
+    "Sierra Leone": {
+      "BIOENERGY": 4.01395,
+      "HYDROPOWER": 7.23104,
+      "SOLAR": 0.52395,
+      "WIND": 0.0
+    },
+    "Singapore": {
+      "BIOENERGY": 34.74128,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 81.9719,
+      "WIND": 0.01683
+    },
+    "Sint Maarten (Dutch part)": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.0,
+      "WIND": 0.0
+    },
+    "Slovakia": {
+      "BIOENERGY": 45.89158,
+      "HYDROPOWER": 296.45963,
+      "SOLAR": 98.57512,
+      "WIND": 0.73427
+    },
+    "Slovenia": {
+      "BIOENERGY": 31.8013,
+      "HYDROPOWER": 553.01381,
+      "SOLAR": 217.59074,
+      "WIND": 1.57025
+    },
+    "Solomon Islands": {
+      "BIOENERGY": 1.06802,
+      "HYDROPOWER": 0.47891,
+      "SOLAR": 3.41739,
+      "WIND": 0.0
+    },
+    "Somalia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 1.37927,
+      "WIND": 0.20802
+    },
+    "South Africa": {
+      "BIOENERGY": 4.45656,
+      "HYDROPOWER": 12.65148,
+      "SOLAR": 107.04864,
+      "WIND": 49.76238
+    },
+    "South Sudan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 0.1189,
+      "WIND": 0.0
+    },
+    "Spain": {
+      "BIOENERGY": 26.91519,
+      "HYDROPOWER": 353.8019,
+      "SOLAR": 337.33929,
+      "WIND": 587.69114
+    },
+    "Sri Lanka": {
+      "BIOENERGY": 2.0711,
+      "HYDROPOWER": 82.62672,
+      "SOLAR": 28.67048,
+      "WIND": 11.57373
+    },
+    "State of Palestine": {
+      "BIOENERGY": 0.06623,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 34.6424,
+      "WIND": 0.0
+    },
+    "Sudan": {
+      "BIOENERGY": 4.35857,
+      "HYDROPOWER": 32.45928,
+      "SOLAR": 2.97565,
+      "WIND": 0.0
+    },
+    "Suriname": {
+      "BIOENERGY": 2.44704,
+      "HYDROPOWER": 293.80164,
+      "SOLAR": 14.55174,
+      "WIND": 0.0
+    },
+    "Sweden": {
+      "BIOENERGY": 427.43466,
+      "HYDROPOWER": 1567.48332,
+      "SOLAR": 153.43318,
+      "WIND": 1157.53203
+    },
+    "Switzerland": {
+      "BIOENERGY": 26.92315,
+      "HYDROPOWER": 1731.4805,
+      "SOLAR": 420.53035,
+      "WIND": 10.00989
+    },
+    "Syrian Arab Republic": {
+      "BIOENERGY": 0.31443,
+      "HYDROPOWER": 69.87312,
+      "SOLAR": 1.54753,
+      "WIND": 0.02814
+    },
+    "Tajikistan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 540.94619,
+      "SOLAR": 0.02256,
+      "WIND": 0.0
+    },
+    "Thailand": {
+      "BIOENERGY": 62.5151,
+      "HYDROPOWER": 43.43648,
+      "SOLAR": 42.81079,
+      "WIND": 21.58207
+    },
+    "Timor-Leste": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.24604,
+      "SOLAR": 0.27935,
+      "WIND": 0.0
+    },
+    "Togo": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 7.70403,
+      "SOLAR": 6.62072,
+      "WIND": 0.0
+    },
+    "Tonga": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 65.03674,
+      "WIND": 12.4697
+    },
+    "Trinidad and Tobago": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 2.68736,
+      "WIND": 0.00655
+    },
+    "Tunisia": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 5.38207,
+      "SOLAR": 7.73794,
+      "WIND": 19.97889
+    },
+    "Türkiye": {
+      "BIOENERGY": 18.67253,
+      "HYDROPOWER": 371.48249,
+      "SOLAR": 92.20398,
+      "WIND": 125.11854
+    },
+    "Turkmenistan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.3469,
+      "SOLAR": 0.0,
+      "WIND": 0.0
+    },
+    "Turks and Caicos Islands": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 57.01113,
+      "WIND": 0.0
+    },
+    "Tuvalu": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 206.35487,
+      "WIND": 0.0
+    },
+    "Uganda": {
+      "BIOENERGY": 2.09797,
+      "HYDROPOWER": 22.0463,
+      "SOLAR": 1.97305,
+      "WIND": 0.0
+    },
+    "Ukraine": {
+      "BIOENERGY": 6.31728,
+      "HYDROPOWER": 110.79353,
+      "SOLAR": 185.19956,
+      "WIND": 40.45354
+    },
+    "United Arab Emirates": {
+      "BIOENERGY": 0.10678,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 320.59119,
+      "WIND": 0.0016
+    },
+    "United Kingdom of Great Britain and Northern Ireland": {
+      "BIOENERGY": 109.25069,
+      "HYDROPOWER": 32.5649,
+      "SOLAR": 207.56219,
+      "WIND": 382.67839
+    },
+    "United Republic of Tanzania": {
+      "BIOENERGY": 1.10374,
+      "HYDROPOWER": 9.36356,
+      "SOLAR": 0.23968,
+      "WIND": 0.03774
+    },
+    "United States of America": {
+      "BIOENERGY": 33.63228,
+      "HYDROPOWER": 248.68419,
+      "SOLAR": 283.06108,
+      "WIND": 394.71874
+    },
+    "Uruguay": {
+      "BIOENERGY": 122.82197,
+      "HYDROPOWER": 448.88596,
+      "SOLAR": 77.72994,
+      "WIND": 442.60797
+    },
+    "Uzbekistan": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 60.20577,
+      "SOLAR": 3.03684,
+      "WIND": 0.02201
+    },
+    "Vanuatu": {
+      "BIOENERGY": 8.46032,
+      "HYDROPOWER": 4.00455,
+      "SOLAR": 14.76482,
+      "WIND": 10.65373
+    },
+    "Venezuela (Bolivarian Republic of)": {
+      "BIOENERGY": 0.0,
+      "HYDROPOWER": 596.78331,
+      "SOLAR": 0.18865,
+      "WIND": 4.89364
+    },
+    "Viet Nam": {
+      "BIOENERGY": 3.76534,
+      "HYDROPOWER": 221.42645,
+      "SOLAR": 170.94313,
+      "WIND": 42.24975
+    },
+    "Yemen": {
+      "BIOENERGY": 0.00015,
+      "HYDROPOWER": 0.0,
+      "SOLAR": 7.78576,
+      "WIND": 0.0
+    },
+    "Zambia": {
+      "BIOENERGY": 2.1979,
+      "HYDROPOWER": 138.91997,
+      "SOLAR": 4.95164,
+      "WIND": 0.0
+    },
+    "Zimbabwe": {
+      "BIOENERGY": 6.25253,
+      "HYDROPOWER": 67.52827,
+      "SOLAR": 1.74702,
+      "WIND": 0.0
+    }
   }
-}
