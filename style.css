@@ -76,108 +76,124 @@ names {
 
 /* Pie CSS starts here */
 
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+/* Reset body styles and apply a global font */
+body {
+    font-family: Arial, sans-serif; /* Set font family for the entire page */
+    margin: 0; 
+    padding: 0; 
   }
   
+  /* Center-align the main heading and add some spacing */
   h1 {
-    text-align: center;
-    margin-top: 20px;
+    text-align: center; 
+    margin-top: 20px; 
   }
   
+  /* Center content horizontally and vertically, and stack items in a column */
   .content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
   }
   
+  /* Define the container for the pie chart with a fixed size */
   .chart-container {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 20px auto;
+    position: relative; 
+    width: 300px; 
+    height: 300px; 
+    margin: 10px auto; 
   }
   
+  /* Style the pie chart itself */
   .pie-chart {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: conic-gradient(#ddd 0%, #ddd 100%);
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%; 
+    background: conic-gradient(#ddd 0%, #ddd 100%); 
     position: relative;
-    transform: rotate(90deg);
-  } 
-
+    transform: rotate(90deg); 
+  }
+  
+  /* Style the tooltip that appears over the chart */
   .tooltip {
-    position: absolute;
-    padding: 20px 20px;
+    position: sticky;
+    padding: 10px 10px; 
     background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    font-size: 15px;
-    border-radius: 20px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 10;
+    color: #fff; 
+    font-size: 15px; 
+    border-radius: 1px; 
+    pointer-events: none; 
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+    z-index: 1;
   }
   
+  /* Style for the legend below the chart */
   .legend {
-    margin-top: 20px;
+    margin-top: 10px; 
   }
   
+
   .legend ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
   }
   
+  /* Style for individual legend items */
   .legend li {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
+    display: flex; 
+    align-items: center; 
+    margin: 5px 0; 
   }
   
+  /* Style for the color boxes in the legend */
   .color-box {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; /* Add space between the box and text */
   }
   
-.geo-area-list {
-    position: fixed;
+  /* Style for the region selector bar at the bottom of the page */
+  .geo-area-list {
+    position: fixed; /* Fix to the bottom of the screen */
     bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    left: 0; 
+    right: 0; 
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
     background-color: #f9f9f9;
     padding: 10px 0;
-    border-top: 1px solid #ccc;
-    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 1px solid #ccc; 
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); 
   }
   
+  /* Style for individual region buttons */
   .geo-area {
-    background-color: #ddd;
+    background-color: #ddd; 
     padding: 10px 15px;
     border-radius: 5px;
-    text-align: center;
+    text-align: center; 
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
   }
   
+  /* Hover effect for region buttons */
   .geo-area:hover {
-    background-color: #ccc;
-    transform: scale(1.1);
+    background-color: #ccc; 
+    transform: scale(1.1); 
   }
   
+  /* Style for the currently selected region */
   .geo-area.selected {
-    background-color: #bbb;
-    font-weight: bold;
+    background-color: #bbb; /* Slightly darker background for the selected region */
+    font-weight: bold; 
   }
-/* Pie CSS ends here */
+  
+  /* Pie CSS ends here */
+
 /* General formatting */
 body {
 	padding: 0 10px;
