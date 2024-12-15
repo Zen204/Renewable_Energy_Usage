@@ -60,25 +60,22 @@
 
 
         <h1>Regional Renewable Energy Insights</h1>
-  <!-- Search bar for filtering countries -->
-  <div class="search-container">
-    <input type="text" id="country-search" placeholder="Search for a country..." onkeyup="filterCountries()">
-  </div>
-
-  <!-- Pie Chart and Tooltip -->
-  <div class="content">
-    <div class="chart-container">
-      <div class="pie-chart"></div>
-      <div class="tooltip" id="tooltip"></div>
-    </div>
-    <div class="legend">
-      <h2>Renewable Energy Technology</h2>
-      <ul>
-        <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
-        <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
-        <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
-        <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
-      </ul>
+        <br>
+        <div class="content">
+          <div class="chart-container">
+            <div class="pie-chart"></div>
+            <div class="tooltip" id="tooltip"></div>
+          </div>
+        </div>
+        <div class="legend">
+          <h2>Renewable Energy Technology</h2>
+          <ul>
+            <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
+            <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
+            <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
+            <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
+          </ul>
+        </div>
     </div>
   </div>
 
@@ -94,14 +91,19 @@
       </div>
   </div>
   
-  <!-- Country List -->
-  <div class="geo-area-list">
-    <h2>Countries</h2>
-    <div id="country-list"></div>
+  <!-- Geo Area List -->
+  <div class="geo-area-list" >
+    <h2>Geo Area Names</h2>
+    <div class="geo-area-list">
+        <div class="geo-area">Africa</div>
+        <div class="geo-area">Asia</div>
+        <div class="geo-area">Australia</div>
+        <div class="geo-area">Europe</div>
+        <div class="geo-area">Northern America</div>
+        <div class="geo-area">South America</div>
+    </div>
   </div>
-
-  <script src="script_pie.js"></script>
-</body><!-- Link to the JavaScript file -->
+  <script src="js/script_pie.js"></script> <!-- Link to the JavaScript file -->
 
     <!-- <div class="linechart-holder" id="linechart"></div> -->
 
