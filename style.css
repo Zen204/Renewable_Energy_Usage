@@ -225,8 +225,8 @@ h1, h2, h3 {
 	stroke: black;
 	stroke-width: 0.5;
 	opacity: 0.35;
-  position: relative;
-  z-index: 1;
+  /* position: relative; */
+  /* z-index: 1; */
   }
 
 .sizeLegendPoint {
@@ -249,8 +249,8 @@ h1, h2, h3 {
 	/* fill: blue;
 	stroke: red; */
 	opacity: 1;
-  position: relative;
-  z-index: 999999;
+  /* position: relative;
+  z-index: 999999; */
   /* stroke-width : 10; */
   }
 
