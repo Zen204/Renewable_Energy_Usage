@@ -1,0 +1,44 @@
+{
+  "World": {
+    "BIOENERGY": 18.89716,
+    "HYDROPOWER": 157.45718,
+    "SOLAR": 133.1536,
+    "WIND": 112.73321
+  },
+  "Africa": {
+    "BIOENERGY": 1.3081,
+    "HYDROPOWER": 25.09364,
+    "SOLAR": 8.79402,
+    "WIND": 5.38977
+  },
+  "Asia": {
+    "BIOENERGY": 14.01943,
+    "HYDROPOWER": 124.90919,
+    "SOLAR": 132.9331,
+    "WIND": 92.79868
+  },
+  "Australia": {
+    "BIOENERGY": 33.32109,
+    "HYDROPOWER": 294.64332,
+    "SOLAR": 1133.76368,
+    "WIND": 403.2102
+  },
+  "Europe": {
+    "BIOENERGY": 58.1471,
+    "HYDROPOWER": 333.65778,
+    "SOLAR": 305.0016,
+    "WIND": 326.10341
+  },
+  "Northern America": {
+    "BIOENERGY": 37.09818,
+    "HYDROPOWER": 444.5027,
+    "SOLAR": 314.0642,
+    "WIND": 92.79868
+  },
+  "South America": {
+    "BIOENERGY": 46.66449,
+    "HYDROPOWER": 409.83812,
+    "SOLAR": 75.13627,
+    "WIND": 76.78482
+  }
+}
