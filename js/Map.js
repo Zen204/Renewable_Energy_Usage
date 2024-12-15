@@ -2,7 +2,7 @@ function map(dataset) {
   var format = d3.format(",");
   
   
-  
+
   var margin = {top: 0, right: 0, bottom: 0, left: 0},
               width = 960 - margin.left - margin.right,
               height = 500 - margin.top - margin.bottom;
@@ -75,8 +75,12 @@ function map(dataset) {
 
                 d3.select(this)
                 .style("opacity", 1)
-                .style("stroke","white")
                 .style("stroke-width",3);
+                
+                if (d.mapSelected == false || d.mapSelected == undefined){
+                    d3.select(this).style("stroke","pink")
+                    
+                }
             })
 
             .on('mouseout', function(d){
@@ -84,8 +88,25 @@ function map(dataset) {
 
                 d3.select(this)
                 .style("opacity", 0.8)
-                .style("stroke","black")
-                .style("stroke-width",0.3);
+                if (d.mapSelected == false || d.mapSelected == undefined){
+                    d3.select(this)
+                    .style("stroke","black")
+                    .style("stroke-width",0.3);
+                }
+            })
+            .on('click', function(d){
+                console.log(d3.select(this))
+                // d3.select(this)._groups[0][0].classList.contains("mapSelected") == true
+                if (d.mapSelected == true){
+                    d.mapSelected = false
+                    d3.select(this).style("stroke", "pink")
+                }
+                else{
+                    d3.select(this).style("stroke", "red")
+                    d.mapSelected = true
+                }
+                // console.log(svg.selectAll("path"))
+                // svg.selectAll("path").style("stroke", "pink")
             });
 
         svg.append("path")
