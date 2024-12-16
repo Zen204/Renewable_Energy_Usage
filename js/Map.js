@@ -113,6 +113,15 @@ function map(dataset) {
               updatePieChartWithAverages(selectedCountries, countries.features);
                 // console.log(svg.selectAll("path"))
                 // svg.selectAll("path").style("stroke", "pink")
+                              // MAYA ADDED THIS
+                let selectedCountries = svg.selectAll("path")
+                    .filter(d => d.mapSelected)
+                    .data()
+                    .map(d => d.properties.name);
+                console.log(selectedCountries);
+                updateBarChart(selectedCountries);
+                updateBarChart(selectedCountries);
+                // MAYA ADDED THIS
             });
 
         svg.append("path")
