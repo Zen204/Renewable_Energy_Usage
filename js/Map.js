@@ -39,6 +39,7 @@ function map(dataset) {
                 })
 
     svg.call(tip);
+    let selectedCountries = [];
 
     queue()
         .defer(d3.json, "data/world_countries.json")
