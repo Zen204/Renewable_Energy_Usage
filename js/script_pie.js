@@ -54,7 +54,7 @@ function updatePieChart(regions) {
   const chartTitle = document.querySelector(".chart-title");
   chartTitle.textContent =
     regionNames.length === 1
-      ? `Energy Distribution for ${regionNames[0]}`
+      ? `${regionNames[0]}`
       : "Average for Selected Countries";
 
   // Select the pie chart element and set its background using conic-gradient
