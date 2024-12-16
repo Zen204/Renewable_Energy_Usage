@@ -2,38 +2,57 @@
 let energyData = {};
 
 // Function to update the pie chart based on the selected region
-function updatePieChart(region) {
-  // Retrieve the data for the specified region
-  const regionData = energyData[region];
-  if (!regionData) return; // Ensure region data exists, exit if not
+function updatePieChartAverage(countries) {
+    if (!countries || countries.length === 0) return;
 
-  // Calculate the total energy for the region
-  const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
-  let cumulativePercentage = 0; // Track cumulative percentage for slices
+    // Initialize an object to store the sum of energy types
+    const totalData = { BIOENERGY: 0, HYDROPOWER: 0, SOLAR: 0, WIND: 0 };
 
-  // Generate gradient stops for the pie chart based on energy data
-  const gradientStops = Object.entries(regionData).map(([type, value]) => {
-    const percentage = (value / total) * 100; // Calculate percentage of each energy type
-    const start = cumulativePercentage; // Start of the slice
-    const end = cumulativePercentage + percentage; // End of the slice
-    cumulativePercentage = end; // Update cumulative percentage
+    // Sum up the renewable energy data for the selected countries
+    countries.forEach(country => {
+        const countryData = energyData[country];
+        if (countryData) {
+            Object.keys(countryData).forEach(type => {
+                totalData[type] += countryData[type];
+            });
+        }
+    });
 
-    // Define colors for each energy type
-    const colors = {
-      BIOENERGY: "#0fa049",
-      HYDROPOWER: "#40a8c4",
-      SOLAR: "#ffc107",
-      WIND: "#8e44ad",
-    };
+    // Calculate the average for each energy type
+    const averageData = {};
+    Object.keys(totalData).forEach(type => {
+        averageData[type] = totalData[type] / countries.length;
+    });
 
-    return { type, color: colors[type], start, end, value, percentage }; // Return gradient stop data
-  });
+    // Use the existing updatePieChart logic to display the averaged data
+    updatePieChartWithData(averageData);
+}
 
-  // Select the pie chart element and set its background using conic-gradient
-  const chart = document.querySelector(".pie-chart");
-  chart.style.background = `conic-gradient(${gradientStops
-    .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
-    .join(", ")})`;
+// Update the pie chart with explicit data
+function updatePieChartWithData(data) {
+    const total = Object.values(data).reduce((sum, value) => sum + value, 0);
+    let cumulativePercentage = 0;
+
+    const gradientStops = Object.entries(data).map(([type, value]) => {
+        const percentage = (value / total) * 100;
+        const start = cumulativePercentage;
+        const end = cumulativePercentage + percentage;
+        cumulativePercentage = end;
+
+        const colors = {
+            BIOENERGY: "#0fa049",
+            HYDROPOWER: "#40a8c4",
+            SOLAR: "#ffc107",
+            WIND: "#8e44ad",
+        };
+
+        return { type, color: colors[type], start, end, value, percentage };
+    });
+
+    const chart = document.querySelector(".pie-chart");
+    chart.style.background = `conic-gradient(${gradientStops
+        .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
+        .join(", ")})`;
 
   // Add an event listener for mouse movement over the pie chart
   chart.addEventListener("mousemove", (e) => {
