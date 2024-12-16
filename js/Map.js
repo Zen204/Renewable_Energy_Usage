@@ -70,18 +70,24 @@ function map(dataset) {
             // tooltips
             .style("stroke","black")
             .style('stroke-width', 0.3)
-            .on('mouseover',function(d){
-                tip.show(d);
+            .on('mouseover', function(d) {
+    tip.show(d);
 
-                d3.select(this)
-                .style("opacity", 1)
-                .style("stroke-width",3);
-                
-                if (d.mapSelected == false || d.mapSelected == undefined){
-                    d3.select(this).style("stroke","pink")
-                    
-                }
-            })
+    d3.select(this)
+        .style("opacity", 1)
+        .style("stroke-width", 3);
+    
+    // Check if the country name exists in the energy data
+    const countryName = d.properties.name;
+    if (energyData[countryName]) {
+        updatePieChart(countryName); // Update the pie chart with the hovered country data
+    }
+
+    if (d.mapSelected == false || d.mapSelected == undefined){
+        d3.select(this).style("stroke", "pink");
+    }
+})
+
 
             .on('mouseout', function(d){
                 tip.hide(d);
