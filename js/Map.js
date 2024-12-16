@@ -98,7 +98,7 @@ function map(dataset, scatterplotFunction) {
                 }
             })//MAYA EDITED
             .on('click', function(d) {
-                
+                const countryName = d.properties.name;
                 if (d.mapSelected == true) {
                     d.mapSelected = false;
                     d3.select(this).style("stroke", "pink");
@@ -123,7 +123,7 @@ function map(dataset, scatterplotFunction) {
                         }
                     }
                   });
-                updatePieChart(selectedCountries);
+                updatePieChart(countryName);
                 // Highlighted Code Start
                 updateBarChart(selectedCountries); // Update bar chart with selected countries
                 updateBarChart(selectedCountries);
