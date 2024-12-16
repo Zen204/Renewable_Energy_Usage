@@ -108,7 +108,6 @@ function map(dataset) {
                     d.mapSelected = true
                     d3.select(this).style("stroke", "red")
                 }
-              updatePieChartWithAverages(selectedCountries, countries.features);
                 // console.log(svg.selectAll("path"))
                 // svg.selectAll("path").style("stroke", "pink")
             });
