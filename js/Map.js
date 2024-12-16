@@ -77,6 +77,11 @@ function map(dataset) {
         .style("opacity", 1)
         .style("stroke-width", 3);
     
+    // Check if the country name exists in the energy data
+    const countryName = d.properties.name;
+    if (energyData[countryName]) {
+        updatePieChart(countryName); // Update the pie chart with the hovered country data
+    }
 
     if (d.mapSelected == false || d.mapSelected == undefined){
         d3.select(this).style("stroke", "pink");
@@ -95,31 +100,20 @@ function map(dataset) {
                     .style("stroke-width",0.3);
                 }
             })
-            .on('click', function (d) {
-    // Handle selection logic on click
-    const countryName = d.properties.name;
-
-    if (selectedCountries.includes(countryName)) {
-        // Deselect country
-        selectedCountries = selectedCountries.filter(c => c !== countryName);
-        d3.select(this)
-            .style("stroke", "black")
-            .style("stroke-width", 0.3);
-    } else {
-        // Select country
-        selectedCountries.push(countryName);
-        d3.select(this)
-            .style("stroke", "red")
-            .style("stroke-width", 3);
-    }
-
-    // Update pie chart based on selected countries
-    if (selectedCountries.length > 0) {
-        updatePieChart(selectedCountries);
-    } else {
-        updatePieChart("World");
-    }
-});
+            .on('click', function(d){
+                console.log(d3.select(this))
+                // d3.select(this)._groups[0][0].classList.contains("mapSelected") == true
+                if (d.mapSelected == true){
+                    d.mapSelected = false
+                    d3.select(this).style("stroke", "pink")
+                }
+                else{
+                    d3.select(this).style("stroke", "red")
+                    d.mapSelected = true
+                }
+                // console.log(svg.selectAll("path"))
+                // svg.selectAll("path").style("stroke", "pink")
+            });
 
         svg.append("path")
             .datum(topojson.mesh(countries.features, function(a, b) { return a.id !== b.id; }))
