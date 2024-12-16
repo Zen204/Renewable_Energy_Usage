@@ -7,7 +7,7 @@ function map(dataset, scatterplotFunction) {
               width = 820 - margin.left - margin.right,
               height = 500 - margin.top - margin.bottom;
   
-  var color = d3.scaleThreshold()
+  var color = d3.scaleThreshold()       //set up color scale for map countries
       .domain([10,20,30,40,50,60,70,80,90,100])
       .range(["rgb(255,255,217)", "rgb(237,248,177)", "rgb(199,233,180)", "rgb(127,205,187)", "rgb(65,182,196)", "rgb(29,145,192)","rgb(34,94,168)","rgb(12,44,132)","rgb(3,27,93)","rgb(2,13,43)"]);
   
@@ -19,8 +19,6 @@ function map(dataset, scatterplotFunction) {
                 .attr("preserveAspectRatio", "xMidYMid meet")
                 .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
                 .classed("svg-content", true)
-                // .attr("width", width)
-                // .attr("height", height)
                 .append('g')
                 .attr('class', 'map');
 
@@ -103,15 +101,9 @@ function map(dataset, scatterplotFunction) {
                 if (d.mapSelected == true) {
                     d.mapSelected = false;
                     d3.select(this).style("stroke", "pink");
-                    // Highlighted Code Start
-                    // selectedCountries = selectedCountries.filter(name => name !== countryName);
-                    // Highlighted Code End
                 } else {
                     d.mapSelected = true;
                     d3.select(this).style("stroke", "red");
-                    // Highlighted Code Start
-                    // selectedCountries.push(countryName);
-                    // Highlighted Code End
                 }
                 
                 nodeList = svg.selectAll("path")._groups[0]
@@ -129,26 +121,18 @@ function map(dataset, scatterplotFunction) {
                 updateBarChart(selectedCountries); // Update bar chart with selected countries
                 updateBarChart(selectedCountries);
                 scatterplotFunction.updateSelection(selectedCountries)
-                // console.log(selectedCountries)
                 
                 // END MAYA EDIT
-                  // Check if the country name exists in the energy data
-                
-                //   dispatcher = d3.dispatch(dispatchString)
-                //   let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
-                //   // Let other charts know about our selection
-                //   dispatcher.call(dispatchString, this, selectedCountries)
             });
 
         svg.append("path")
             .datum(topojson.mesh(countries.features, function(a, b) { return a.id !== b.id; }))
-            // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
             .attr("class", "names")
             .attr("d", path);
 
         
         
-        var svg2 = d3.select("#map")
+        var svg2 = d3.select("#map")        //creating the map legend
             .append("svg")
             .attr("preserveAspectRatio", "xMidYMid meet")
             .attr("viewBox", [0, 0, width + margin.left + margin.right, 100].join(' '))
@@ -174,22 +158,15 @@ function map(dataset, scatterplotFunction) {
             .attr("x", 42)
             .attr("y", 45)
             .text(d => d + "-" + (d+10) + "%")
-            .attr("text-anchor", "middle");        
-        //   legendItems._groups.shift()  
+            .attr("text-anchor", "middle");
           
         let legendLabel = svg2.append("text")
-            // .classed("legend ", "axisLabel")
             .attr("transform", `translate(${37}, ${40})`)
             .text("Percent of Total Energy that comes from Renewable Sources")
             .classed("colorscaleTitle", true)
     }
 
-    function update(countrySelection){
-        // function findFunction(country){
-        //     console.log("country")
-        //     console.log(country)
-        //     return true
-        // }
+    function update(countrySelection){      //for linking updates with other visualizations
         nodeList = svg.selectAll("path")._groups[0]
         
         nodeList.forEach(country => {
@@ -202,12 +179,8 @@ function map(dataset, scatterplotFunction) {
                     country.__data__.mapSelected = false
                     d3.select(country).style("stroke", "black").style("stroke-width",0.3)
                 }
-                // if (country.__data__.properties.name === "China"){
-                //     console.log(country.__data__.mapSelected)
-                // }
             }
           });
-        // console.log(user)
     }
     return update;
 }
@@ -221,6 +194,5 @@ function mapToScatter(scatterplotFunction){
 
 // Function to update the bar chart based on selected countries
 function updateMap(selectedCountries) {
-    // console.log(selectedCountries)
     mapUpdate(selectedCountries);
 }

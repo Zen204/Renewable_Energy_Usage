@@ -13,7 +13,6 @@
     // a div id selector to put our svg in; and the data to use.
     let scatter = scatterplot()[0]
 
-    // console.log(scatter)
     scatter
       .x(d => d.Electricity2021)[0]
       .xLabel("Percent of Population with Access to Electricty")[0]
@@ -22,33 +21,8 @@
       .yLabelOffset(150)[0]
       .selectionDispatcher(d3.dispatch(dispatchString))[0]
       ("#scatterplot", data);
-    // Initialize the bar chart
-    //var barChartUpdate = barchart(460, 400, "barchart");
+
     var mapScatterPipeline = mapToScatter(scatter)
-    // var mapChart = map("data/world_rnew.tsv")
-    //let barChart = barchart();
-
-    // let lcYearPoverty = linechart()[0]
-    //   .x(d => d.Electricity2021)
-    //   .xLabel("Electricity Percentages")
-    //   .y(d => d.Renewable2021)
-    //   .yLabel("Renewable Energy Percentages")
-    //   .yLabelOffset(40)
-    //   .selectionDispatcher(d3.dispatch(dispatchString))
-    //   ("#linechart", data);
-
-
-    // lcYearPoverty.selectionDispatcher().on(dispatchString, function(selectedData) {
-    //   scatter.updateSelection(selectedData);
-    //   // ADD CODE TO HAVE TABLE UPDATE ITS SELECTION AS WELL
-    // });
-
-    // // When the scatterplot selection is updated via brushing, 
-    // // tell the line chart to update it's selection (linking)
-    // scatter.selectionDispatcher().on(dispatchString, function(selectedData) {
-    //   lcYearPoverty.updateSelection(selectedData);
-    //   // ADD CODE TO HAVE TABLE UPDATE ITS SELECTION AS WELL
-    // });
 
   });
 
