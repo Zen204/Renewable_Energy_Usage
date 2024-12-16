@@ -6,6 +6,11 @@ names {
     stroke-linejoin: round;
     }
   
+.colorscaleTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
       /* Tooltip CSS */
       .d3-tip {
       line-height: 1.5;

@@ -152,6 +152,41 @@ function map(dataset, scatterplotFunction) {
             .attr("d", path);
 
         
+        
+        var svg2 = d3.select("#map")
+            .append("svg")
+            .attr("preserveAspectRatio", "xMidYMid meet")
+            .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+            .classed("svg-content", true)
+        const legend = svg2.append("g")
+            .attr("transform", `translate(${0}, ${50})`);
+          var colorScaleDomain = [0,10,20,30,40,50,60,70,80,90]
+
+          const legendWidth = 82
+          const legendItems = legend.selectAll("g")
+            .data(colorScaleDomain)
+            .enter().append("g")
+            .attr("transform", (d, i) => `translate(${i * legendWidth}, 0)`);
+          
+          legendItems.append("rect")
+            .attr("height", 25)
+            .attr("width",legendWidth+3)
+            .attr("fill", color)
+            .attr("stroke-width", 0.5)
+            .attr("stroke", "black")
+          
+          legendItems.append("text")
+            .attr("x", 42)
+            .attr("y", 45)
+            .text(d => d + "-" + (d+10) + "%")
+            .attr("text-anchor", "middle");        
+        //   legendItems._groups.shift()  
+          
+        let legendLabel = svg2.append("text")
+            // .classed("legend ", "axisLabel")
+            .attr("transform", `translate(${37}, ${40})`)
+            .text("Percent of Total Energy that comes from Renewable Sources")
+            .classed("colorscaleTitle", true)
     }
 
     function update(countrySelection){
