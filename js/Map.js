@@ -49,8 +49,6 @@ function map(dataset) {
         var countryById = {};
         var elecById = {};
         var gdpById = {};
-        let selectedCountries = []; // Array to store selected countries
-
 
         data.forEach(function(d) { countryById[d.id] = +d.Renewable2021; });
         countries.features.forEach(function(d) { d.Renewable2021 = countryById[d.id] });
@@ -73,22 +71,23 @@ function map(dataset) {
             .style("stroke","black")
             .style('stroke-width', 0.3)
             .on('mouseover', function(d) {
-            tip.show(d);
-        
-            d3.select(this)
-                .style("opacity", 1)
-                .style("stroke-width", 3);
-            
-            // Check if the country name exists in the energy data
-            const countryName = d.properties.name;
-            if (energyData[countryName]) {
-                updatePieChart(countryName); // Update the pie chart with the hovered country data
-            }
-        
-            if (d.mapSelected == false || d.mapSelected == undefined){
-                d3.select(this).style("stroke", "pink");
-            }
-        }
+    tip.show(d);
+
+    d3.select(this)
+        .style("opacity", 1)
+        .style("stroke-width", 3);
+    
+    // Check if the country name exists in the energy data
+    const countryName = d.properties.name;
+    if (energyData[countryName]) {
+        updatePieChart(countryName); // Update the pie chart with the hovered country data
+    }
+
+    if (d.mapSelected == false || d.mapSelected == undefined){
+        d3.select(this).style("stroke", "pink");
+    }
+})
+
 
             .on('mouseout', function(d){
                 tip.hide(d);
@@ -112,12 +111,6 @@ function map(dataset) {
                     d3.select(this).style("stroke", "red")
                     d.mapSelected = true
                 }
-              // Update the pie chart with the average of selected countries
-              if (selectedCountries.length > 0) {
-                  updatePieChartAverage(selectedCountries);
-              } else {
-                  updatePieChart("World"); // Reset to "World" if no countries are selected
-              }
                 // console.log(svg.selectAll("path"))
                 // svg.selectAll("path").style("stroke", "pink")
             });
