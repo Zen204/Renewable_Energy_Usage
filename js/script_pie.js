@@ -62,8 +62,6 @@ function updatePieChart(regions) {
   chart.style.background = `conic-gradient(${gradientStops
     .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
     .join(", ")})`;
-  // chart.style.width = '150px';
-  // chart.style.height = '200px';
 
   // Add an event listener for mouse movement over the pie chart
   chart.addEventListener("mousemove", (e) => {
@@ -115,22 +113,24 @@ document.querySelectorAll(".geo-area").forEach((item) => {
   });
 });
 
-// Fetch energy data when the document is loaded
 document.addEventListener("DOMContentLoaded", () => {
-  fetch("./data/energyData.json") // Fetch energy data from a JSON file
+  fetch("./data/Processed_Renewable_Energy.json") // Update to use the processed file
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Failed to load energy data."); // Handle fetch errors
+        throw new Error("Failed to load processed renewable energy data."); // Handle fetch errors
       }
       return response.json(); // Parse response as JSON
     })
     .then((data) => {
-      energyData = data; // Populate the energyData object with fetched data
-      updatePieChart("World"); // Initialize chart with "World" data
+      // Assign the fetched data to the energyData object
+      energyData = data;
+      // Call the function to update the pie chart with the "World" region by default
+      updatePieChart("World");
     })
     .catch((error) => {
-      console.error("Error loading energy data:", error); // Log errors to the console
+      console.error("Error loading processed renewable energy data:", error); // Log errors to the console
+      // Display an error message on the pie chart element
       document.querySelector(".pie-chart").textContent =
-        "Failed to load chart data."; // Display error message in the chart area
+        "Failed to load chart data.";
     });
 });
