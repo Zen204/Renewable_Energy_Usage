@@ -100,20 +100,29 @@ function map(dataset) {
                     .style("stroke","black")
                     .style("stroke-width",0.3);
                 }
-            })
-            .on('click', function(d){
-                console.log(d3.select(this))
-                // d3.select(this)._groups[0][0].classList.contains("mapSelected") == true
-                if (d.mapSelected == true){
-                    d.mapSelected = false
-                    d3.select(this).style("stroke", "pink")
+            })//MAYA EDITED
+            .on('click', function(d) {
+                const countryName = d.properties.name;
+                console.log(d3.select(this));
+                if (d.mapSelected == true) {
+                    d.mapSelected = false;
+                    d3.select(this).style("stroke", "pink");
+                    // Highlighted Code Start
+                    selectedCountries = selectedCountries.filter(name => name !== countryName);
+                    // Highlighted Code End
+                } else {
+                    d.mapSelected = true;
+                    d3.select(this).style("stroke", "red");
+                    // Highlighted Code Start
+                    selectedCountries.push(countryName);
+                    // Highlighted Code End
                 }
-                else{
-                    d3.select(this).style("stroke", "red")
-                    d.mapSelected = true
-                }
-                // console.log(svg.selectAll("path"))
-                // svg.selectAll("path").style("stroke", "pink")
+                
+                // Highlighted Code Start
+                updateBarChart(selectedCountries); // Update bar chart with selected countries
+                updateBarChart(selectedCountries);
+                updatePieChartWithAverages(selectedCountries, countries.features);
+                // END MAYA EDIT
             });
 
         svg.append("path")
