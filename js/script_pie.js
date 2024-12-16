@@ -3,63 +3,90 @@ let energyData = {};
 
 // Function to update the pie chart based on the selected region
 function updatePieChart(region) {
-  // Retrieve the data for the specified region
-  const regionData = energyData[region];
-  if (!regionData) return; // Ensure region data exists, exit if not
+    let regionData;
 
-  // Calculate the total energy for the region
-  const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
-  let cumulativePercentage = 0; // Track cumulative percentage for slices
+    if (Array.isArray(region)) {
+        // Compute average renewable energy data for selected countries
+        const countryData = region.map(country => energyData[country]).filter(Boolean);
 
-  // Generate gradient stops for the pie chart based on energy data
-  const gradientStops = Object.entries(regionData).map(([type, value]) => {
-    const percentage = (value / total) * 100; // Calculate percentage of each energy type
-    const start = cumulativePercentage; // Start of the slice
-    const end = cumulativePercentage + percentage; // End of the slice
-    cumulativePercentage = end; // Update cumulative percentage
+        if (countryData.length === 0) return; // No valid data found, exit
 
-    // Define colors for each energy type
-    const colors = {
-      BIOENERGY: "#0fa049",
-      HYDROPOWER: "#40a8c4",
-      SOLAR: "#ffc107",
-      WIND: "#8e44ad",
-    };
+        regionData = countryData.reduce((acc, data) => {
+            Object.keys(data).forEach(key => {
+                acc[key] = (acc[key] || 0) + data[key];
+            });
+            return acc;
+        }, {});
 
-    return { type, color: colors[type], start, end, value, percentage }; // Return gradient stop data
-  });
-
-  // Select the pie chart element and set its background using conic-gradient
-  const chart = document.querySelector(".pie-chart");
-  chart.style.background = `conic-gradient(${gradientStops
-    .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
-    .join(", ")})`;
-
-  // Add an event listener for mouse movement over the pie chart
-  chart.addEventListener("mousemove", (e) => {
-    const rect = chart.getBoundingClientRect();
-    const x = e.clientX - rect.left - rect.width / 2; // Calculate x relative to center
-    const y = e.clientY - rect.top - rect.height / 2; // Calculate y relative to center
-    const angle = (Math.atan2(y, x) * (180 / Math.PI) + 360) % 360; // Calculate angle in degrees
-
-    // Find the slice corresponding to the mouse position
-    const hoveredSlice = gradientStops.find(
-      (stop) => angle >= stop.start * 3.6 && angle < stop.end * 3.6
-    );
-
-    // Display a tooltip with information about the hovered slice
-    const tooltip = document.getElementById("tooltip");
-    if (hoveredSlice) {
-      tooltip.style.opacity = 1; // Show tooltip
-      tooltip.style.left = `${e.clientX + 10}px`; // Position tooltip near the mouse
-      tooltip.style.top = `${e.clientY + 10}px`;
-      tooltip.textContent = `${hoveredSlice.type}: ${hoveredSlice.value.toFixed(
-        2
-      )} W/Capita (${hoveredSlice.percentage.toFixed(2)}%)`; // Display slice info
+        // Divide the total by the number of countries to get the average
+        Object.keys(regionData).forEach(key => {
+            regionData[key] /= countryData.length;
+        });
     } else {
-      tooltip.style.opacity = 0; // Hide tooltip if no slice is hovered
+        // Retrieve data for the specified region
+        regionData = energyData[region];
     }
-  });
+
+    if (!regionData) return; // Ensure region data exists, exit if not
+
+    // Calculate the total energy for the region
+    const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
+    let cumulativePercentage = 0; // Track cumulative percentage for slices
+
+    // Generate gradient stops for the pie chart based on energy data
+    const gradientStops = Object.entries(regionData).map(([type, value]) => {
+        const percentage = (value / total) * 100; // Calculate percentage of each energy type
+        const start = cumulativePercentage; // Start of the slice
+        const end = cumulativePercentage + percentage; // End of the slice
+        cumulativePercentage = end; // Update cumulative percentage
+
+        // Define colors for each energy type
+        const colors = {
+            BIOENERGY: "#0fa049",
+            HYDROPOWER: "#40a8c4",
+            SOLAR: "#ffc107",
+            WIND: "#8e44ad",
+        };
+
+        return { type, color: colors[type], start, end, value, percentage }; // Return gradient stop data
+    });
+
+    // Select the pie chart element and set its background using conic-gradient
+    const chart = document.querySelector(".pie-chart");
+    chart.style.background = `conic-gradient(${gradientStops
+        .map((stop) => `${stop.color} ${stop.start}% ${stop.end}%`)
+        .join(", ")})`;
+
+    // Add tooltip functionality as in the original implementation
+    const tooltip = document.getElementById("tooltip");
+    chart.addEventListener("mousemove", (e) => {
+        const rect = chart.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2; // Calculate x relative to center
+        const y = e.clientY - rect.top - rect.height / 2; // Calculate y relative to center
+        const angle = (Math.atan2(y, x) * (180 / Math.PI) + 360) % 360; // Calculate angle in degrees
+
+        // Find the slice corresponding to the mouse position
+        const hoveredSlice = gradientStops.find(
+            (stop) => angle >= stop.start * 3.6 && angle < stop.end * 3.6
+        );
+
+        if (hoveredSlice) {
+            tooltip.style.opacity = 1;
+            tooltip.style.left = `${e.clientX + 10}px`;
+            tooltip.style.top = `${e.clientY + 10}px`;
+            tooltip.textContent = `${hoveredSlice.type}: ${hoveredSlice.value.toFixed(
+                2
+            )} W/Capita (${hoveredSlice.percentage.toFixed(2)}%)`;
+        } else {
+            tooltip.style.opacity = 0;
+        }
+    });
+
+    chart.addEventListener("mouseleave", () => {
+        tooltip.style.opacity = 0;
+    });
+}
+
 
   // Hide tooltip when the mouse leaves the pie chart
   chart.addEventListener("mouseleave", () => {
