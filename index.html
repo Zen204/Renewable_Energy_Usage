@@ -57,33 +57,38 @@
         <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
 
 
-        <h1>Regional Renewable Energy Insights</h1>
-        <br>
+        <h1 class = "resizable">Regional Renewable Energy Insights</h1>
+        <!-- <br> -->
         <div class="content">
           <div class="chart-container">
+            <div class="chart-title" style="text-align: center; font-size: 1.2em; font-weight: bold;">
+              Energy Distribution for World
+            </div>
             <div class="pie-chart"></div>
             <div class="tooltip" id="tooltip"></div>
           </div>
         </div>
+        <br>
         <div class="legend">
-          <h2>Renewable Energy Technology</h2>
+          <h2 class="resizable">Renewable Energy Technology</h2>
           <ul>
-            <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
-            <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
-            <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
-            <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
+            <li class="resizable"><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
+            <li class="resizable"><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
+            <li class="resizable"><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
+            <li class="resizable"><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
           </ul>
         </div>
     </div>
   </div>
 
   <div class="vis-holder">  
-    <div class="scatterplot-holder" id="scatterplot"></div>
-        <div class="barchart-holder" id="barchart">
+      <div class="scatterplot-holder" id="scatterplot"></div>
+      <div class="barchart-holder">
+        <div id="barchart"></div>
         <div class="legend">
           <ul>
-            <li><span class="color-box" style="background-color: #e41a1c;"></span> Electricty access</li>
-            <li><span class="color-box" style="background-color: #377eb8;"></span> Energy that comes from renewable sources</li>
+            <li class="resizable"><span class="color-box" style="background-color: #e41a1c;"></span> Electricty access</li>
+            <li class="resizable"><span class="color-box" style="background-color: #377eb8;"></span> Energy that comes from renewable sources</li>
           </ul>
         </div>
       </div>
@@ -158,7 +163,13 @@ Expectation: Data sources match the problem statement and are appropriate. These
       <li><a href="https://codepo8.github.io/css-fork-on-github-ribbon/#">Pure CSS responsive "Fork me on GitHub" ribbon</a> by Chris Heilmann.</li>
       <li><a href="https://gist.github.com/aboutaaron/ba0a3a81839e6427639add272483faca">World Map 02 D3 V4</a> by Aaron Williams.</li>
       <li><a href="https://github.com/COSI116A-Brandeis-InfoVis-Fall23/hw-4-brushing-and-linking-goreym.git">HW 4 Brushing and Linking</a> by 2024 Information Visualization Instruction Team.</li>
-    </ul>
+      <li><a href="https://d3-graph-gallery.com/graph/barplot_grouped_basicWide.html">Grouped barplot - Basic wide version.</a> by D3 Graph Gallery. .</li>
+     <li><a href="https://www.tutorialsteacher.com/d3js/create-bar-chart-using-d3js">Create bar chart using D3.js</a> by Tutorialsteacher. </li>
+      <li><a href="https://github.com/smarigowda/d3_examples/blob/main/grouped_bar_plot.html">Grouped bar plot</a> by Santosh Marigowda</li>
+      <li><a href="https://d3-graph-gallery.com/graph/barplot_ordered.html">Ordered barplot</a> by  D3 Graph Gallery</li>
+      <li><a href="https://gist.github.com/mbostock/3887051">Animated bar chart</a> by Mike Bostock.</li>
+      <li><a href="https://observablehq.com/@d3/grouped-bar-chart/2">Grouped bar chart</a> by D3 Observable. </li>
+      <li><a href="https://www.w3schools.com/css/tryit.asp?filename=trycss_overflow_intro">CSS overflow property</a> by W3Schools</li>    </ul>
     
   </div>
   
