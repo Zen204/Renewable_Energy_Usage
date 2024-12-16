@@ -137,7 +137,7 @@
       "SOLAR": 0.58522,
       "WIND": 0.77172
     },
-    "Bolivia": {
+    "Bolivia (Plurinational State of)": {
       "BIOENERGY": 20.91399,
       "HYDROPOWER": 65.93252,
       "SOLAR": 14.10327,
@@ -527,7 +527,7 @@
       "SOLAR": 0.82205,
       "WIND": 0.56368
     },
-    "Iran)": {
+    "Iran (Islamic Republic of)": {
       "BIOENERGY": 0.12989,
       "HYDROPOWER": 126.84559,
       "SOLAR": 5.18472,
@@ -905,7 +905,7 @@
       "SOLAR": 72.11722,
       "WIND": 155.98462
     },
-    "Russia": {
+    "Russian Federation": {
       "BIOENERGY": 9.45881,
       "HYDROPOWER": 354.21881,
       "SOLAR": 11.4472,
@@ -1169,7 +1169,7 @@
       "SOLAR": 0.23968,
       "WIND": 0.03774
     },
-    "USA": {
+    "United States of America": {
       "BIOENERGY": 33.63228,
       "HYDROPOWER": 248.68419,
       "SOLAR": 283.06108,
@@ -1193,7 +1193,7 @@
       "SOLAR": 14.76482,
       "WIND": 10.65373
     },
-    "Venezuela": {
+    "Venezuela (Bolivarian Republic of)": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 596.78331,
       "SOLAR": 0.18865,

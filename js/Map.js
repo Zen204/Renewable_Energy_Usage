@@ -36,9 +36,9 @@ function map(dataset, scatterplotFunction) {
                 .offset([-10, 0])
                 .html(function(d) {
                     return "<strong>Country: </strong><span class='details'>" + d.properties.name +  "<br></span>" + 
-                    "<strong>RNEW: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" +
-                    "<strong>ELEC: </strong><span class='details'>" + format(d.Electricity2021) +"<br></span>" +
-                    "<strong>GDP per capita: </strong><span class='details'>" + format(d.GDP) +"</span>";
+                    "<strong>Renewable Energy: </strong><span class='details'>" + format(d.Renewable2021) + "<br></span>" +
+                    "<strong>Electricity Access: </strong><span class='details'>" + format(d.Electricity2021) +"<br></span>" +
+                    "<strong>GDP per Capita: </strong><span class='details'>" + format(d.GDP) +"</span>";
                 })
 
     svg.call(tip);
