@@ -274,6 +274,7 @@ function scatterplot() {
             let selectedCountries = list.map(d => d.GeoAreaName);          
             updateBarChart(selectedCountries);
             updateBarChart(selectedCountries);
+            updatePieChart(selectedCountries);
             //END MAYA ADDED
             //MADELINE ADDED THIS
             updateMap(selectedCountries);
