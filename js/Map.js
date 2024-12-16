@@ -81,11 +81,6 @@ function map(dataset, scatterplotFunction) {
                     .style("opacity", 1)
                     .style("stroke-width", 3);
 
-                const countryName = d.properties.name;
-                if (energyData[countryName]) {
-                    updatePieChart(countryName); // Update the pie chart with the hovered country data
-                }
-
                 if (d.mapSelected == false || d.mapSelected == undefined){
                     d3.select(this).style("stroke", "pink");
                 }
@@ -129,12 +124,12 @@ function map(dataset, scatterplotFunction) {
                         }
                     }
                   });
+                updatePieChart(countryName);
                 // Highlighted Code Start
                 updateBarChart(selectedCountries); // Update bar chart with selected countries
                 updateBarChart(selectedCountries);
                 scatterplotFunction.updateSelection(selectedCountries)
                 // console.log(selectedCountries)
-                updatePieChartWithAverages(selectedCountries, countries.features);
                 
                 // END MAYA EDIT
                   // Check if the country name exists in the energy data
