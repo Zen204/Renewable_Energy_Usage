@@ -156,7 +156,7 @@ function map(dataset, scatterplotFunction) {
         var svg2 = d3.select("#map")
             .append("svg")
             .attr("preserveAspectRatio", "xMidYMid meet")
-            .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+            .attr("viewBox", [0, 0, width + margin.left + margin.right, 100].join(' '))
             .classed("svg-content", true)
         const legend = svg2.append("g")
             .attr("transform", `translate(${0}, ${50})`);
