@@ -71,8 +71,11 @@ function map(dataset) {
             .style("stroke","black")
             .style('stroke-width', 0.3)
             .on('mouseover', function(d) {
-              tip.show(d);
-            d3.select(this).style("opacity", 1).style("stroke-width", 3);
+    tip.show(d);
+
+    d3.select(this)
+        .style("opacity", 1)
+        .style("stroke-width", 3);
     
     // Check if the country name exists in the energy data
     const countryName = d.properties.name;
@@ -105,8 +108,8 @@ function map(dataset) {
                     d3.select(this).style("stroke", "pink")
                 }
                 else{
-                    d.mapSelected = true
                     d3.select(this).style("stroke", "red")
+                    d.mapSelected = true
                 }
                 // console.log(svg.selectAll("path"))
                 // svg.selectAll("path").style("stroke", "pink")
@@ -120,7 +123,7 @@ function map(dataset) {
 
         
     }
-}
+
     function update(countrySelection){
         // function findFunction(country){
         //     console.log("country")
