@@ -6,6 +6,11 @@ function updatePieChart(regions) {
   // Handle single or multiple regions
   let regionNames = Array.isArray(regions) ? regions : [regions];
 
+  // Check if no countries are selected; revert to World
+  if (regionNames.length === 0 || regionNames[0] === "") {
+    regionNames = ["World"];
+  }
+
   // Get data for the specified regions
   const validData = regionNames
     .map((region) => energyData[region])
@@ -94,6 +99,7 @@ function updatePieChart(regions) {
     document.getElementById("tooltip").style.opacity = 0;
   });
 }
+
 
 // Variable to store the currently selected region
 let selectedRegion = "World";
