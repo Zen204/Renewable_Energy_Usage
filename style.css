@@ -101,8 +101,8 @@ names {
   
   .chart-container {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: calc(20vw);
+    height: calc(20vw);
     margin: 20px auto;
   }
   
@@ -128,9 +128,9 @@ names {
     z-index: 10;
   }
   
-  .legend {
+  /* .legend {
     margin-top: 20px;
-  }
+  } */
   
   .legend ul {
     list-style-type: none;
@@ -145,8 +145,8 @@ names {
   }
   
   .color-box {
-    width: 20px;
-    height: 20px;
+    width: calc(2vw);
+    height: calc(2vw);
     margin-right: 10px;
   }
   
@@ -315,4 +315,10 @@ h1, h2, h3 {
 		-o-transform:rotate(45deg);
 		box-shadow:4px 4px 10px rgba(0,0,0,0.8);
 	}
+}
+
+.resizable {
+  font-size: calc(2vw);
+  align-self: center;
+  margin-bottom: 0;
 }

@@ -59,8 +59,8 @@
         <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
 
 
-        <h1>Regional Renewable Energy Insights</h1>
-        <br>
+        <h1 class = "resizable">Regional Renewable Energy Insights</h1>
+        <!-- <br> -->
         <div class="content">
           <div class="chart-container">
             <div class="pie-chart"></div>
@@ -68,24 +68,25 @@
           </div>
         </div>
         <div class="legend">
-          <h2>Renewable Energy Technology</h2>
+          <h2 class="resizable">Renewable Energy Technology</h2>
           <ul>
-            <li><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
-            <li><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
-            <li><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
-            <li><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
+            <li class="resizable"><span class="color-box" style="background-color: #40a8c4;"></span> Hydropower</li>
+            <li class="resizable"><span class="color-box" style="background-color: #ffc107;"></span> Solar</li>
+            <li class="resizable"><span class="color-box" style="background-color: #8e44ad;"></span> Wind</li>
+            <li class="resizable"><span class="color-box" style="background-color: #0fa049;"></span> Bioenergy</li>
           </ul>
         </div>
     </div>
   </div>
 
   <div class="vis-holder">  
-    <div class="scatterplot-holder" id="scatterplot"></div>
-        <div class="barchart-holder" id="barchart">
+      <div class="scatterplot-holder" id="scatterplot"></div>
+      <div class="barchart-holder">
+        <div id="barchart"></div>
         <div class="legend">
           <ul>
-            <li><span class="color-box" style="background-color: #e41a1c;"></span> Electricty access</li>
-            <li><span class="color-box" style="background-color: #377eb8;"></span> Energy that comes from renewable sources</li>
+            <li class="resizable"><span class="color-box" style="background-color: #e41a1c;"></span> Electricty access</li>
+            <li class="resizable"><span class="color-box" style="background-color: #377eb8;"></span> Energy that comes from renewable sources</li>
           </ul>
         </div>
       </div>

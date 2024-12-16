@@ -6,8 +6,11 @@ function barchart(width, height, id) {
     // Append the svg object to the body of the page
     var svg = d3.select("#" + id)
         .append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        // .attr("width", width + margin.left + margin.right)
+        // .attr("height", height + margin.top + margin.bottom)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+        .classed("svg-content", true)
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
