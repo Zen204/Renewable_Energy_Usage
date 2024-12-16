@@ -13,7 +13,7 @@ For your final project, you must render your project as a Github Page.  Github p
 
 To publish your repository, follow the instructions at https://pages.github.com/.  You'll have to go to the settings of your repository and point GitHub Pages to your master branch.  Your GitHub Pages link will be of the following format:
 
-    https://github.com/COSI116A-Brandeis-InfoVis-Fall23/cosi-116a-f24-final-project-repository.git
+    https://cosi116a-brandeis-infovis-fall23.github.io/cosi-116a-f24-final-project-repository/
 
 Note that you may have to clear your cache and reload (Ctrl+F5 on Chrome) a few times before seeing your page.
 
