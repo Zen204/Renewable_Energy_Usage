@@ -4,7 +4,7 @@ function map(dataset, scatterplotFunction) {
   
 
   var margin = {top: 0, right: 0, bottom: 0, left: 0},
-              width = 960 - margin.left - margin.right,
+              width = 820 - margin.left - margin.right,
               height = 500 - margin.top - margin.bottom;
   
   var color = d3.scaleThreshold()
@@ -16,8 +16,11 @@ function map(dataset, scatterplotFunction) {
   
     var svg = d3.select("#map")
                 .append("svg")
-                .attr("width", width)
-                .attr("height", height)
+                .attr("preserveAspectRatio", "xMidYMid meet")
+                .attr("viewBox", [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
+                .classed("svg-content", true)
+                // .attr("width", width)
+                // .attr("height", height)
                 .append('g')
                 .attr('class', 'map');
 
