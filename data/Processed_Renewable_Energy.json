@@ -83,7 +83,7 @@
       "SOLAR": 4.64463,
       "WIND": 6.39969
     },
-    "Bahamas": {
+    "The Bahamas": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 0.0,
       "SOLAR": 17.04559,
@@ -137,7 +137,7 @@
       "SOLAR": 0.58522,
       "WIND": 0.77172
     },
-    "Bolivia (Plurinational State of)": {
+    "Bolivia": {
       "BIOENERGY": 20.91399,
       "HYDROPOWER": 65.93252,
       "SOLAR": 14.10327,
@@ -257,7 +257,7 @@
       "SOLAR": 0.0,
       "WIND": 0.0
     },
-    "Congo": {
+    "Republic of Congo": {
       "BIOENERGY": 2.09054,
       "HYDROPOWER": 36.65303,
       "SOLAR": 0.09682,
@@ -305,13 +305,13 @@
       "SOLAR": 252.79379,
       "WIND": 126.58859
     },
-    "Czechia": {
+    "Czech Republic": {
       "BIOENERGY": 81.20257,
       "HYDROPOWER": 105.92611,
       "SOLAR": 213.69463,
       "WIND": 32.29208
     },
-    "Democratic People's Republic of Korea": {
+    "North Korea": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 187.31777,
       "SOLAR": 1.99369,
@@ -527,7 +527,7 @@
       "SOLAR": 0.82205,
       "WIND": 0.56368
     },
-    "Iran (Islamic Republic of)": {
+    "Iran)": {
       "BIOENERGY": 0.12989,
       "HYDROPOWER": 126.84559,
       "SOLAR": 5.18472,
@@ -605,7 +605,7 @@
       "SOLAR": 0.0,
       "WIND": 0.0
     },
-    "Lao People's Democratic Republic": {
+    "Laos": {
       "BIOENERGY": 14.44972,
       "HYDROPOWER": 1184.23131,
       "SOLAR": 4.58582,
@@ -713,7 +713,7 @@
       "SOLAR": 64.55868,
       "WIND": 56.46598
     },
-    "Micronesia (Federated States of)": {
+    "Micronesia": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 6.4085,
       "SOLAR": 25.62516,
@@ -767,7 +767,7 @@
       "SOLAR": 3.21372,
       "WIND": 0.00663
     },
-    "Netherlands (Kingdom of the)": {
+    "Netherlands": {
       "BIOENERGY": 50.23473,
       "HYDROPOWER": 2.10837,
       "SOLAR": 851.95663,
@@ -887,13 +887,13 @@
       "SOLAR": 1.89716,
       "WIND": 0.0
     },
-    "Republic of Korea": {
+    "South Korea": {
       "BIOENERGY": 52.6817,
       "HYDROPOWER": 35.51987,
       "SOLAR": 410.26323,
       "WIND": 33.2625
     },
-    "Republic of Moldova": {
+    "Moldova": {
       "BIOENERGY": 2.28646,
       "HYDROPOWER": 20.98771,
       "SOLAR": 4.72839,
@@ -905,7 +905,7 @@
       "SOLAR": 72.11722,
       "WIND": 155.98462
     },
-    "Russian Federation": {
+    "Russia": {
       "BIOENERGY": 9.45881,
       "HYDROPOWER": 354.21881,
       "SOLAR": 11.4472,
@@ -959,7 +959,7 @@
       "SOLAR": 14.19115,
       "WIND": 9.40349
     },
-    "Serbia": {
+    "Republic of Serbia": {
       "BIOENERGY": 4.94794,
       "HYDROPOWER": 338.64194,
       "SOLAR": 7.10424,
@@ -983,7 +983,7 @@
       "SOLAR": 81.9719,
       "WIND": 0.01683
     },
-    "Sint Maarten (Dutch part)": {
+    "Sint Maarten": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 0.0,
       "SOLAR": 0.0,
@@ -1067,7 +1067,7 @@
       "SOLAR": 420.53035,
       "WIND": 10.00989
     },
-    "Syrian Arab Republic": {
+    "Syria": {
       "BIOENERGY": 0.31443,
       "HYDROPOWER": 69.87312,
       "SOLAR": 1.54753,
@@ -1157,7 +1157,7 @@
       "SOLAR": 320.59119,
       "WIND": 0.0016
     },
-    "United Kingdom of Great Britain and Northern Ireland": {
+    "England": {
       "BIOENERGY": 109.25069,
       "HYDROPOWER": 32.5649,
       "SOLAR": 207.56219,
@@ -1169,7 +1169,7 @@
       "SOLAR": 0.23968,
       "WIND": 0.03774
     },
-    "United States of America": {
+    "USA": {
       "BIOENERGY": 33.63228,
       "HYDROPOWER": 248.68419,
       "SOLAR": 283.06108,
@@ -1193,7 +1193,7 @@
       "SOLAR": 14.76482,
       "WIND": 10.65373
     },
-    "Venezuela (Bolivarian Republic of)": {
+    "Venezuela": {
       "BIOENERGY": 0.0,
       "HYDROPOWER": 596.78331,
       "SOLAR": 0.18865,
