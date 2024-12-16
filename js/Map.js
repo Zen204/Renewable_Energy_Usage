@@ -98,8 +98,8 @@ function map(dataset, scatterplotFunction) {
                 }
             })//MAYA EDITED
             .on('click', function(d) {
-                // const countryName = d.properties.name;
-                // console.log(d3.select(this));
+                 const countryName = d.properties.name;
+                
                 if (d.mapSelected == true) {
                     d.mapSelected = false;
                     d3.select(this).style("stroke", "pink");
