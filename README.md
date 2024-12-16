@@ -22,7 +22,7 @@ Note that you may have to clear your cache and reload (Ctrl+F5 on Chrome) a few 
 
 **Under no circumstances should you be editing files via the GitHub user interface.** Do all your edits locally after cloning the repository.
 
-1. Clone this repository to your local machine. E.g., in your terminal / command prompt `CD` to where you want this the folder for this activity to be. Then run `git clone <YOUR_REPO_URL>`
+1. Clone this repository to your local machine. E.g., in your terminal / command prompt `CD` to where you want this the folder for this activity to be. Then run `git clone [<YOUR_REPO_URL>]`
 
 1. In `README.md` update the URL above to point to your GitHub pages website.
 
