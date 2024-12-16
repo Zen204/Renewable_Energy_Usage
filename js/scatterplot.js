@@ -7,7 +7,7 @@ function scatterplot() {
     // Based on Mike Bostock's margin convention
     // https://bl.ocks.org/mbostock/3019563
     let margin = {
-        top: 60,
+        top: 30,
         left: 50,
         right: 30, 
         bottom: 170
@@ -83,7 +83,7 @@ function scatterplot() {
         xAxis.append("text")        
             .attr("class", "axisLabel")
             .attr("text-anchor", "middle")
-            .attr("y", height-margin.bottom-72)
+            .attr("y", height-margin.bottom-72-30)
             .attr("x", width/2)
             .text(xLabelText);
         
@@ -156,7 +156,7 @@ function scatterplot() {
 
             
           const legend = svg.append("g")
-            .attr("transform", `translate(${margin.left-20}, ${height+margin.top})`);
+            .attr("transform", `translate(${margin.left-20}, ${height+margin.top+30})`);
           var colorScaleDomain = colorScale.domain()
           colorScaleDomain.shift()
 
@@ -178,13 +178,13 @@ function scatterplot() {
           
           let legendLabel = svg.append("text")
             // .classed("legend ", "axisLabel")
-            .attr("transform", `translate(${margin.left-26}, ${height+margin.top-12})`)
+            .attr("transform", `translate(${margin.left-26}, ${height+margin.top-12+30})`)
             .text("Country by Color")
 
 
         
         const legend2 = svg.append("g")
-            .attr("transform", `translate(${margin.left+200}, ${height+margin.top})`);
+            .attr("transform", `translate(${margin.left+200}, ${height+margin.top+30})`);
           
           //   var colorScaleDomain2 = colorScale2.domain()
           // colorScaleDomain2.shift()
@@ -208,14 +208,18 @@ function scatterplot() {
 
           let legendLabel2 = svg.append("text")
             // .classed("legend ", "axisLabel")
-            .attr("transform", `translate(${margin.left+194}, ${height+margin.top-12})`)
+            .attr("transform", `translate(${margin.left+194}, ${height+margin.top-12+30})`)
             .text("Country GDP by Size")
+
+          let title = svg.append("text")
+            // .classed("legend ", "axisLabel")
+            .attr("transform", `translate(${-50}, ${-15})`)
+            .text("Relationship between Renewable Energy and Electricity Access")
+            .attr("font-weight", "bold")
+            .attr("font-size", "0.9em")
+
         selectableElements = points;
       
-        
-        
-
-        
         
 
         svg.selectAll('.scatterPoint')
