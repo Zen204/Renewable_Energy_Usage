@@ -39,6 +39,7 @@ function map(dataset) {
                 })
 
     svg.call(tip);
+    let selectedCountries = [];
 
     queue()
         .defer(d3.json, "data/world_countries.json")
@@ -71,11 +72,8 @@ function map(dataset) {
             .style("stroke","black")
             .style('stroke-width', 0.3)
             .on('mouseover', function(d) {
-    tip.show(d);
-
-    d3.select(this)
-        .style("opacity", 1)
-        .style("stroke-width", 3);
+              tip.show(d);
+            d3.select(this).style("opacity", 1).style("stroke-width", 3);
     
     // Check if the country name exists in the energy data
     const countryName = d.properties.name;
@@ -108,9 +106,11 @@ function map(dataset) {
                     d3.select(this).style("stroke", "pink")
                 }
                 else{
-                    d3.select(this).style("stroke", "red")
                     d.mapSelected = true
+                    selectedCountries.push(countryName);
+                    d3.select(this).style("stroke", "red")
                 }
+              updatePieChartWithAverages(selectedCountries, countries.features);
                 // console.log(svg.selectAll("path"))
                 // svg.selectAll("path").style("stroke", "pink")
             });
@@ -123,7 +123,43 @@ function map(dataset) {
 
         
     }
+  function updatePieChartWithAverages(selectedCountries, energyData) {
+    if (selectedCountries.length === 0) {
+      updatePieChart(energyData["World"]); // Default to World if no country is selected
+      return;
+    }
 
+    // Initialize totals for each renewable type
+    let totals = {
+      BIOENERGY: 0,
+      HYDROPOWER: 0,
+      SOLAR: 0,
+      WIND: 0
+    };
+
+    // Calculate totals for each renewable type
+    selectedCountries.forEach((country) => {
+      if (energyData[country]) {
+        totals.BIOENERGY += energyData[country].BIOENERGY || 0;
+        totals.HYDROPOWER += energyData[country].HYDROPOWER || 0;
+        totals.SOLAR += energyData[country].SOLAR || 0;
+        totals.WIND += energyData[country].WIND || 0;
+      }
+    });
+
+    // Calculate averages
+    const numCountries = selectedCountries.length;
+    let averages = {
+      BIOENERGY: totals.BIOENERGY / numCountries,
+      HYDROPOWER: totals.HYDROPOWER / numCountries,
+      SOLAR: totals.SOLAR / numCountries,
+      WIND: totals.WIND / numCountries
+    };
+
+    // Update the pie chart
+    updatePieChart(averages);
+  }
+}
     function update(countrySelection){
         // function findFunction(country){
         //     console.log("country")
