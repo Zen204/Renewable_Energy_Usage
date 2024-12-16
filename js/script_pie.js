@@ -1,18 +1,39 @@
 // Initialize an empty object to hold energy data
 let energyData = {};
 
-// Function to update the pie chart based on the selected region
-function updatePieChart(region) {
-  // Retrieve the data for the specified region
-  const regionData = energyData[region];
-  if (!regionData) return; // Ensure region data exists, exit if not
+// Function to update the pie chart based on the selected region or regions
+function updatePieChart(regions) {
+  // Handle single or multiple regions
+  let regionNames = Array.isArray(regions) ? regions : [regions];
 
-  // Calculate the total energy for the region
-  const total = Object.values(regionData).reduce((sum, value) => sum + value, 0);
+  // Get data for the specified regions
+  const validData = regionNames
+    .map((region) => energyData[region])
+    .filter((data) => data); // Filter out invalid regions
+
+  if (!validData.length) return; // Exit if no valid data found
+
+  // Calculate average data if multiple regions are selected
+  let averagedData = validData.reduce((acc, regionData) => {
+    for (let type in regionData) {
+      acc[type] = (acc[type] || 0) + regionData[type];
+    }
+    return acc;
+  }, {});
+
+  // Divide by the number of regions to get the average
+  if (regionNames.length > 1) {
+    for (let type in averagedData) {
+      averagedData[type] /= validData.length;
+    }
+  }
+
+  // Calculate the total energy for the selected regions
+  const total = Object.values(averagedData).reduce((sum, value) => sum + value, 0);
   let cumulativePercentage = 0; // Track cumulative percentage for slices
 
   // Generate gradient stops for the pie chart based on energy data
-  const gradientStops = Object.entries(regionData).map(([type, value]) => {
+  const gradientStops = Object.entries(averagedData).map(([type, value]) => {
     const percentage = (value / total) * 100; // Calculate percentage of each energy type
     const start = cumulativePercentage; // Start of the slice
     const end = cumulativePercentage + percentage; // End of the slice
@@ -28,6 +49,13 @@ function updatePieChart(region) {
 
     return { type, color: colors[type], start, end, value, percentage }; // Return gradient stop data
   });
+
+  // Update the country/region name above the pie chart
+  const chartTitle = document.querySelector(".chart-title");
+  chartTitle.textContent =
+    regionNames.length === 1
+      ? `Energy Distribution for ${regionNames[0]}`
+      : "Average for Selected Countries";
 
   // Select the pie chart element and set its background using conic-gradient
   const chart = document.querySelector(".pie-chart");
