@@ -1,4 +1,4 @@
-function map(dataset) {
+function map(dataset, scatterplotFunction) {
   var format = d3.format(",");
   
   
@@ -72,24 +72,22 @@ function map(dataset) {
             .style("stroke","black")
             .style('stroke-width', 0.3)
             .on('mouseover', function(d) {
-    tip.show(d);
+                tip.show(d);
 
-    d3.select(this)
-        .style("opacity", 1)
-        .style("stroke-width", 3);
+                d3.select(this)
+                    .style("opacity", 1)
+                    .style("stroke-width", 3);
 
-     const countryName = d.properties.name;
-    if (energyData[countryName]) {
-        updatePieChart(countryName); // Update the pie chart with the hovered country data
-    }
+                const countryName = d.properties.name;
+                if (energyData[countryName]) {
+                    updatePieChart(countryName); // Update the pie chart with the hovered country data
+                }
 
-    if (d.mapSelected == false || d.mapSelected == undefined){
-        d3.select(this).style("stroke", "pink");
-    }
-              
-})
-
-
+                if (d.mapSelected == false || d.mapSelected == undefined){
+                    d3.select(this).style("stroke", "pink");
+                }
+                        
+            })
             .on('mouseout', function(d){
                 tip.hide(d);
 
@@ -102,29 +100,46 @@ function map(dataset) {
                 }
             })//MAYA EDITED
             .on('click', function(d) {
-                const countryName = d.properties.name;
-                console.log(d3.select(this));
+                // const countryName = d.properties.name;
+                // console.log(d3.select(this));
                 if (d.mapSelected == true) {
                     d.mapSelected = false;
                     d3.select(this).style("stroke", "pink");
                     // Highlighted Code Start
-                    selectedCountries = selectedCountries.filter(name => name !== countryName);
+                    // selectedCountries = selectedCountries.filter(name => name !== countryName);
                     // Highlighted Code End
                 } else {
                     d.mapSelected = true;
                     d3.select(this).style("stroke", "red");
                     // Highlighted Code Start
-                    selectedCountries.push(countryName);
+                    // selectedCountries.push(countryName);
                     // Highlighted Code End
                 }
                 
+                nodeList = svg.selectAll("path")._groups[0]
+
+                selectedCountries = [];
+                nodeList.forEach(country => {
+                    if (country.__data__.properties != undefined){
+                        if (country.__data__.mapSelected == true){
+                            selectedCountries.push(country.__data__.properties.name)
+                        }
+                    }
+                  });
                 // Highlighted Code Start
                 updateBarChart(selectedCountries); // Update bar chart with selected countries
                 updateBarChart(selectedCountries);
+                scatterplotFunction.updateSelection(selectedCountries)
+                // console.log(selectedCountries)
                 updatePieChartWithAverages(selectedCountries, countries.features);
+                
                 // END MAYA EDIT
                   // Check if the country name exists in the energy data
-
+                
+                //   dispatcher = d3.dispatch(dispatchString)
+                //   let dispatchString = Object.getOwnPropertyNames(dispatcher._)[0];
+                //   // Let other charts know about our selection
+                //   dispatcher.call(dispatchString, this, selectedCountries)
             });
 
         svg.append("path")
@@ -154,6 +169,9 @@ function map(dataset) {
                     country.__data__.mapSelected = false
                     d3.select(country).style("stroke", "black").style("stroke-width",0.3)
                 }
+                // if (country.__data__.properties.name === "China"){
+                //     console.log(country.__data__.mapSelected)
+                // }
             }
           });
         // console.log(user)
@@ -161,8 +179,12 @@ function map(dataset) {
     return update;
 }
 
-// Usage of the map function
-var mapUpdate = map("data/world_rnew.tsv");
+var mapUpdate;
+function mapToScatter(scatterplotFunction){
+    // Usage of the map function
+    mapUpdate = map("data/world_rnew.tsv", scatterplotFunction);
+}
+
 
 // Function to update the bar chart based on selected countries
 function updateMap(selectedCountries) {

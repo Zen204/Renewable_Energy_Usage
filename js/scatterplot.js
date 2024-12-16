@@ -266,6 +266,7 @@ function scatterplot() {
         function updateHighlight() {
             let list = svg.selectAll(".selected").data()
             //MAYA ADDED THIS SECTION
+            
             let selectedCountries = list.map(d => d.GeoAreaName);          
             updateBarChart(selectedCountries);
             updateBarChart(selectedCountries);
@@ -321,7 +322,11 @@ function scatterplot() {
         }
       }
   
-      return chart;
+      return [chart, updateScatterPlot];
+    }
+
+    function updateScatterPlot(selectedCountries){
+      console.log(selectedCountries)
     }
   
     // The x-accessor from the datum
@@ -341,75 +346,104 @@ function scatterplot() {
     chart.margin = function (_) {
       if (!arguments.length) return margin;
       margin = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.width = function (_) {
       if (!arguments.length) return width;
       width = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.height = function (_) {
       if (!arguments.length) return height;
       height = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.x = function (_) {
       if (!arguments.length) return xValue;
       xValue = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.y = function (_) {
       if (!arguments.length) return yValue;
       yValue = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
 
     chart.r = function (_) {
         if (!arguments.length) return rValue;
         rValue = _;
-        return chart;
+        return [chart, updateScatterPlot];
       };
   
     chart.xLabel = function (_) {
       if (!arguments.length) return xLabelText;
       xLabelText = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.yLabel = function (_) {
       if (!arguments.length) return yLabelText;
       yLabelText = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     chart.yLabelOffset = function (_) {
       if (!arguments.length) return yLabelOffsetPx;
       yLabelOffsetPx = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     // Gets or sets the dispatcher we use for selection events
     chart.selectionDispatcher = function (_) {
       if (!arguments.length) return dispatcher;
       dispatcher = _;
-      return chart;
+      return [chart, updateScatterPlot];
     };
   
     // Given selected data from another visualization 
     // select the relevant elements here (linking)
     chart.updateSelection = function (selectedData) {
+      // console.log("updatedSelection!!")
+      // console.log(selectedData)
+
       if (!arguments.length) return;
   
       // Select an element if its datum was selected
-      selectableElements.classed("selected", d => {
-        return selectedData.includes(d)
-      });
-  
+      // console.log(selectedData)
+      // selectableElements.classed("selected", d => {
+      //   console.log(d)
+        
+      //   return selectedData.includes(d.GeoAreaName);
+      // // ){
+      // //     // d3.select(d).classed("selected", true)
+      // //     const parent = d.parentNode;
+      // //     console.log(d)
+      // //     parent.removeChild(d);
+      // //     parent.appendChild(d);
+      // //     return true;
+      // //   }
+      // //   return false;
+      // });
+      selectableElements._groups[0].forEach(d => {
+        if (selectedData.includes(d.__data__.GeoAreaName)){
+          d.classList.add("selected")
+          // console.log(d.__data__.GeoAreaName)
+          const parent = d.parentNode;
+          // console.log(d)
+          parent.removeChild(d);
+          parent.appendChild(d);
+        } else if (d.classList.contains("selected")){
+          d.classList.remove("selected")
+        }
+        
+      })
+      return
+      // console.log(selectableElements._groups[0])
     };
   
-    return chart;
+    return [chart, updateScatterPlot];
   }
