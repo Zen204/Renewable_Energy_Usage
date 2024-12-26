@@ -1,4 +1,4 @@
-# COSI 116A - Final Project
+# Renewable Energy in Comparison with Electricity Access and GDP per Capita, COSI 116A F23
 
 Welcome to the repository for our final project for COSI 116A: Introduction to Information Visualization at Brandeis University (Fall 2024). This project showcases our team's efforts in designing and implementing an interactive and insightful data visualization tool.
 
