@@ -71,12 +71,8 @@ cosi-116a-f24-final-project-repository/
 
 ## Acknowledgments
 
-- Special thanks to **Professor [Instructor Name]** for guidance throughout the course.
+- Special thanks to **Professor Dylan Cashman** for guidance throughout the course.
 - Resources and tools provided by the Brandeis University Information Visualization Lab.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
